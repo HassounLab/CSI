@@ -7,10 +7,14 @@ All python packages needed are listed in the file package_list.txt
 Please note that since the datasets are very large, they are hosted on dropbox at - https://tufts.app.box.com/folder/185914677613?s=pfvq4u1plx6vk717uojnnfsmip88lslc. Please download the "dataset" directory from this location. This directory contains all the datasets. There is a directory for each of the datasets. Within each directory
 are files for the contrastive dataset with stratification by specific keys as explained in the paper. The format
 of the contrastive dataset files is:
+
 [view number] [object1] [object2] [key]
+
 The training, dev and test files for final predictor training are also available in each dataset dir. The format
 of these files is:
+
 [SMILES string] [FASTA string] [Interaction label]
+
 All files are gzip'ed files because of their size. Please unzip them before using.
 
 # BASELINE:
