@@ -1,0 +1,59 @@
+
+element_list: ['H', 'C',  'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+debug_flag: False
+
+data_dir: "data/KEGG/"
+train_data: "../dataset/KEGG/kegg_train1to5.fa"
+valid_data: "../dataset/KEGG/kegg_dev.fa"
+test_data: "../dataset/KEGG/test_allneg1to5_KEGG.fa"
+atom_feature: 'full'
+bond_feature: 'full'
+self_loop: True
+num_virtual_nodes: 0
+batch_size_train: 64
+batch_size_val: 128
+cpu_workers: 4
+logfile: "logs/kegg_train_log.txt"
+sanity_check: False
+
+prot_min_len: -1
+prot_max_len: -1
+prot_truncate: -1
+
+
+early_stopping_patience: 20
+
+prot_num_layers: 3
+prot_hidden_dim: 512
+prot_embedding_dim: 100
+
+cnn_prot_length: 1000
+cnn_out_channels: 32
+cnn_kernel_size: 8
+
+pretrained_model: "early_stopping/prot_1669911590057"
+pretrained_mol_model: "early_stopping/mol_1669911590057"
+num_classes: 2
+neg_to_pos: 6.0
+gnn_type: "gcn"
+num_gnn_layers: 3
+gnn_hidden_dim: 512
+gnn_out_feat: 196
+global_pooling: "max"
+num_mlp_layers: 3
+gnn_channels: [64,128,256]
+attn_heads: [12,12,12]
+mlp_out_feat: 1000
+gat_num_heads: 4
+gin_agg: 'max'
+gnn_dropout: 0.2
+fc_dropout: 0.25
+activation: 'relu'
+
+
+l2: 0.01
+prot_lr: 0.02e-3
+mol_lr: 0.02e-3
+num_epoch: 200
+
+

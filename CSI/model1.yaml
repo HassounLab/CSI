@@ -1,0 +1,8 @@
+#0 - MEI, 1 - CC, 2 - FASTA
+contr_views: [1,2]
+pretrained_enz_model: "data/KEGG/pretrained_enz_model_1644100942668.pt"
+pretrained_prot_v3_model: "data/KEGG/pretrained_prot_v3_model_1644100942668.pt"
+pretrained_mei_v2_model: "data/KEGG/pretrained_mei_v2_model_1644100942668.pt"
+pretrained_pf_v3_model: "data/KEGG/pretrained_pf_v3_model_1644100942668.pt"
+pretrained_pred_model: "data/KEGG/pretrained_pred_model_1643979405537.pt"
+

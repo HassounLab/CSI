@@ -1,0 +1,82 @@
+element_list: ['H', 'C',  'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+debug_flag: False
+
+data_dir: "data/KEGG/"
+train_contr_data: "../dataset/KEGG/kegg_train_contr_fasta.fa"
+train_data: "../dataset/KEGG/kegg_train1to5.fa"
+valid_data: "../dataset/KEGG/kegg_dev.fa"
+test_data: "../dataset/KEGG/test_allneg1to1_KEGG.fa"
+mode: 'positive'
+atom_feature: 'full'
+bond_feature: 'full'
+self_loop: True
+num_virtual_nodes: 0
+batch_size_train_contr: 64
+batch_size_train: 64
+batch_size_val: 128
+cpu_workers: 4
+logfile: "logs/kegg_train_comb_log.txt"
+sanity_check: False
+contr_training: True
+random_contr_views: False
+contr_temp: 0.05
+#0 - MEI, 1 - CC, 2 - FASTA
+contr_views: [1,2]
+comp_pairs: True
+seq_pairs: False
+full_model: False
+prot_model: 'cnn'
+
+prot_min_len: -1
+prot_max_len: -1
+prot_truncate: -1
+
+
+mle_sigma: 0.08
+early_stopping_patience: 20
+
+prot_num_layers: 3
+prot_hidden_dim: 512
+prot_embedding_dim: 100
+
+cnn_prot_length: 1000
+cnn_out_channels: 32
+cnn_kernel_size: 8
+
+pretrained_pred_model: "early_stopping/pred_1644327570805"
+#pretrained_enz_model: "data/KEGG/pretrained_enz_model_1647396923667_best.pt"
+#pretrained_prot_v3_model: "data/KEGG/pretrained_prot_v3_model_1647396923667_best.pt"
+#pretrained_mei_v2_model: "data/KEGG/pretrained_mei_v2_model_1647396923667_best.pt"
+#pretrained_pred_model: "data/KEGG/pretrained_pred_model_1647396923667_best.pt"
+#pretrained_pf_v3_model: "data/KEGG/pretrained_pf_v3_model_1647396923667_best.pt"
+
+num_classes: 2
+neg_to_pos: 6.0
+gnn_type: "gcn"
+num_gnn_layers: 3
+gnn_hidden_dim: 512
+gnn_out_feat: 196
+global_pooling: "max"
+num_mlp_layers: 3
+gnn_channels: [64,128,256]
+attn_heads: [12,12,12]
+mlp_out_feat: 1000
+glu: True
+gat_num_heads: 4
+gin_agg: 'max'
+gnn_dropout: 0.2
+fc_dropout: 0.25
+contr_final_dropout: 0.25
+activation: 'relu'
+attn_type: False
+attn_func: 'tanh'
+
+l2: 0.01
+contr_lr: 0.5e-3
+pred_lr: 0.02e-3
+num_epoch_contr: 1
+num_epoch: 200
+
+cand_size: 50
+cand_iterations: 3
+

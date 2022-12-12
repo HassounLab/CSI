@@ -1,0 +1,3100 @@
+11-30 21:22:01	Values of Hyperparameters:
+11-30 21:22:01	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+11-30 21:22:01	debug_flag : False
+11-30 21:22:01	data_dir : data/KEGG/
+11-30 21:22:01	train_data : ../dataset/KEGG/kegg_train1to5.fa
+11-30 21:22:01	valid_data : ../dataset/KEGG/kegg_dev.fa
+11-30 21:22:01	test_data : ../dataset/KEGG/kegg_test1to5.fa
+11-30 21:22:01	atom_feature : full
+11-30 21:22:01	bond_feature : full
+11-30 21:22:01	self_loop : True
+11-30 21:22:01	num_virtual_nodes : 0
+11-30 21:22:01	batch_size_train : 4
+11-30 21:22:01	batch_size_val : 128
+11-30 21:22:01	cpu_workers : 4
+11-30 21:22:01	logfile : logs/kegg_train_log.txt
+11-30 21:22:01	sanity_check : False
+11-30 21:22:01	prot_min_len : -1
+11-30 21:22:01	prot_max_len : -1
+11-30 21:22:01	prot_truncate : -1
+11-30 21:22:01	early_stopping_patience : 20
+11-30 21:22:01	prot_num_layers : 3
+11-30 21:22:01	prot_hidden_dim : 512
+11-30 21:22:01	prot_embedding_dim : 100
+11-30 21:22:01	cnn_prot_length : 1000
+11-30 21:22:01	cnn_out_channels : 32
+11-30 21:22:01	cnn_kernel_size : 8
+11-30 21:22:01	num_classes : 2
+11-30 21:22:01	neg_to_pos : 6.0
+11-30 21:22:01	gnn_type : gcn
+11-30 21:22:01	num_gnn_layers : 3
+11-30 21:22:01	gnn_hidden_dim : 512
+11-30 21:22:01	gnn_out_feat : 196
+11-30 21:22:01	global_pooling : max
+11-30 21:22:01	num_mlp_layers : 3
+11-30 21:22:01	gnn_channels : [64, 128, 256]
+11-30 21:22:01	attn_heads : [12, 12, 12]
+11-30 21:22:01	mlp_out_feat : 1000
+11-30 21:22:01	gat_num_heads : 4
+11-30 21:22:01	gin_agg : max
+11-30 21:22:01	gnn_dropout : 0.2
+11-30 21:22:01	fc_dropout : 0.25
+11-30 21:22:01	activation : relu
+11-30 21:22:01	l2 : 0.01
+11-30 21:22:01	prot_lr : 2e-05
+11-30 21:22:01	mol_lr : 2e-05
+11-30 21:22:01	num_epoch : 200
+11-30 21:22:33	device: cuda (6 GPUs)
+11-30 21:29:46	Values of Hyperparameters:
+11-30 21:29:46	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+11-30 21:29:46	debug_flag : False
+11-30 21:29:46	data_dir : data/KEGG/
+11-30 21:29:46	train_data : ../dataset/KEGG/kegg_train1to5.fa
+11-30 21:29:46	valid_data : ../dataset/KEGG/kegg_dev.fa
+11-30 21:29:46	test_data : ../dataset/KEGG/kegg_test1to5.fa
+11-30 21:29:46	atom_feature : full
+11-30 21:29:46	bond_feature : full
+11-30 21:29:46	self_loop : True
+11-30 21:29:46	num_virtual_nodes : 0
+11-30 21:29:46	batch_size_train : 4
+11-30 21:29:46	batch_size_val : 128
+11-30 21:29:46	cpu_workers : 4
+11-30 21:29:46	logfile : logs/kegg_train_log.txt
+11-30 21:29:46	sanity_check : False
+11-30 21:29:46	prot_min_len : -1
+11-30 21:29:46	prot_max_len : -1
+11-30 21:29:46	prot_truncate : -1
+11-30 21:29:46	early_stopping_patience : 20
+11-30 21:29:46	prot_num_layers : 3
+11-30 21:29:46	prot_hidden_dim : 512
+11-30 21:29:46	prot_embedding_dim : 100
+11-30 21:29:46	cnn_prot_length : 1000
+11-30 21:29:46	cnn_out_channels : 32
+11-30 21:29:46	cnn_kernel_size : 8
+11-30 21:29:46	num_classes : 2
+11-30 21:29:46	neg_to_pos : 6.0
+11-30 21:29:46	gnn_type : gcn
+11-30 21:29:46	num_gnn_layers : 3
+11-30 21:29:46	gnn_hidden_dim : 512
+11-30 21:29:46	gnn_out_feat : 196
+11-30 21:29:46	global_pooling : max
+11-30 21:29:46	num_mlp_layers : 3
+11-30 21:29:46	gnn_channels : [64, 128, 256]
+11-30 21:29:46	attn_heads : [12, 12, 12]
+11-30 21:29:46	mlp_out_feat : 1000
+11-30 21:29:46	gat_num_heads : 4
+11-30 21:29:46	gin_agg : max
+11-30 21:29:46	gnn_dropout : 0.2
+11-30 21:29:46	fc_dropout : 0.25
+11-30 21:29:46	activation : relu
+11-30 21:29:46	l2 : 0.01
+11-30 21:29:46	prot_lr : 2e-05
+11-30 21:29:46	mol_lr : 2e-05
+11-30 21:29:46	num_epoch : 200
+11-30 21:30:06	device: cuda (6 GPUs)
+11-30 21:39:00	Training Set with 598409 examples
+11-30 21:39:00	Validation Set with 21062 examples
+12-01 10:22:48	Creating Base Protein LM Model...
+12-01 10:22:55	Creating Molecule GNN Model...
+12-01 10:26:01	Values of Hyperparameters:
+12-01 10:26:01	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-01 10:26:01	debug_flag : False
+12-01 10:26:01	data_dir : data/KEGG/
+12-01 10:26:01	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-01 10:26:01	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-01 10:26:01	test_data : ../dataset/KEGG/kegg_test1to5.fa
+12-01 10:26:01	atom_feature : full
+12-01 10:26:01	bond_feature : full
+12-01 10:26:01	self_loop : True
+12-01 10:26:01	num_virtual_nodes : 0
+12-01 10:26:01	batch_size_train : 4
+12-01 10:26:01	batch_size_val : 128
+12-01 10:26:01	cpu_workers : 4
+12-01 10:26:01	logfile : logs/kegg_train_log.txt
+12-01 10:26:01	sanity_check : False
+12-01 10:26:01	prot_min_len : -1
+12-01 10:26:01	prot_max_len : -1
+12-01 10:26:01	prot_truncate : -1
+12-01 10:26:01	early_stopping_patience : 20
+12-01 10:26:01	prot_num_layers : 3
+12-01 10:26:01	prot_hidden_dim : 512
+12-01 10:26:01	prot_embedding_dim : 100
+12-01 10:26:01	cnn_prot_length : 1000
+12-01 10:26:01	cnn_out_channels : 32
+12-01 10:26:01	cnn_kernel_size : 8
+12-01 10:26:01	num_classes : 2
+12-01 10:26:01	neg_to_pos : 6.0
+12-01 10:26:01	gnn_type : gcn
+12-01 10:26:01	num_gnn_layers : 3
+12-01 10:26:01	gnn_hidden_dim : 512
+12-01 10:26:01	gnn_out_feat : 196
+12-01 10:26:01	global_pooling : max
+12-01 10:26:01	num_mlp_layers : 3
+12-01 10:26:01	gnn_channels : [64, 128, 256]
+12-01 10:26:01	attn_heads : [12, 12, 12]
+12-01 10:26:01	mlp_out_feat : 1000
+12-01 10:26:01	gat_num_heads : 4
+12-01 10:26:01	gin_agg : max
+12-01 10:26:01	gnn_dropout : 0.2
+12-01 10:26:01	fc_dropout : 0.25
+12-01 10:26:01	activation : relu
+12-01 10:26:01	l2 : 0.01
+12-01 10:26:01	prot_lr : 2e-05
+12-01 10:26:01	mol_lr : 2e-05
+12-01 10:26:01	num_epoch : 200
+12-01 10:26:15	device: cuda (6 GPUs)
+12-01 10:33:45	Training Set with 598409 examples
+12-01 10:33:45	Validation Set with 21062 examples
+12-01 10:33:50	Creating Base Protein LM Model...
+12-01 10:34:20	Creating Molecule GNN Model...
+12-01 10:35:01	Starting Training...
+12-01 10:39:33	Values of Hyperparameters:
+12-01 10:39:33	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-01 10:39:33	debug_flag : False
+12-01 10:39:33	data_dir : data/KEGG/
+12-01 10:39:33	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-01 10:39:33	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-01 10:39:33	test_data : ../dataset/KEGG/kegg_test1to5.fa
+12-01 10:39:33	atom_feature : full
+12-01 10:39:33	bond_feature : full
+12-01 10:39:33	self_loop : True
+12-01 10:39:33	num_virtual_nodes : 0
+12-01 10:39:33	batch_size_train : 4
+12-01 10:39:33	batch_size_val : 128
+12-01 10:39:33	cpu_workers : 4
+12-01 10:39:33	logfile : logs/kegg_train_log.txt
+12-01 10:39:33	sanity_check : False
+12-01 10:39:33	prot_min_len : -1
+12-01 10:39:33	prot_max_len : -1
+12-01 10:39:33	prot_truncate : -1
+12-01 10:39:33	early_stopping_patience : 20
+12-01 10:39:33	prot_num_layers : 3
+12-01 10:39:33	prot_hidden_dim : 512
+12-01 10:39:33	prot_embedding_dim : 100
+12-01 10:39:33	cnn_prot_length : 1000
+12-01 10:39:33	cnn_out_channels : 32
+12-01 10:39:33	cnn_kernel_size : 8
+12-01 10:39:33	num_classes : 2
+12-01 10:39:33	neg_to_pos : 6.0
+12-01 10:39:33	gnn_type : gcn
+12-01 10:39:33	num_gnn_layers : 3
+12-01 10:39:33	gnn_hidden_dim : 512
+12-01 10:39:33	gnn_out_feat : 196
+12-01 10:39:33	global_pooling : max
+12-01 10:39:33	num_mlp_layers : 3
+12-01 10:39:33	gnn_channels : [64, 128, 256]
+12-01 10:39:33	attn_heads : [12, 12, 12]
+12-01 10:39:33	mlp_out_feat : 1000
+12-01 10:39:33	gat_num_heads : 4
+12-01 10:39:33	gin_agg : max
+12-01 10:39:33	gnn_dropout : 0.2
+12-01 10:39:33	fc_dropout : 0.25
+12-01 10:39:33	activation : relu
+12-01 10:39:33	l2 : 0.01
+12-01 10:39:33	prot_lr : 2e-05
+12-01 10:39:33	mol_lr : 2e-05
+12-01 10:39:33	num_epoch : 200
+12-01 10:39:48	device: cuda (6 GPUs)
+12-01 10:47:15	Training Set with 598409 examples
+12-01 10:47:15	Validation Set with 21062 examples
+12-01 10:47:19	Creating Base Protein LM Model...
+12-01 10:47:19	Creating Molecule GNN Model...
+12-01 10:47:20	Starting Training...
+12-01 10:56:07	Values of Hyperparameters:
+12-01 10:56:07	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-01 10:56:07	debug_flag : False
+12-01 10:56:07	data_dir : data/KEGG/
+12-01 10:56:07	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-01 10:56:07	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-01 10:56:07	test_data : ../dataset/KEGG/kegg_test1to5.fa
+12-01 10:56:07	atom_feature : full
+12-01 10:56:07	bond_feature : full
+12-01 10:56:07	self_loop : True
+12-01 10:56:07	num_virtual_nodes : 0
+12-01 10:56:07	batch_size_train : 64
+12-01 10:56:07	batch_size_val : 128
+12-01 10:56:07	cpu_workers : 4
+12-01 10:56:07	logfile : logs/kegg_train_log.txt
+12-01 10:56:07	sanity_check : False
+12-01 10:56:07	prot_min_len : -1
+12-01 10:56:07	prot_max_len : -1
+12-01 10:56:07	prot_truncate : -1
+12-01 10:56:07	early_stopping_patience : 20
+12-01 10:56:07	prot_num_layers : 3
+12-01 10:56:07	prot_hidden_dim : 512
+12-01 10:56:07	prot_embedding_dim : 100
+12-01 10:56:07	cnn_prot_length : 1000
+12-01 10:56:07	cnn_out_channels : 32
+12-01 10:56:07	cnn_kernel_size : 8
+12-01 10:56:07	num_classes : 2
+12-01 10:56:07	neg_to_pos : 6.0
+12-01 10:56:07	gnn_type : gcn
+12-01 10:56:07	num_gnn_layers : 3
+12-01 10:56:07	gnn_hidden_dim : 512
+12-01 10:56:07	gnn_out_feat : 196
+12-01 10:56:07	global_pooling : max
+12-01 10:56:07	num_mlp_layers : 3
+12-01 10:56:07	gnn_channels : [64, 128, 256]
+12-01 10:56:07	attn_heads : [12, 12, 12]
+12-01 10:56:07	mlp_out_feat : 1000
+12-01 10:56:07	gat_num_heads : 4
+12-01 10:56:07	gin_agg : max
+12-01 10:56:07	gnn_dropout : 0.2
+12-01 10:56:07	fc_dropout : 0.25
+12-01 10:56:07	activation : relu
+12-01 10:56:07	l2 : 0.01
+12-01 10:56:07	prot_lr : 2e-05
+12-01 10:56:07	mol_lr : 2e-05
+12-01 10:56:07	num_epoch : 200
+12-01 10:56:21	device: cuda (6 GPUs)
+12-01 11:04:22	Training Set with 598409 examples
+12-01 11:04:22	Validation Set with 21062 examples
+12-01 11:04:27	Creating Base Protein LM Model...
+12-01 11:04:27	Creating Molecule GNN Model...
+12-01 11:04:27	Starting Training...
+12-01 11:11:04	# val_loss 0.0% loss=0.4580
+12-01 11:12:00	# val_loss 6.1% loss=0.6306
+12-01 11:12:00	# val_loss 12.1% loss=0.5628
+12-01 11:12:00	# val_loss 18.2% loss=0.5536
+12-01 11:12:01	# val_loss 24.2% loss=0.5318
+12-01 11:12:01	# val_loss 30.3% loss=0.5339
+12-01 11:12:01	# val_loss 36.4% loss=0.5499
+12-01 11:12:01	# val_loss 42.4% loss=0.5472
+12-01 11:12:02	# val_loss 48.5% loss=0.6516
+12-01 11:12:02	# val_loss 54.5% loss=0.5416
+12-01 11:12:02	# val_loss 60.6% loss=0.6021
+12-01 11:12:02	# val_loss 66.7% loss=0.5711
+12-01 11:12:03	# val_loss 72.7% loss=0.5363
+12-01 11:12:03	# val_loss 78.8% loss=0.5442
+12-01 11:12:03	# val_loss 84.8% loss=0.5964
+12-01 11:12:04	# val_loss 90.9% loss=0.5542
+12-01 11:12:04	# val_loss 97.0% loss=0.5623
+12-01 11:12:16	Epoch 1 / 200, train_loss: 0.5866, val_loss: 0.5631, ap: 0.8064
+12-01 11:12:56	Values of Hyperparameters:
+12-01 11:12:56	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-01 11:12:56	debug_flag : False
+12-01 11:12:56	data_dir : data/KEGG/
+12-01 11:12:56	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-01 11:12:56	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-01 11:12:56	test_data : ../dataset/KEGG/kegg_test1to5.fa
+12-01 11:12:56	atom_feature : full
+12-01 11:12:56	bond_feature : full
+12-01 11:12:56	self_loop : True
+12-01 11:12:56	num_virtual_nodes : 0
+12-01 11:12:56	batch_size_train : 64
+12-01 11:12:56	batch_size_val : 128
+12-01 11:12:56	cpu_workers : 4
+12-01 11:12:56	logfile : logs/kegg_train_log.txt
+12-01 11:12:56	sanity_check : False
+12-01 11:12:56	prot_min_len : -1
+12-01 11:12:56	prot_max_len : -1
+12-01 11:12:56	prot_truncate : -1
+12-01 11:12:56	early_stopping_patience : 20
+12-01 11:12:56	prot_num_layers : 3
+12-01 11:12:56	prot_hidden_dim : 512
+12-01 11:12:56	prot_embedding_dim : 100
+12-01 11:12:56	cnn_prot_length : 1000
+12-01 11:12:56	cnn_out_channels : 32
+12-01 11:12:56	cnn_kernel_size : 8
+12-01 11:12:56	num_classes : 2
+12-01 11:12:56	neg_to_pos : 6.0
+12-01 11:12:56	gnn_type : gcn
+12-01 11:12:56	num_gnn_layers : 3
+12-01 11:12:56	gnn_hidden_dim : 512
+12-01 11:12:56	gnn_out_feat : 196
+12-01 11:12:56	global_pooling : max
+12-01 11:12:56	num_mlp_layers : 3
+12-01 11:12:56	gnn_channels : [64, 128, 256]
+12-01 11:12:56	attn_heads : [12, 12, 12]
+12-01 11:12:56	mlp_out_feat : 1000
+12-01 11:12:56	gat_num_heads : 4
+12-01 11:12:56	gin_agg : max
+12-01 11:12:56	gnn_dropout : 0.2
+12-01 11:12:56	fc_dropout : 0.25
+12-01 11:12:56	activation : relu
+12-01 11:12:56	l2 : 0.01
+12-01 11:12:56	prot_lr : 2e-05
+12-01 11:12:56	mol_lr : 2e-05
+12-01 11:12:56	num_epoch : 200
+12-01 11:13:07	device: cuda (6 GPUs)
+12-01 11:19:47	Training Set with 598409 examples
+12-01 11:19:47	Validation Set with 21062 examples
+12-01 11:19:49	Creating Base Protein LM Model...
+12-01 11:19:49	Creating Molecule GNN Model...
+12-01 11:19:50	Starting Training...
+12-01 11:23:04	# val_loss 0.0% loss=0.5187
+12-01 11:23:04	# val_loss 6.1% loss=0.5612
+12-01 11:23:05	# val_loss 12.1% loss=0.5137
+12-01 11:23:05	# val_loss 18.2% loss=0.5913
+12-01 11:23:05	# val_loss 24.2% loss=0.5199
+12-01 11:23:05	# val_loss 30.3% loss=0.4861
+12-01 11:23:05	# val_loss 36.4% loss=0.5065
+12-01 11:23:06	# val_loss 42.4% loss=0.4477
+12-01 11:23:06	# val_loss 48.5% loss=0.5034
+12-01 11:23:06	# val_loss 54.5% loss=0.5135
+12-01 11:23:06	# val_loss 60.6% loss=0.4849
+12-01 11:23:06	# val_loss 66.7% loss=0.4742
+12-01 11:23:06	# val_loss 72.7% loss=0.5243
+12-01 11:23:07	# val_loss 78.8% loss=0.5576
+12-01 11:23:07	# val_loss 84.8% loss=0.5525
+12-01 11:23:07	# val_loss 90.9% loss=0.5300
+12-01 11:23:07	# val_loss 97.0% loss=0.5247
+12-01 11:23:07	Epoch 1 / 200, train_loss: 0.5861, val_loss: 0.5388, ap: 0.8120
+12-01 11:26:18	# val_loss 0.0% loss=0.5331
+12-01 11:26:18	# val_loss 6.1% loss=0.5093
+12-01 11:26:18	# val_loss 12.1% loss=0.5425
+12-01 11:26:18	# val_loss 18.2% loss=0.6293
+12-01 11:26:19	# val_loss 24.2% loss=0.5670
+12-01 11:26:19	# val_loss 30.3% loss=0.5867
+12-01 11:26:19	# val_loss 36.4% loss=0.4577
+12-01 11:26:19	# val_loss 42.4% loss=0.5352
+12-01 11:26:19	# val_loss 48.5% loss=0.5524
+12-01 11:26:19	# val_loss 54.5% loss=0.5467
+12-01 11:26:20	# val_loss 60.6% loss=0.4507
+12-01 11:26:20	# val_loss 66.7% loss=0.4995
+12-01 11:26:20	# val_loss 72.7% loss=0.5574
+12-01 11:26:20	# val_loss 78.8% loss=0.5123
+12-01 11:26:20	# val_loss 84.8% loss=0.5282
+12-01 11:26:20	# val_loss 90.9% loss=0.4276
+12-01 11:26:21	# val_loss 97.0% loss=0.5119
+12-01 11:26:21	Epoch 2 / 200, train_loss: 0.5158, val_loss: 0.5116, ap: 0.8398
+12-01 11:29:31	# val_loss 0.0% loss=0.4393
+12-01 11:29:31	# val_loss 6.1% loss=0.5302
+12-01 11:29:31	# val_loss 12.1% loss=0.4879
+12-01 11:29:31	# val_loss 18.2% loss=0.4608
+12-01 11:29:31	# val_loss 24.2% loss=0.4756
+12-01 11:29:32	# val_loss 30.3% loss=0.4619
+12-01 11:29:32	# val_loss 36.4% loss=0.5153
+12-01 11:29:32	# val_loss 42.4% loss=0.4217
+12-01 11:29:32	# val_loss 48.5% loss=0.5288
+12-01 11:29:32	# val_loss 54.5% loss=0.4245
+12-01 11:29:33	# val_loss 60.6% loss=0.5315
+12-01 11:29:33	# val_loss 66.7% loss=0.5440
+12-01 11:29:33	# val_loss 72.7% loss=0.5415
+12-01 11:29:33	# val_loss 78.8% loss=0.4849
+12-01 11:29:33	# val_loss 84.8% loss=0.5058
+12-01 11:29:33	# val_loss 90.9% loss=0.5159
+12-01 11:29:34	# val_loss 97.0% loss=0.4910
+12-01 11:29:34	Epoch 3 / 200, train_loss: 0.4857, val_loss: 0.4802, ap: 0.8607
+12-01 11:32:49	# val_loss 0.0% loss=0.4635
+12-01 11:32:50	# val_loss 6.1% loss=0.4057
+12-01 11:32:50	# val_loss 12.1% loss=0.4160
+12-01 11:32:50	# val_loss 18.2% loss=0.3453
+12-01 11:32:50	# val_loss 24.2% loss=0.4149
+12-01 11:32:50	# val_loss 30.3% loss=0.5321
+12-01 11:32:50	# val_loss 36.4% loss=0.5611
+12-01 11:32:51	# val_loss 42.4% loss=0.4539
+12-01 11:32:51	# val_loss 48.5% loss=0.4569
+12-01 11:32:51	# val_loss 54.5% loss=0.4631
+12-01 11:32:51	# val_loss 60.6% loss=0.4046
+12-01 11:32:51	# val_loss 66.7% loss=0.4903
+12-01 11:32:51	# val_loss 72.7% loss=0.4307
+12-01 11:32:52	# val_loss 78.8% loss=0.4574
+12-01 11:32:52	# val_loss 84.8% loss=0.4084
+12-01 11:32:52	# val_loss 90.9% loss=0.4520
+12-01 11:32:52	# val_loss 97.0% loss=0.3906
+12-01 11:32:52	Epoch 4 / 200, train_loss: 0.4643, val_loss: 0.4658, ap: 0.8673
+12-01 11:36:04	# val_loss 0.0% loss=0.5092
+12-01 11:36:05	# val_loss 6.1% loss=0.4701
+12-01 11:36:05	# val_loss 12.1% loss=0.4368
+12-01 11:36:05	# val_loss 18.2% loss=0.3522
+12-01 11:36:05	# val_loss 24.2% loss=0.4715
+12-01 11:36:05	# val_loss 30.3% loss=0.4870
+12-01 11:36:06	# val_loss 36.4% loss=0.4307
+12-01 11:36:06	# val_loss 42.4% loss=0.4433
+12-01 11:36:06	# val_loss 48.5% loss=0.5427
+12-01 11:36:06	# val_loss 54.5% loss=0.4889
+12-01 11:36:06	# val_loss 60.6% loss=0.4869
+12-01 11:36:06	# val_loss 66.7% loss=0.4258
+12-01 11:36:07	# val_loss 72.7% loss=0.3915
+12-01 11:36:07	# val_loss 78.8% loss=0.3640
+12-01 11:36:07	# val_loss 84.8% loss=0.4637
+12-01 11:36:07	# val_loss 90.9% loss=0.4555
+12-01 11:36:07	# val_loss 97.0% loss=0.5072
+12-01 11:36:07	Epoch 5 / 200, train_loss: 0.4495, val_loss: 0.4502, ap: 0.8788
+12-01 11:39:19	# val_loss 0.0% loss=0.4785
+12-01 11:39:19	# val_loss 6.1% loss=0.4395
+12-01 11:39:19	# val_loss 12.1% loss=0.5105
+12-01 11:39:19	# val_loss 18.2% loss=0.4356
+12-01 11:39:20	# val_loss 24.2% loss=0.4795
+12-01 11:39:20	# val_loss 30.3% loss=0.4392
+12-01 11:39:20	# val_loss 36.4% loss=0.3878
+12-01 11:39:20	# val_loss 42.4% loss=0.4963
+12-01 11:39:20	# val_loss 48.5% loss=0.4171
+12-01 11:39:20	# val_loss 54.5% loss=0.4093
+12-01 11:39:21	# val_loss 60.6% loss=0.3953
+12-01 11:39:21	# val_loss 66.7% loss=0.4747
+12-01 11:39:21	# val_loss 72.7% loss=0.3749
+12-01 11:39:21	# val_loss 78.8% loss=0.4525
+12-01 11:39:21	# val_loss 84.8% loss=0.4277
+12-01 11:39:22	# val_loss 90.9% loss=0.4584
+12-01 11:39:22	# val_loss 97.0% loss=0.4530
+12-01 11:39:22	Epoch 6 / 200, train_loss: 0.4390, val_loss: 0.4380, ap: 0.8868
+12-01 11:42:34	# val_loss 0.0% loss=0.4760
+12-01 11:42:34	# val_loss 6.1% loss=0.4190
+12-01 11:42:34	# val_loss 12.1% loss=0.4461
+12-01 11:42:35	# val_loss 18.2% loss=0.5327
+12-01 11:42:35	# val_loss 24.2% loss=0.3570
+12-01 11:42:35	# val_loss 30.3% loss=0.4883
+12-01 11:42:35	# val_loss 36.4% loss=0.4810
+12-01 11:42:35	# val_loss 42.4% loss=0.4282
+12-01 11:42:35	# val_loss 48.5% loss=0.5047
+12-01 11:42:36	# val_loss 54.5% loss=0.4370
+12-01 11:42:36	# val_loss 60.6% loss=0.4666
+12-01 11:42:36	# val_loss 66.7% loss=0.3796
+12-01 11:42:36	# val_loss 72.7% loss=0.4147
+12-01 11:42:36	# val_loss 78.8% loss=0.4634
+12-01 11:42:36	# val_loss 84.8% loss=0.3635
+12-01 11:42:37	# val_loss 90.9% loss=0.5185
+12-01 11:42:37	# val_loss 97.0% loss=0.4722
+12-01 11:42:37	Epoch 7 / 200, train_loss: 0.4311, val_loss: 0.4413, ap: 0.8897
+12-01 11:45:53	# val_loss 0.0% loss=0.4028
+12-01 11:45:53	# val_loss 6.1% loss=0.4713
+12-01 11:45:54	# val_loss 12.1% loss=0.4288
+12-01 11:45:54	# val_loss 18.2% loss=0.4429
+12-01 11:45:54	# val_loss 24.2% loss=0.3841
+12-01 11:45:54	# val_loss 30.3% loss=0.3970
+12-01 11:45:54	# val_loss 36.4% loss=0.4217
+12-01 11:45:54	# val_loss 42.4% loss=0.3583
+12-01 11:45:55	# val_loss 48.5% loss=0.4163
+12-01 11:45:55	# val_loss 54.5% loss=0.3909
+12-01 11:45:55	# val_loss 60.6% loss=0.3966
+12-01 11:45:55	# val_loss 66.7% loss=0.4538
+12-01 11:45:55	# val_loss 72.7% loss=0.4019
+12-01 11:45:55	# val_loss 78.8% loss=0.4202
+12-01 11:45:56	# val_loss 84.8% loss=0.4115
+12-01 11:45:56	# val_loss 90.9% loss=0.4156
+12-01 11:45:56	# val_loss 97.0% loss=0.5103
+12-01 11:45:56	Epoch 8 / 200, train_loss: 0.4265, val_loss: 0.4215, ap: 0.8923
+12-01 11:49:06	# val_loss 0.0% loss=0.4026
+12-01 11:49:07	# val_loss 6.1% loss=0.4443
+12-01 11:49:07	# val_loss 12.1% loss=0.4042
+12-01 11:49:07	# val_loss 18.2% loss=0.4187
+12-01 11:49:07	# val_loss 24.2% loss=0.4868
+12-01 11:49:07	# val_loss 30.3% loss=0.3949
+12-01 11:49:07	# val_loss 36.4% loss=0.5017
+12-01 11:49:08	# val_loss 42.4% loss=0.4857
+12-01 11:49:08	# val_loss 48.5% loss=0.3479
+12-01 11:49:08	# val_loss 54.5% loss=0.4715
+12-01 11:49:08	# val_loss 60.6% loss=0.4235
+12-01 11:49:08	# val_loss 66.7% loss=0.3261
+12-01 11:49:08	# val_loss 72.7% loss=0.4273
+12-01 11:49:09	# val_loss 78.8% loss=0.4508
+12-01 11:49:09	# val_loss 84.8% loss=0.4109
+12-01 11:49:09	# val_loss 90.9% loss=0.4104
+12-01 11:49:09	# val_loss 97.0% loss=0.4220
+12-01 11:49:09	Epoch 9 / 200, train_loss: 0.4217, val_loss: 0.4243, ap: 0.8943
+12-01 11:52:22	# val_loss 0.0% loss=0.4772
+12-01 11:52:22	# val_loss 6.1% loss=0.4339
+12-01 11:52:22	# val_loss 12.1% loss=0.3775
+12-01 11:52:22	# val_loss 18.2% loss=0.4052
+12-01 11:52:22	# val_loss 24.2% loss=0.4472
+12-01 11:52:22	# val_loss 30.3% loss=0.3706
+12-01 11:52:23	# val_loss 36.4% loss=0.4773
+12-01 11:52:23	# val_loss 42.4% loss=0.4139
+12-01 11:52:23	# val_loss 48.5% loss=0.4542
+12-01 11:52:23	# val_loss 54.5% loss=0.4766
+12-01 11:52:23	# val_loss 60.6% loss=0.4474
+12-01 11:52:23	# val_loss 66.7% loss=0.3997
+12-01 11:52:24	# val_loss 72.7% loss=0.4069
+12-01 11:52:24	# val_loss 78.8% loss=0.3681
+12-01 11:52:24	# val_loss 84.8% loss=0.3654
+12-01 11:52:24	# val_loss 90.9% loss=0.4678
+12-01 11:52:24	# val_loss 97.0% loss=0.4520
+12-01 11:52:24	Epoch 10 / 200, train_loss: 0.4190, val_loss: 0.4266, ap: 0.8978
+12-01 11:55:36	# val_loss 0.0% loss=0.3564
+12-01 11:55:36	# val_loss 6.1% loss=0.4401
+12-01 11:55:36	# val_loss 12.1% loss=0.4773
+12-01 11:55:36	# val_loss 18.2% loss=0.4423
+12-01 11:55:36	# val_loss 24.2% loss=0.3883
+12-01 11:55:37	# val_loss 30.3% loss=0.3781
+12-01 11:55:37	# val_loss 36.4% loss=0.4647
+12-01 11:55:37	# val_loss 42.4% loss=0.3668
+12-01 11:55:37	# val_loss 48.5% loss=0.4544
+12-01 11:55:37	# val_loss 54.5% loss=0.5007
+12-01 11:55:37	# val_loss 60.6% loss=0.3737
+12-01 11:55:38	# val_loss 66.7% loss=0.4172
+12-01 11:55:38	# val_loss 72.7% loss=0.4168
+12-01 11:55:38	# val_loss 78.8% loss=0.4498
+12-01 11:55:38	# val_loss 84.8% loss=0.4453
+12-01 11:55:38	# val_loss 90.9% loss=0.3431
+12-01 11:55:38	# val_loss 97.0% loss=0.4269
+12-01 11:55:39	Epoch 11 / 200, train_loss: 0.4170, val_loss: 0.4186, ap: 0.8986
+12-01 11:58:50	# val_loss 0.0% loss=0.3961
+12-01 11:58:50	# val_loss 6.1% loss=0.3589
+12-01 11:58:50	# val_loss 12.1% loss=0.4112
+12-01 11:58:50	# val_loss 18.2% loss=0.4600
+12-01 11:58:51	# val_loss 24.2% loss=0.4165
+12-01 11:58:51	# val_loss 30.3% loss=0.4209
+12-01 11:58:51	# val_loss 36.4% loss=0.3645
+12-01 11:58:51	# val_loss 42.4% loss=0.4660
+12-01 11:58:51	# val_loss 48.5% loss=0.4132
+12-01 11:58:51	# val_loss 54.5% loss=0.4295
+12-01 11:58:52	# val_loss 60.6% loss=0.4033
+12-01 11:58:52	# val_loss 66.7% loss=0.3771
+12-01 11:58:52	# val_loss 72.7% loss=0.4484
+12-01 11:58:52	# val_loss 78.8% loss=0.4325
+12-01 11:58:52	# val_loss 84.8% loss=0.3899
+12-01 11:58:52	# val_loss 90.9% loss=0.4539
+12-01 11:58:53	# val_loss 97.0% loss=0.4859
+12-01 11:58:53	Epoch 12 / 200, train_loss: 0.4159, val_loss: 0.4076, ap: 0.8987
+12-01 12:02:08	# val_loss 0.0% loss=0.3839
+12-01 12:02:09	# val_loss 6.1% loss=0.4086
+12-01 12:02:09	# val_loss 12.1% loss=0.4704
+12-01 12:02:09	# val_loss 18.2% loss=0.4537
+12-01 12:02:09	# val_loss 24.2% loss=0.4712
+12-01 12:02:09	# val_loss 30.3% loss=0.4066
+12-01 12:02:09	# val_loss 36.4% loss=0.3853
+12-01 12:02:10	# val_loss 42.4% loss=0.4216
+12-01 12:02:10	# val_loss 48.5% loss=0.4309
+12-01 12:02:10	# val_loss 54.5% loss=0.4647
+12-01 12:02:10	# val_loss 60.6% loss=0.4207
+12-01 12:02:10	# val_loss 66.7% loss=0.3823
+12-01 12:02:10	# val_loss 72.7% loss=0.4546
+12-01 12:02:11	# val_loss 78.8% loss=0.4689
+12-01 12:02:11	# val_loss 84.8% loss=0.4549
+12-01 12:02:11	# val_loss 90.9% loss=0.3917
+12-01 12:02:11	# val_loss 97.0% loss=0.4190
+12-01 12:02:11	Epoch 13 / 200, train_loss: 0.4141, val_loss: 0.4124, ap: 0.8998
+12-01 12:05:21	# val_loss 0.0% loss=0.4053
+12-01 12:05:21	# val_loss 6.1% loss=0.3792
+12-01 12:05:21	# val_loss 12.1% loss=0.4830
+12-01 12:05:22	# val_loss 18.2% loss=0.3812
+12-01 12:05:22	# val_loss 24.2% loss=0.3362
+12-01 12:05:22	# val_loss 30.3% loss=0.4179
+12-01 12:05:22	# val_loss 36.4% loss=0.3476
+12-01 12:05:22	# val_loss 42.4% loss=0.3600
+12-01 12:05:22	# val_loss 48.5% loss=0.4100
+12-01 12:05:23	# val_loss 54.5% loss=0.4054
+12-01 12:05:23	# val_loss 60.6% loss=0.3558
+12-01 12:05:23	# val_loss 66.7% loss=0.4323
+12-01 12:05:23	# val_loss 72.7% loss=0.4600
+12-01 12:05:23	# val_loss 78.8% loss=0.4659
+12-01 12:05:23	# val_loss 84.8% loss=0.4572
+12-01 12:05:24	# val_loss 90.9% loss=0.3627
+12-01 12:05:24	# val_loss 97.0% loss=0.3205
+12-01 12:05:24	Epoch 14 / 200, train_loss: 0.4125, val_loss: 0.4121, ap: 0.9011
+12-01 12:08:33	# val_loss 0.0% loss=0.4885
+12-01 12:08:34	# val_loss 6.1% loss=0.4628
+12-01 12:08:34	# val_loss 12.1% loss=0.4108
+12-01 12:08:34	# val_loss 18.2% loss=0.4723
+12-01 12:08:34	# val_loss 24.2% loss=0.3940
+12-01 12:08:34	# val_loss 30.3% loss=0.4732
+12-01 12:08:34	# val_loss 36.4% loss=0.3757
+12-01 12:08:35	# val_loss 42.4% loss=0.4628
+12-01 12:08:35	# val_loss 48.5% loss=0.4320
+12-01 12:08:35	# val_loss 54.5% loss=0.4615
+12-01 12:08:35	# val_loss 60.6% loss=0.3728
+12-01 12:08:35	# val_loss 66.7% loss=0.4020
+12-01 12:08:35	# val_loss 72.7% loss=0.4221
+12-01 12:08:36	# val_loss 78.8% loss=0.4161
+12-01 12:08:36	# val_loss 84.8% loss=0.4359
+12-01 12:08:36	# val_loss 90.9% loss=0.3623
+12-01 12:08:36	# val_loss 97.0% loss=0.4759
+12-01 12:08:36	Epoch 15 / 200, train_loss: 0.4113, val_loss: 0.4134, ap: 0.9028
+12-01 12:11:46	# val_loss 0.0% loss=0.5278
+12-01 12:11:47	# val_loss 6.1% loss=0.4440
+12-01 12:11:47	# val_loss 12.1% loss=0.3931
+12-01 12:11:47	# val_loss 18.2% loss=0.4546
+12-01 12:11:47	# val_loss 24.2% loss=0.4028
+12-01 12:11:47	# val_loss 30.3% loss=0.4329
+12-01 12:11:47	# val_loss 36.4% loss=0.3996
+12-01 12:11:48	# val_loss 42.4% loss=0.4434
+12-01 12:11:48	# val_loss 48.5% loss=0.4243
+12-01 12:11:48	# val_loss 54.5% loss=0.4525
+12-01 12:11:48	# val_loss 60.6% loss=0.3956
+12-01 12:11:48	# val_loss 66.7% loss=0.3962
+12-01 12:11:49	# val_loss 72.7% loss=0.4798
+12-01 12:11:49	# val_loss 78.8% loss=0.4027
+12-01 12:11:49	# val_loss 84.8% loss=0.3843
+12-01 12:11:49	# val_loss 90.9% loss=0.4149
+12-01 12:11:49	# val_loss 97.0% loss=0.4069
+12-01 12:11:49	Epoch 16 / 200, train_loss: 0.4098, val_loss: 0.4211, ap: 0.9011
+12-01 12:15:02	# val_loss 0.0% loss=0.4384
+12-01 12:15:02	# val_loss 6.1% loss=0.3831
+12-01 12:15:02	# val_loss 12.1% loss=0.4360
+12-01 12:15:03	# val_loss 18.2% loss=0.3567
+12-01 12:15:03	# val_loss 24.2% loss=0.4815
+12-01 12:15:03	# val_loss 30.3% loss=0.3911
+12-01 12:15:03	# val_loss 36.4% loss=0.4838
+12-01 12:15:03	# val_loss 42.4% loss=0.3704
+12-01 12:15:04	# val_loss 48.5% loss=0.4037
+12-01 12:15:04	# val_loss 54.5% loss=0.5026
+12-01 12:15:04	# val_loss 60.6% loss=0.4449
+12-01 12:15:04	# val_loss 66.7% loss=0.3966
+12-01 12:15:04	# val_loss 72.7% loss=0.4107
+12-01 12:15:04	# val_loss 78.8% loss=0.3614
+12-01 12:15:05	# val_loss 84.8% loss=0.3653
+12-01 12:15:05	# val_loss 90.9% loss=0.3554
+12-01 12:15:05	# val_loss 97.0% loss=0.4387
+12-01 12:15:05	Epoch 17 / 200, train_loss: 0.4090, val_loss: 0.4139, ap: 0.9014
+12-01 12:18:17	# val_loss 0.0% loss=0.4904
+12-01 12:18:17	# val_loss 6.1% loss=0.4051
+12-01 12:18:17	# val_loss 12.1% loss=0.3408
+12-01 12:18:17	# val_loss 18.2% loss=0.4276
+12-01 12:18:17	# val_loss 24.2% loss=0.4010
+12-01 12:18:18	# val_loss 30.3% loss=0.4065
+12-01 12:18:18	# val_loss 36.4% loss=0.4151
+12-01 12:18:18	# val_loss 42.4% loss=0.3737
+12-01 12:18:18	# val_loss 48.5% loss=0.4234
+12-01 12:18:18	# val_loss 54.5% loss=0.4247
+12-01 12:18:18	# val_loss 60.6% loss=0.3911
+12-01 12:18:19	# val_loss 66.7% loss=0.3933
+12-01 12:18:19	# val_loss 72.7% loss=0.4036
+12-01 12:18:19	# val_loss 78.8% loss=0.3930
+12-01 12:18:19	# val_loss 84.8% loss=0.4086
+12-01 12:18:19	# val_loss 90.9% loss=0.3656
+12-01 12:18:19	# val_loss 97.0% loss=0.3939
+12-01 12:18:20	Epoch 18 / 200, train_loss: 0.4070, val_loss: 0.4067, ap: 0.9031
+12-01 12:21:30	# val_loss 0.0% loss=0.4434
+12-01 12:21:30	# val_loss 6.1% loss=0.4014
+12-01 12:21:30	# val_loss 12.1% loss=0.4650
+12-01 12:21:30	# val_loss 18.2% loss=0.4003
+12-01 12:21:31	# val_loss 24.2% loss=0.4087
+12-01 12:21:31	# val_loss 30.3% loss=0.4211
+12-01 12:21:31	# val_loss 36.4% loss=0.3697
+12-01 12:21:31	# val_loss 42.4% loss=0.5478
+12-01 12:21:31	# val_loss 48.5% loss=0.3974
+12-01 12:21:31	# val_loss 54.5% loss=0.3829
+12-01 12:21:32	# val_loss 60.6% loss=0.3319
+12-01 12:21:32	# val_loss 66.7% loss=0.4003
+12-01 12:21:32	# val_loss 72.7% loss=0.4081
+12-01 12:21:32	# val_loss 78.8% loss=0.4002
+12-01 12:21:32	# val_loss 84.8% loss=0.4272
+12-01 12:21:32	# val_loss 90.9% loss=0.4512
+12-01 12:21:33	# val_loss 97.0% loss=0.4868
+12-01 12:21:33	Epoch 19 / 200, train_loss: 0.4057, val_loss: 0.4096, ap: 0.9042
+12-01 12:24:43	# val_loss 0.0% loss=0.4084
+12-01 12:24:43	# val_loss 6.1% loss=0.4007
+12-01 12:24:44	# val_loss 12.1% loss=0.3715
+12-01 12:24:44	# val_loss 18.2% loss=0.4062
+12-01 12:24:44	# val_loss 24.2% loss=0.4026
+12-01 12:24:44	# val_loss 30.3% loss=0.4075
+12-01 12:24:44	# val_loss 36.4% loss=0.4402
+12-01 12:24:44	# val_loss 42.4% loss=0.4397
+12-01 12:24:45	# val_loss 48.5% loss=0.3501
+12-01 12:24:45	# val_loss 54.5% loss=0.3522
+12-01 12:24:45	# val_loss 60.6% loss=0.4339
+12-01 12:24:45	# val_loss 66.7% loss=0.4095
+12-01 12:24:45	# val_loss 72.7% loss=0.4377
+12-01 12:24:46	# val_loss 78.8% loss=0.4187
+12-01 12:24:46	# val_loss 84.8% loss=0.3473
+12-01 12:24:46	# val_loss 90.9% loss=0.3936
+12-01 12:24:46	# val_loss 97.0% loss=0.3577
+12-01 12:24:46	Epoch 20 / 200, train_loss: 0.4044, val_loss: 0.4067, ap: 0.9053
+12-01 12:27:57	# val_loss 0.0% loss=0.3721
+12-01 12:27:57	# val_loss 6.1% loss=0.4183
+12-01 12:27:57	# val_loss 12.1% loss=0.4280
+12-01 12:27:58	# val_loss 18.2% loss=0.3372
+12-01 12:27:58	# val_loss 24.2% loss=0.4436
+12-01 12:27:58	# val_loss 30.3% loss=0.4426
+12-01 12:27:58	# val_loss 36.4% loss=0.4644
+12-01 12:27:58	# val_loss 42.4% loss=0.4068
+12-01 12:27:59	# val_loss 48.5% loss=0.3032
+12-01 12:27:59	# val_loss 54.5% loss=0.4099
+12-01 12:27:59	# val_loss 60.6% loss=0.4179
+12-01 12:27:59	# val_loss 66.7% loss=0.3901
+12-01 12:27:59	# val_loss 72.7% loss=0.3885
+12-01 12:27:59	# val_loss 78.8% loss=0.3711
+12-01 12:28:00	# val_loss 84.8% loss=0.4458
+12-01 12:28:00	# val_loss 90.9% loss=0.3468
+12-01 12:28:00	# val_loss 97.0% loss=0.3627
+12-01 12:28:00	Epoch 21 / 200, train_loss: 0.4024, val_loss: 0.4036, ap: 0.9051
+12-01 12:31:14	# val_loss 0.0% loss=0.3615
+12-01 12:31:14	# val_loss 6.1% loss=0.4458
+12-01 12:31:15	# val_loss 12.1% loss=0.3984
+12-01 12:31:15	# val_loss 18.2% loss=0.4881
+12-01 12:31:15	# val_loss 24.2% loss=0.4269
+12-01 12:31:15	# val_loss 30.3% loss=0.4429
+12-01 12:31:15	# val_loss 36.4% loss=0.4717
+12-01 12:31:15	# val_loss 42.4% loss=0.3929
+12-01 12:31:16	# val_loss 48.5% loss=0.3997
+12-01 12:31:16	# val_loss 54.5% loss=0.4146
+12-01 12:31:16	# val_loss 60.6% loss=0.3586
+12-01 12:31:16	# val_loss 66.7% loss=0.4015
+12-01 12:31:16	# val_loss 72.7% loss=0.4210
+12-01 12:31:17	# val_loss 78.8% loss=0.3645
+12-01 12:31:17	# val_loss 84.8% loss=0.4369
+12-01 12:31:17	# val_loss 90.9% loss=0.4439
+12-01 12:31:17	# val_loss 97.0% loss=0.4120
+12-01 12:31:17	Epoch 22 / 200, train_loss: 0.4010, val_loss: 0.4043, ap: 0.9071
+12-01 12:34:28	# val_loss 0.0% loss=0.3807
+12-01 12:34:28	# val_loss 6.1% loss=0.3746
+12-01 12:34:29	# val_loss 12.1% loss=0.3685
+12-01 12:34:29	# val_loss 18.2% loss=0.3600
+12-01 12:34:29	# val_loss 24.2% loss=0.3574
+12-01 12:34:29	# val_loss 30.3% loss=0.3793
+12-01 12:34:29	# val_loss 36.4% loss=0.3971
+12-01 12:34:30	# val_loss 42.4% loss=0.4465
+12-01 12:34:30	# val_loss 48.5% loss=0.3960
+12-01 12:34:30	# val_loss 54.5% loss=0.4125
+12-01 12:34:30	# val_loss 60.6% loss=0.4171
+12-01 12:34:30	# val_loss 66.7% loss=0.4647
+12-01 12:34:30	# val_loss 72.7% loss=0.4489
+12-01 12:34:31	# val_loss 78.8% loss=0.3136
+12-01 12:34:31	# val_loss 84.8% loss=0.3857
+12-01 12:34:31	# val_loss 90.9% loss=0.3977
+12-01 12:34:31	# val_loss 97.0% loss=0.3920
+12-01 12:34:31	Epoch 23 / 200, train_loss: 0.4002, val_loss: 0.3888, ap: 0.9071
+12-01 12:37:42	# val_loss 0.0% loss=0.3995
+12-01 12:37:42	# val_loss 6.1% loss=0.3777
+12-01 12:37:42	# val_loss 12.1% loss=0.4059
+12-01 12:37:42	# val_loss 18.2% loss=0.3715
+12-01 12:37:43	# val_loss 24.2% loss=0.3902
+12-01 12:37:43	# val_loss 30.3% loss=0.4357
+12-01 12:37:43	# val_loss 36.4% loss=0.3717
+12-01 12:37:43	# val_loss 42.4% loss=0.3276
+12-01 12:37:43	# val_loss 48.5% loss=0.4239
+12-01 12:37:43	# val_loss 54.5% loss=0.3467
+12-01 12:37:44	# val_loss 60.6% loss=0.3413
+12-01 12:37:44	# val_loss 66.7% loss=0.3845
+12-01 12:37:44	# val_loss 72.7% loss=0.3044
+12-01 12:37:44	# val_loss 78.8% loss=0.3679
+12-01 12:37:44	# val_loss 84.8% loss=0.3629
+12-01 12:37:44	# val_loss 90.9% loss=0.4104
+12-01 12:37:45	# val_loss 97.0% loss=0.3361
+12-01 12:37:45	Epoch 24 / 200, train_loss: 0.3993, val_loss: 0.3899, ap: 0.9059
+12-01 12:40:55	# val_loss 0.0% loss=0.4094
+12-01 12:40:55	# val_loss 6.1% loss=0.4389
+12-01 12:40:55	# val_loss 12.1% loss=0.3607
+12-01 12:40:55	# val_loss 18.2% loss=0.3853
+12-01 12:40:55	# val_loss 24.2% loss=0.4636
+12-01 12:40:55	# val_loss 30.3% loss=0.4720
+12-01 12:40:56	# val_loss 36.4% loss=0.4754
+12-01 12:40:56	# val_loss 42.4% loss=0.3995
+12-01 12:40:56	# val_loss 48.5% loss=0.4196
+12-01 12:40:56	# val_loss 54.5% loss=0.4835
+12-01 12:40:56	# val_loss 60.6% loss=0.3348
+12-01 12:40:56	# val_loss 66.7% loss=0.4227
+12-01 12:40:57	# val_loss 72.7% loss=0.4158
+12-01 12:40:57	# val_loss 78.8% loss=0.4008
+12-01 12:40:57	# val_loss 84.8% loss=0.4880
+12-01 12:40:57	# val_loss 90.9% loss=0.4571
+12-01 12:40:57	# val_loss 97.0% loss=0.4581
+12-01 12:40:57	Epoch 25 / 200, train_loss: 0.3976, val_loss: 0.4099, ap: 0.9066
+12-01 12:44:07	# val_loss 0.0% loss=0.4169
+12-01 12:44:07	# val_loss 6.1% loss=0.4784
+12-01 12:44:08	# val_loss 12.1% loss=0.3814
+12-01 12:44:08	# val_loss 18.2% loss=0.4548
+12-01 12:44:08	# val_loss 24.2% loss=0.4074
+12-01 12:44:08	# val_loss 30.3% loss=0.3844
+12-01 12:44:08	# val_loss 36.4% loss=0.4119
+12-01 12:44:08	# val_loss 42.4% loss=0.4673
+12-01 12:44:09	# val_loss 48.5% loss=0.3289
+12-01 12:44:09	# val_loss 54.5% loss=0.3841
+12-01 12:44:09	# val_loss 60.6% loss=0.3919
+12-01 12:44:09	# val_loss 66.7% loss=0.3776
+12-01 12:44:09	# val_loss 72.7% loss=0.3938
+12-01 12:44:10	# val_loss 78.8% loss=0.4514
+12-01 12:44:10	# val_loss 84.8% loss=0.3539
+12-01 12:44:10	# val_loss 90.9% loss=0.4665
+12-01 12:44:10	# val_loss 97.0% loss=0.4274
+12-01 12:44:10	Epoch 26 / 200, train_loss: 0.3957, val_loss: 0.4104, ap: 0.9049
+12-01 12:47:20	# val_loss 0.0% loss=0.4746
+12-01 12:47:20	# val_loss 6.1% loss=0.4141
+12-01 12:47:20	# val_loss 12.1% loss=0.3791
+12-01 12:47:21	# val_loss 18.2% loss=0.4207
+12-01 12:47:21	# val_loss 24.2% loss=0.3982
+12-01 12:47:21	# val_loss 30.3% loss=0.3637
+12-01 12:47:21	# val_loss 36.4% loss=0.3924
+12-01 12:47:21	# val_loss 42.4% loss=0.4108
+12-01 12:47:21	# val_loss 48.5% loss=0.4009
+12-01 12:47:22	# val_loss 54.5% loss=0.4355
+12-01 12:47:22	# val_loss 60.6% loss=0.3547
+12-01 12:47:22	# val_loss 66.7% loss=0.3785
+12-01 12:47:22	# val_loss 72.7% loss=0.3623
+12-01 12:47:22	# val_loss 78.8% loss=0.3875
+12-01 12:47:22	# val_loss 84.8% loss=0.3418
+12-01 12:47:23	# val_loss 90.9% loss=0.3169
+12-01 12:47:23	# val_loss 97.0% loss=0.3424
+12-01 12:47:23	Epoch 27 / 200, train_loss: 0.3953, val_loss: 0.3895, ap: 0.9062
+12-01 12:50:33	# val_loss 0.0% loss=0.3834
+12-01 12:50:33	# val_loss 6.1% loss=0.3794
+12-01 12:50:33	# val_loss 12.1% loss=0.3890
+12-01 12:50:34	# val_loss 18.2% loss=0.3452
+12-01 12:50:34	# val_loss 24.2% loss=0.3262
+12-01 12:50:34	# val_loss 30.3% loss=0.4789
+12-01 12:50:34	# val_loss 36.4% loss=0.4935
+12-01 12:50:34	# val_loss 42.4% loss=0.4578
+12-01 12:50:35	# val_loss 48.5% loss=0.4190
+12-01 12:50:35	# val_loss 54.5% loss=0.3869
+12-01 12:50:35	# val_loss 60.6% loss=0.3352
+12-01 12:50:35	# val_loss 66.7% loss=0.3655
+12-01 12:50:35	# val_loss 72.7% loss=0.4417
+12-01 12:50:35	# val_loss 78.8% loss=0.4115
+12-01 12:50:36	# val_loss 84.8% loss=0.4222
+12-01 12:50:36	# val_loss 90.9% loss=0.4807
+12-01 12:50:36	# val_loss 97.0% loss=0.4103
+12-01 12:50:36	Epoch 28 / 200, train_loss: 0.3942, val_loss: 0.3946, ap: 0.9089
+12-01 12:53:48	# val_loss 0.0% loss=0.4158
+12-01 12:53:48	# val_loss 6.1% loss=0.4457
+12-01 12:53:48	# val_loss 12.1% loss=0.3575
+12-01 12:53:48	# val_loss 18.2% loss=0.4486
+12-01 12:53:48	# val_loss 24.2% loss=0.4192
+12-01 12:53:49	# val_loss 30.3% loss=0.4460
+12-01 12:53:49	# val_loss 36.4% loss=0.3900
+12-01 12:53:49	# val_loss 42.4% loss=0.4478
+12-01 12:53:49	# val_loss 48.5% loss=0.3471
+12-01 12:53:49	# val_loss 54.5% loss=0.4438
+12-01 12:53:50	# val_loss 60.6% loss=0.4453
+12-01 12:53:50	# val_loss 66.7% loss=0.3505
+12-01 12:53:50	# val_loss 72.7% loss=0.4385
+12-01 12:53:50	# val_loss 78.8% loss=0.3431
+12-01 12:53:50	# val_loss 84.8% loss=0.3988
+12-01 12:53:50	# val_loss 90.9% loss=0.4172
+12-01 12:53:51	# val_loss 97.0% loss=0.3766
+12-01 12:53:51	Epoch 29 / 200, train_loss: 0.3923, val_loss: 0.4031, ap: 0.9086
+12-01 12:57:02	# val_loss 0.0% loss=0.4009
+12-01 12:57:02	# val_loss 6.1% loss=0.3531
+12-01 12:57:02	# val_loss 12.1% loss=0.4131
+12-01 12:57:02	# val_loss 18.2% loss=0.4132
+12-01 12:57:02	# val_loss 24.2% loss=0.3941
+12-01 12:57:03	# val_loss 30.3% loss=0.3656
+12-01 12:57:03	# val_loss 36.4% loss=0.3262
+12-01 12:57:03	# val_loss 42.4% loss=0.3561
+12-01 12:57:03	# val_loss 48.5% loss=0.3713
+12-01 12:57:03	# val_loss 54.5% loss=0.4193
+12-01 12:57:04	# val_loss 60.6% loss=0.3978
+12-01 12:57:04	# val_loss 66.7% loss=0.4025
+12-01 12:57:04	# val_loss 72.7% loss=0.3799
+12-01 12:57:04	# val_loss 78.8% loss=0.3722
+12-01 12:57:04	# val_loss 84.8% loss=0.3870
+12-01 12:57:04	# val_loss 90.9% loss=0.4212
+12-01 12:57:05	# val_loss 97.0% loss=0.3164
+12-01 12:57:05	Epoch 30 / 200, train_loss: 0.3914, val_loss: 0.3921, ap: 0.9087
+12-01 13:00:17	# val_loss 0.0% loss=0.3401
+12-01 13:00:18	# val_loss 6.1% loss=0.3928
+12-01 13:00:18	# val_loss 12.1% loss=0.3904
+12-01 13:00:18	# val_loss 18.2% loss=0.3984
+12-01 13:00:18	# val_loss 24.2% loss=0.4177
+12-01 13:00:18	# val_loss 30.3% loss=0.3549
+12-01 13:00:19	# val_loss 36.4% loss=0.3812
+12-01 13:00:19	# val_loss 42.4% loss=0.3695
+12-01 13:00:19	# val_loss 48.5% loss=0.3686
+12-01 13:00:19	# val_loss 54.5% loss=0.4081
+12-01 13:00:19	# val_loss 60.6% loss=0.4767
+12-01 13:00:19	# val_loss 66.7% loss=0.4119
+12-01 13:00:20	# val_loss 72.7% loss=0.3669
+12-01 13:00:20	# val_loss 78.8% loss=0.3421
+12-01 13:00:20	# val_loss 84.8% loss=0.3274
+12-01 13:00:20	# val_loss 90.9% loss=0.3238
+12-01 13:00:20	# val_loss 97.0% loss=0.3584
+12-01 13:00:20	Epoch 31 / 200, train_loss: 0.3910, val_loss: 0.3840, ap: 0.9098
+12-01 13:03:31	# val_loss 0.0% loss=0.4156
+12-01 13:03:32	# val_loss 6.1% loss=0.4214
+12-01 13:03:32	# val_loss 12.1% loss=0.4214
+12-01 13:03:32	# val_loss 18.2% loss=0.3787
+12-01 13:03:32	# val_loss 24.2% loss=0.3954
+12-01 13:03:32	# val_loss 30.3% loss=0.3968
+12-01 13:03:32	# val_loss 36.4% loss=0.3912
+12-01 13:03:33	# val_loss 42.4% loss=0.3594
+12-01 13:03:33	# val_loss 48.5% loss=0.3864
+12-01 13:03:33	# val_loss 54.5% loss=0.3614
+12-01 13:03:33	# val_loss 60.6% loss=0.3752
+12-01 13:03:33	# val_loss 66.7% loss=0.3799
+12-01 13:03:33	# val_loss 72.7% loss=0.3971
+12-01 13:03:34	# val_loss 78.8% loss=0.3376
+12-01 13:03:34	# val_loss 84.8% loss=0.3997
+12-01 13:03:34	# val_loss 90.9% loss=0.4241
+12-01 13:03:34	# val_loss 97.0% loss=0.3576
+12-01 13:03:34	Epoch 32 / 200, train_loss: 0.3896, val_loss: 0.3884, ap: 0.9098
+12-01 13:06:46	# val_loss 0.0% loss=0.4472
+12-01 13:06:46	# val_loss 6.1% loss=0.4019
+12-01 13:06:46	# val_loss 12.1% loss=0.3206
+12-01 13:06:46	# val_loss 18.2% loss=0.3661
+12-01 13:06:46	# val_loss 24.2% loss=0.3307
+12-01 13:06:47	# val_loss 30.3% loss=0.3516
+12-01 13:06:47	# val_loss 36.4% loss=0.3987
+12-01 13:06:47	# val_loss 42.4% loss=0.3777
+12-01 13:06:47	# val_loss 48.5% loss=0.4407
+12-01 13:06:47	# val_loss 54.5% loss=0.3574
+12-01 13:06:48	# val_loss 60.6% loss=0.3995
+12-01 13:06:48	# val_loss 66.7% loss=0.3832
+12-01 13:06:48	# val_loss 72.7% loss=0.3249
+12-01 13:06:48	# val_loss 78.8% loss=0.3777
+12-01 13:06:48	# val_loss 84.8% loss=0.3578
+12-01 13:06:48	# val_loss 90.9% loss=0.3925
+12-01 13:06:49	# val_loss 97.0% loss=0.3961
+12-01 13:06:49	Epoch 33 / 200, train_loss: 0.3893, val_loss: 0.3891, ap: 0.9085
+12-01 13:10:01	# val_loss 0.0% loss=0.3744
+12-01 13:10:01	# val_loss 6.1% loss=0.4257
+12-01 13:10:01	# val_loss 12.1% loss=0.3440
+12-01 13:10:01	# val_loss 18.2% loss=0.3589
+12-01 13:10:01	# val_loss 24.2% loss=0.3226
+12-01 13:10:02	# val_loss 30.3% loss=0.4918
+12-01 13:10:02	# val_loss 36.4% loss=0.4450
+12-01 13:10:02	# val_loss 42.4% loss=0.3791
+12-01 13:10:02	# val_loss 48.5% loss=0.4500
+12-01 13:10:02	# val_loss 54.5% loss=0.4305
+12-01 13:10:02	# val_loss 60.6% loss=0.4285
+12-01 13:10:03	# val_loss 66.7% loss=0.4414
+12-01 13:10:03	# val_loss 72.7% loss=0.3590
+12-01 13:10:03	# val_loss 78.8% loss=0.3707
+12-01 13:10:03	# val_loss 84.8% loss=0.4065
+12-01 13:10:03	# val_loss 90.9% loss=0.3823
+12-01 13:10:04	# val_loss 97.0% loss=0.4407
+12-01 13:10:04	Epoch 34 / 200, train_loss: 0.3877, val_loss: 0.3968, ap: 0.9097
+12-01 13:13:15	# val_loss 0.0% loss=0.3906
+12-01 13:13:15	# val_loss 6.1% loss=0.3327
+12-01 13:13:16	# val_loss 12.1% loss=0.4106
+12-01 13:13:16	# val_loss 18.2% loss=0.3812
+12-01 13:13:16	# val_loss 24.2% loss=0.3975
+12-01 13:13:16	# val_loss 30.3% loss=0.3946
+12-01 13:13:16	# val_loss 36.4% loss=0.4051
+12-01 13:13:16	# val_loss 42.4% loss=0.3346
+12-01 13:13:17	# val_loss 48.5% loss=0.4450
+12-01 13:13:17	# val_loss 54.5% loss=0.3163
+12-01 13:13:17	# val_loss 60.6% loss=0.3581
+12-01 13:13:17	# val_loss 66.7% loss=0.3633
+12-01 13:13:17	# val_loss 72.7% loss=0.4048
+12-01 13:13:17	# val_loss 78.8% loss=0.3690
+12-01 13:13:18	# val_loss 84.8% loss=0.3749
+12-01 13:13:18	# val_loss 90.9% loss=0.3570
+12-01 13:13:18	# val_loss 97.0% loss=0.4178
+12-01 13:13:18	Epoch 35 / 200, train_loss: 0.3870, val_loss: 0.3873, ap: 0.9110
+12-01 13:16:29	# val_loss 0.0% loss=0.3530
+12-01 13:16:30	# val_loss 6.1% loss=0.4086
+12-01 13:16:30	# val_loss 12.1% loss=0.4332
+12-01 13:16:30	# val_loss 18.2% loss=0.3867
+12-01 13:16:30	# val_loss 24.2% loss=0.4204
+12-01 13:16:30	# val_loss 30.3% loss=0.3719
+12-01 13:16:31	# val_loss 36.4% loss=0.3336
+12-01 13:16:31	# val_loss 42.4% loss=0.4358
+12-01 13:16:31	# val_loss 48.5% loss=0.4018
+12-01 13:16:31	# val_loss 54.5% loss=0.3311
+12-01 13:16:31	# val_loss 60.6% loss=0.3482
+12-01 13:16:31	# val_loss 66.7% loss=0.4356
+12-01 13:16:32	# val_loss 72.7% loss=0.3801
+12-01 13:16:32	# val_loss 78.8% loss=0.4045
+12-01 13:16:32	# val_loss 84.8% loss=0.3493
+12-01 13:16:32	# val_loss 90.9% loss=0.3899
+12-01 13:16:32	# val_loss 97.0% loss=0.4619
+12-01 13:16:32	Epoch 36 / 200, train_loss: 0.3855, val_loss: 0.4012, ap: 0.9101
+12-01 13:19:44	# val_loss 0.0% loss=0.4383
+12-01 13:19:44	# val_loss 6.1% loss=0.4549
+12-01 13:19:44	# val_loss 12.1% loss=0.3971
+12-01 13:19:44	# val_loss 18.2% loss=0.3762
+12-01 13:19:44	# val_loss 24.2% loss=0.4141
+12-01 13:19:44	# val_loss 30.3% loss=0.4077
+12-01 13:19:45	# val_loss 36.4% loss=0.3887
+12-01 13:19:45	# val_loss 42.4% loss=0.3670
+12-01 13:19:45	# val_loss 48.5% loss=0.4474
+12-01 13:19:45	# val_loss 54.5% loss=0.3805
+12-01 13:19:45	# val_loss 60.6% loss=0.3396
+12-01 13:19:45	# val_loss 66.7% loss=0.3688
+12-01 13:19:46	# val_loss 72.7% loss=0.4414
+12-01 13:19:46	# val_loss 78.8% loss=0.3733
+12-01 13:19:46	# val_loss 84.8% loss=0.4027
+12-01 13:19:46	# val_loss 90.9% loss=0.3985
+12-01 13:19:46	# val_loss 97.0% loss=0.4502
+12-01 13:19:46	Epoch 37 / 200, train_loss: 0.3857, val_loss: 0.3894, ap: 0.9103
+12-01 13:22:57	# val_loss 0.0% loss=0.3659
+12-01 13:22:57	# val_loss 6.1% loss=0.4396
+12-01 13:22:57	# val_loss 12.1% loss=0.2974
+12-01 13:22:57	# val_loss 18.2% loss=0.3153
+12-01 13:22:57	# val_loss 24.2% loss=0.3997
+12-01 13:22:58	# val_loss 30.3% loss=0.3517
+12-01 13:22:58	# val_loss 36.4% loss=0.3714
+12-01 13:22:58	# val_loss 42.4% loss=0.3297
+12-01 13:22:58	# val_loss 48.5% loss=0.3007
+12-01 13:22:58	# val_loss 54.5% loss=0.4323
+12-01 13:22:58	# val_loss 60.6% loss=0.3367
+12-01 13:22:59	# val_loss 66.7% loss=0.3518
+12-01 13:22:59	# val_loss 72.7% loss=0.3571
+12-01 13:22:59	# val_loss 78.8% loss=0.4147
+12-01 13:22:59	# val_loss 84.8% loss=0.3724
+12-01 13:22:59	# val_loss 90.9% loss=0.4236
+12-01 13:22:59	# val_loss 97.0% loss=0.3164
+12-01 13:23:00	Epoch 38 / 200, train_loss: 0.3838, val_loss: 0.3840, ap: 0.9115
+12-01 13:26:10	# val_loss 0.0% loss=0.3794
+12-01 13:26:10	# val_loss 6.1% loss=0.3390
+12-01 13:26:10	# val_loss 12.1% loss=0.4083
+12-01 13:26:10	# val_loss 18.2% loss=0.3967
+12-01 13:26:10	# val_loss 24.2% loss=0.3233
+12-01 13:26:11	# val_loss 30.3% loss=0.3711
+12-01 13:26:11	# val_loss 36.4% loss=0.4144
+12-01 13:26:11	# val_loss 42.4% loss=0.4011
+12-01 13:26:11	# val_loss 48.5% loss=0.3422
+12-01 13:26:11	# val_loss 54.5% loss=0.4070
+12-01 13:26:11	# val_loss 60.6% loss=0.4298
+12-01 13:26:12	# val_loss 66.7% loss=0.3819
+12-01 13:26:12	# val_loss 72.7% loss=0.4220
+12-01 13:26:12	# val_loss 78.8% loss=0.3929
+12-01 13:26:12	# val_loss 84.8% loss=0.4062
+12-01 13:26:12	# val_loss 90.9% loss=0.3998
+12-01 13:26:13	# val_loss 97.0% loss=0.3765
+12-01 13:26:13	Epoch 39 / 200, train_loss: 0.3826, val_loss: 0.3771, ap: 0.9133
+12-01 13:29:23	# val_loss 0.0% loss=0.3857
+12-01 13:29:23	# val_loss 6.1% loss=0.4294
+12-01 13:29:23	# val_loss 12.1% loss=0.3940
+12-01 13:29:23	# val_loss 18.2% loss=0.5058
+12-01 13:29:23	# val_loss 24.2% loss=0.3948
+12-01 13:29:24	# val_loss 30.3% loss=0.4185
+12-01 13:29:24	# val_loss 36.4% loss=0.3661
+12-01 13:29:24	# val_loss 42.4% loss=0.4145
+12-01 13:29:24	# val_loss 48.5% loss=0.4342
+12-01 13:29:24	# val_loss 54.5% loss=0.4212
+12-01 13:29:24	# val_loss 60.6% loss=0.4518
+12-01 13:29:25	# val_loss 66.7% loss=0.3850
+12-01 13:29:25	# val_loss 72.7% loss=0.3889
+12-01 13:29:25	# val_loss 78.8% loss=0.4059
+12-01 13:29:25	# val_loss 84.8% loss=0.4190
+12-01 13:29:25	# val_loss 90.9% loss=0.3497
+12-01 13:29:25	# val_loss 97.0% loss=0.3911
+12-01 13:29:26	Epoch 40 / 200, train_loss: 0.3818, val_loss: 0.3864, ap: 0.9104
+12-01 13:32:40	# val_loss 0.0% loss=0.4286
+12-01 13:32:40	# val_loss 6.1% loss=0.3066
+12-01 13:32:40	# val_loss 12.1% loss=0.4243
+12-01 13:32:40	# val_loss 18.2% loss=0.4565
+12-01 13:32:40	# val_loss 24.2% loss=0.4319
+12-01 13:32:41	# val_loss 30.3% loss=0.3566
+12-01 13:32:41	# val_loss 36.4% loss=0.3096
+12-01 13:32:41	# val_loss 42.4% loss=0.3270
+12-01 13:32:41	# val_loss 48.5% loss=0.3568
+12-01 13:32:41	# val_loss 54.5% loss=0.3598
+12-01 13:32:41	# val_loss 60.6% loss=0.3926
+12-01 13:32:42	# val_loss 66.7% loss=0.4394
+12-01 13:32:42	# val_loss 72.7% loss=0.3729
+12-01 13:32:42	# val_loss 78.8% loss=0.3201
+12-01 13:32:42	# val_loss 84.8% loss=0.3042
+12-01 13:32:42	# val_loss 90.9% loss=0.4306
+12-01 13:32:42	# val_loss 97.0% loss=0.3596
+12-01 13:32:43	Epoch 41 / 200, train_loss: 0.3813, val_loss: 0.3810, ap: 0.9109
+12-01 13:35:54	# val_loss 0.0% loss=0.3938
+12-01 13:35:54	# val_loss 6.1% loss=0.4089
+12-01 13:35:54	# val_loss 12.1% loss=0.2941
+12-01 13:35:54	# val_loss 18.2% loss=0.3311
+12-01 13:35:54	# val_loss 24.2% loss=0.4056
+12-01 13:35:55	# val_loss 30.3% loss=0.4616
+12-01 13:35:55	# val_loss 36.4% loss=0.3323
+12-01 13:35:55	# val_loss 42.4% loss=0.4092
+12-01 13:35:55	# val_loss 48.5% loss=0.3768
+12-01 13:35:55	# val_loss 54.5% loss=0.4136
+12-01 13:35:56	# val_loss 60.6% loss=0.3697
+12-01 13:35:56	# val_loss 66.7% loss=0.3418
+12-01 13:35:56	# val_loss 72.7% loss=0.3348
+12-01 13:35:56	# val_loss 78.8% loss=0.3341
+12-01 13:35:56	# val_loss 84.8% loss=0.3935
+12-01 13:35:56	# val_loss 90.9% loss=0.4427
+12-01 13:35:57	# val_loss 97.0% loss=0.3058
+12-01 13:35:57	Epoch 42 / 200, train_loss: 0.3807, val_loss: 0.3701, ap: 0.9135
+12-01 13:39:07	# val_loss 0.0% loss=0.4589
+12-01 13:39:08	# val_loss 6.1% loss=0.3636
+12-01 13:39:08	# val_loss 12.1% loss=0.4250
+12-01 13:39:08	# val_loss 18.2% loss=0.3571
+12-01 13:39:08	# val_loss 24.2% loss=0.4033
+12-01 13:39:08	# val_loss 30.3% loss=0.3341
+12-01 13:39:08	# val_loss 36.4% loss=0.3340
+12-01 13:39:09	# val_loss 42.4% loss=0.4308
+12-01 13:39:09	# val_loss 48.5% loss=0.3323
+12-01 13:39:09	# val_loss 54.5% loss=0.3231
+12-01 13:39:09	# val_loss 60.6% loss=0.4552
+12-01 13:39:09	# val_loss 66.7% loss=0.3573
+12-01 13:39:09	# val_loss 72.7% loss=0.4431
+12-01 13:39:10	# val_loss 78.8% loss=0.4022
+12-01 13:39:10	# val_loss 84.8% loss=0.4530
+12-01 13:39:10	# val_loss 90.9% loss=0.4215
+12-01 13:39:10	# val_loss 97.0% loss=0.4318
+12-01 13:39:10	Epoch 43 / 200, train_loss: 0.3804, val_loss: 0.3840, ap: 0.9127
+12-01 13:42:20	# val_loss 0.0% loss=0.4328
+12-01 13:42:21	# val_loss 6.1% loss=0.4355
+12-01 13:42:21	# val_loss 12.1% loss=0.3707
+12-01 13:42:21	# val_loss 18.2% loss=0.4141
+12-01 13:42:21	# val_loss 24.2% loss=0.2944
+12-01 13:42:21	# val_loss 30.3% loss=0.4088
+12-01 13:42:21	# val_loss 36.4% loss=0.3584
+12-01 13:42:22	# val_loss 42.4% loss=0.3651
+12-01 13:42:22	# val_loss 48.5% loss=0.4003
+12-01 13:42:22	# val_loss 54.5% loss=0.4251
+12-01 13:42:22	# val_loss 60.6% loss=0.3677
+12-01 13:42:22	# val_loss 66.7% loss=0.3047
+12-01 13:42:23	# val_loss 72.7% loss=0.5082
+12-01 13:42:23	# val_loss 78.8% loss=0.3876
+12-01 13:42:23	# val_loss 84.8% loss=0.3760
+12-01 13:42:23	# val_loss 90.9% loss=0.3658
+12-01 13:42:23	# val_loss 97.0% loss=0.3352
+12-01 13:42:23	Epoch 44 / 200, train_loss: 0.3795, val_loss: 0.3933, ap: 0.9108
+12-01 13:47:48	# val_loss 0.0% loss=0.3612
+12-01 13:47:48	# val_loss 6.1% loss=0.4198
+12-01 13:47:48	# val_loss 12.1% loss=0.3271
+12-01 13:47:48	# val_loss 18.2% loss=0.3687
+12-01 13:47:48	# val_loss 24.2% loss=0.4248
+12-01 13:47:49	# val_loss 30.3% loss=0.3900
+12-01 13:47:49	# val_loss 36.4% loss=0.3402
+12-01 13:47:49	# val_loss 42.4% loss=0.4011
+12-01 13:47:49	# val_loss 48.5% loss=0.4188
+12-01 13:47:49	# val_loss 54.5% loss=0.4023
+12-01 13:47:49	# val_loss 60.6% loss=0.3827
+12-01 13:47:50	# val_loss 66.7% loss=0.3788
+12-01 13:47:50	# val_loss 72.7% loss=0.3911
+12-01 13:47:50	# val_loss 78.8% loss=0.4288
+12-01 13:47:50	# val_loss 84.8% loss=0.3780
+12-01 13:47:50	# val_loss 90.9% loss=0.3811
+12-01 13:47:50	# val_loss 97.0% loss=0.3530
+12-01 13:47:51	Epoch 45 / 200, train_loss: 0.3795, val_loss: 0.3702, ap: 0.9116
+12-01 13:51:00	# val_loss 0.0% loss=0.4765
+12-01 13:51:00	# val_loss 6.1% loss=0.3408
+12-01 13:51:01	# val_loss 12.1% loss=0.3729
+12-01 13:51:01	# val_loss 18.2% loss=0.4418
+12-01 13:51:01	# val_loss 24.2% loss=0.3466
+12-01 13:51:01	# val_loss 30.3% loss=0.2744
+12-01 13:51:01	# val_loss 36.4% loss=0.4689
+12-01 13:51:01	# val_loss 42.4% loss=0.3070
+12-01 13:51:02	# val_loss 48.5% loss=0.4263
+12-01 13:51:02	# val_loss 54.5% loss=0.3995
+12-01 13:51:02	# val_loss 60.6% loss=0.4793
+12-01 13:51:02	# val_loss 66.7% loss=0.4384
+12-01 13:51:02	# val_loss 72.7% loss=0.3519
+12-01 13:51:03	# val_loss 78.8% loss=0.3101
+12-01 13:51:03	# val_loss 84.8% loss=0.3689
+12-01 13:51:03	# val_loss 90.9% loss=0.3525
+12-01 13:51:03	# val_loss 97.0% loss=0.3720
+12-01 13:51:03	Epoch 46 / 200, train_loss: 0.3779, val_loss: 0.3779, ap: 0.9123
+12-01 14:05:16	# val_loss 0.0% loss=0.3782
+12-01 14:05:16	# val_loss 6.1% loss=0.3582
+12-01 14:05:16	# val_loss 12.1% loss=0.3967
+12-01 14:05:17	# val_loss 18.2% loss=0.3572
+12-01 14:05:17	# val_loss 24.2% loss=0.3707
+12-01 14:05:17	# val_loss 30.3% loss=0.3752
+12-01 14:05:17	# val_loss 36.4% loss=0.2798
+12-01 14:05:17	# val_loss 42.4% loss=0.3847
+12-01 14:05:17	# val_loss 48.5% loss=0.4104
+12-01 14:05:18	# val_loss 54.5% loss=0.3827
+12-01 14:05:18	# val_loss 60.6% loss=0.3918
+12-01 14:05:18	# val_loss 66.7% loss=0.3859
+12-01 14:05:18	# val_loss 72.7% loss=0.4054
+12-01 14:05:18	# val_loss 78.8% loss=0.3793
+12-01 14:05:18	# val_loss 84.8% loss=0.3023
+12-01 14:05:19	# val_loss 90.9% loss=0.3961
+12-01 14:05:19	# val_loss 97.0% loss=0.3918
+12-01 14:05:19	Epoch 47 / 200, train_loss: 0.3777, val_loss: 0.3818, ap: 0.9142
+12-01 14:08:29	# val_loss 0.0% loss=0.4131
+12-01 14:08:29	# val_loss 6.1% loss=0.4093
+12-01 14:08:30	# val_loss 12.1% loss=0.4368
+12-01 14:08:30	# val_loss 18.2% loss=0.3897
+12-01 14:08:30	# val_loss 24.2% loss=0.4418
+12-01 14:08:30	# val_loss 30.3% loss=0.3749
+12-01 14:08:30	# val_loss 36.4% loss=0.3276
+12-01 14:08:30	# val_loss 42.4% loss=0.3573
+12-01 14:08:31	# val_loss 48.5% loss=0.4208
+12-01 14:08:31	# val_loss 54.5% loss=0.3786
+12-01 14:08:31	# val_loss 60.6% loss=0.3496
+12-01 14:08:31	# val_loss 66.7% loss=0.3448
+12-01 14:08:31	# val_loss 72.7% loss=0.3423
+12-01 14:08:31	# val_loss 78.8% loss=0.4029
+12-01 14:08:32	# val_loss 84.8% loss=0.3405
+12-01 14:08:32	# val_loss 90.9% loss=0.3936
+12-01 14:08:32	# val_loss 97.0% loss=0.3664
+12-01 14:08:32	Epoch 48 / 200, train_loss: 0.3776, val_loss: 0.3826, ap: 0.9123
+12-01 14:11:42	# val_loss 0.0% loss=0.3383
+12-01 14:11:42	# val_loss 6.1% loss=0.4311
+12-01 14:11:43	# val_loss 12.1% loss=0.3464
+12-01 14:11:43	# val_loss 18.2% loss=0.4317
+12-01 14:11:43	# val_loss 24.2% loss=0.3918
+12-01 14:11:43	# val_loss 30.3% loss=0.3815
+12-01 14:11:43	# val_loss 36.4% loss=0.4172
+12-01 14:11:43	# val_loss 42.4% loss=0.4105
+12-01 14:11:44	# val_loss 48.5% loss=0.3953
+12-01 14:11:44	# val_loss 54.5% loss=0.3971
+12-01 14:11:44	# val_loss 60.6% loss=0.4268
+12-01 14:11:44	# val_loss 66.7% loss=0.4730
+12-01 14:11:44	# val_loss 72.7% loss=0.3910
+12-01 14:11:44	# val_loss 78.8% loss=0.3973
+12-01 14:11:45	# val_loss 84.8% loss=0.3938
+12-01 14:11:45	# val_loss 90.9% loss=0.3221
+12-01 14:11:45	# val_loss 97.0% loss=0.4006
+12-01 14:11:45	Epoch 49 / 200, train_loss: 0.3770, val_loss: 0.3872, ap: 0.9127
+12-01 14:14:56	# val_loss 0.0% loss=0.4251
+12-01 14:14:56	# val_loss 6.1% loss=0.4132
+12-01 14:14:56	# val_loss 12.1% loss=0.3699
+12-01 14:14:56	# val_loss 18.2% loss=0.3943
+12-01 14:14:56	# val_loss 24.2% loss=0.3537
+12-01 14:14:57	# val_loss 30.3% loss=0.3729
+12-01 14:14:57	# val_loss 36.4% loss=0.4345
+12-01 14:14:57	# val_loss 42.4% loss=0.3213
+12-01 14:14:57	# val_loss 48.5% loss=0.3589
+12-01 14:14:57	# val_loss 54.5% loss=0.3773
+12-01 14:14:57	# val_loss 60.6% loss=0.3415
+12-01 14:14:58	# val_loss 66.7% loss=0.3871
+12-01 14:14:58	# val_loss 72.7% loss=0.3548
+12-01 14:14:58	# val_loss 78.8% loss=0.3642
+12-01 14:14:58	# val_loss 84.8% loss=0.3810
+12-01 14:14:58	# val_loss 90.9% loss=0.4402
+12-01 14:14:59	# val_loss 97.0% loss=0.3757
+12-01 14:14:59	Epoch 50 / 200, train_loss: 0.3766, val_loss: 0.3735, ap: 0.9153
+12-01 14:18:09	# val_loss 0.0% loss=0.3888
+12-01 14:18:09	# val_loss 6.1% loss=0.3888
+12-01 14:18:09	# val_loss 12.1% loss=0.4017
+12-01 14:18:09	# val_loss 18.2% loss=0.3065
+12-01 14:18:09	# val_loss 24.2% loss=0.4064
+12-01 14:18:10	# val_loss 30.3% loss=0.4365
+12-01 14:18:10	# val_loss 36.4% loss=0.3415
+12-01 14:18:10	# val_loss 42.4% loss=0.3588
+12-01 14:18:10	# val_loss 48.5% loss=0.3232
+12-01 14:18:10	# val_loss 54.5% loss=0.4273
+12-01 14:18:11	# val_loss 60.6% loss=0.3174
+12-01 14:18:11	# val_loss 66.7% loss=0.4570
+12-01 14:18:11	# val_loss 72.7% loss=0.3415
+12-01 14:18:11	# val_loss 78.8% loss=0.3912
+12-01 14:18:11	# val_loss 84.8% loss=0.4687
+12-01 14:18:11	# val_loss 90.9% loss=0.4059
+12-01 14:18:12	# val_loss 97.0% loss=0.3280
+12-01 14:18:12	Epoch 51 / 200, train_loss: 0.3760, val_loss: 0.3738, ap: 0.9143
+12-01 14:21:22	# val_loss 0.0% loss=0.3286
+12-01 14:21:23	# val_loss 6.1% loss=0.3659
+12-01 14:21:23	# val_loss 12.1% loss=0.3536
+12-01 14:21:23	# val_loss 18.2% loss=0.3229
+12-01 14:21:23	# val_loss 24.2% loss=0.2910
+12-01 14:21:23	# val_loss 30.3% loss=0.3859
+12-01 14:21:23	# val_loss 36.4% loss=0.3271
+12-01 14:21:24	# val_loss 42.4% loss=0.3950
+12-01 14:21:24	# val_loss 48.5% loss=0.3271
+12-01 14:21:24	# val_loss 54.5% loss=0.3930
+12-01 14:21:24	# val_loss 60.6% loss=0.3310
+12-01 14:21:24	# val_loss 66.7% loss=0.3162
+12-01 14:21:25	# val_loss 72.7% loss=0.4057
+12-01 14:21:25	# val_loss 78.8% loss=0.3722
+12-01 14:21:25	# val_loss 84.8% loss=0.3560
+12-01 14:21:25	# val_loss 90.9% loss=0.3327
+12-01 14:21:25	# val_loss 97.0% loss=0.3239
+12-01 14:21:25	Epoch 52 / 200, train_loss: 0.3751, val_loss: 0.3632, ap: 0.9163
+12-01 14:24:35	# val_loss 0.0% loss=0.3876
+12-01 14:24:35	# val_loss 6.1% loss=0.3935
+12-01 14:24:36	# val_loss 12.1% loss=0.3719
+12-01 14:24:36	# val_loss 18.2% loss=0.4101
+12-01 14:24:36	# val_loss 24.2% loss=0.4226
+12-01 14:24:36	# val_loss 30.3% loss=0.3494
+12-01 14:24:36	# val_loss 36.4% loss=0.3915
+12-01 14:24:36	# val_loss 42.4% loss=0.3687
+12-01 14:24:37	# val_loss 48.5% loss=0.3831
+12-01 14:24:37	# val_loss 54.5% loss=0.3430
+12-01 14:24:37	# val_loss 60.6% loss=0.3331
+12-01 14:24:37	# val_loss 66.7% loss=0.3078
+12-01 14:24:37	# val_loss 72.7% loss=0.3497
+12-01 14:24:37	# val_loss 78.8% loss=0.4329
+12-01 14:24:38	# val_loss 84.8% loss=0.3731
+12-01 14:24:38	# val_loss 90.9% loss=0.3026
+12-01 14:24:38	# val_loss 97.0% loss=0.3718
+12-01 14:24:38	Epoch 53 / 200, train_loss: 0.3757, val_loss: 0.3720, ap: 0.9135
+12-01 14:27:48	# val_loss 0.0% loss=0.4115
+12-01 14:27:48	# val_loss 6.1% loss=0.3946
+12-01 14:27:48	# val_loss 12.1% loss=0.3699
+12-01 14:27:48	# val_loss 18.2% loss=0.3356
+12-01 14:27:49	# val_loss 24.2% loss=0.3953
+12-01 14:27:49	# val_loss 30.3% loss=0.3554
+12-01 14:27:49	# val_loss 36.4% loss=0.3674
+12-01 14:27:49	# val_loss 42.4% loss=0.4177
+12-01 14:27:49	# val_loss 48.5% loss=0.4171
+12-01 14:27:49	# val_loss 54.5% loss=0.3326
+12-01 14:27:50	# val_loss 60.6% loss=0.3818
+12-01 14:27:50	# val_loss 66.7% loss=0.4239
+12-01 14:27:50	# val_loss 72.7% loss=0.3623
+12-01 14:27:50	# val_loss 78.8% loss=0.3883
+12-01 14:27:50	# val_loss 84.8% loss=0.3645
+12-01 14:27:50	# val_loss 90.9% loss=0.4291
+12-01 14:27:51	# val_loss 97.0% loss=0.3891
+12-01 14:27:51	Epoch 54 / 200, train_loss: 0.3749, val_loss: 0.3782, ap: 0.9115
+12-01 14:31:04	# val_loss 0.0% loss=0.4161
+12-01 14:31:04	# val_loss 6.1% loss=0.3942
+12-01 14:31:04	# val_loss 12.1% loss=0.3213
+12-01 14:31:05	# val_loss 18.2% loss=0.3765
+12-01 14:31:05	# val_loss 24.2% loss=0.3189
+12-01 14:31:05	# val_loss 30.3% loss=0.3126
+12-01 14:31:05	# val_loss 36.4% loss=0.3811
+12-01 14:31:05	# val_loss 42.4% loss=0.3501
+12-01 14:31:05	# val_loss 48.5% loss=0.3969
+12-01 14:31:06	# val_loss 54.5% loss=0.3194
+12-01 14:31:06	# val_loss 60.6% loss=0.3771
+12-01 14:31:06	# val_loss 66.7% loss=0.4144
+12-01 14:31:06	# val_loss 72.7% loss=0.3500
+12-01 14:31:06	# val_loss 78.8% loss=0.3454
+12-01 14:31:07	# val_loss 84.8% loss=0.4261
+12-01 14:31:07	# val_loss 90.9% loss=0.4459
+12-01 14:31:07	# val_loss 97.0% loss=0.3574
+12-01 14:31:07	Epoch 55 / 200, train_loss: 0.3738, val_loss: 0.3798, ap: 0.9144
+12-01 14:34:18	# val_loss 0.0% loss=0.3402
+12-01 14:34:18	# val_loss 6.1% loss=0.3384
+12-01 14:34:18	# val_loss 12.1% loss=0.3899
+12-01 14:34:18	# val_loss 18.2% loss=0.3411
+12-01 14:34:19	# val_loss 24.2% loss=0.3394
+12-01 14:34:19	# val_loss 30.3% loss=0.3650
+12-01 14:34:19	# val_loss 36.4% loss=0.4731
+12-01 14:34:19	# val_loss 42.4% loss=0.3586
+12-01 14:34:19	# val_loss 48.5% loss=0.3529
+12-01 14:34:20	# val_loss 54.5% loss=0.3210
+12-01 14:34:20	# val_loss 60.6% loss=0.4237
+12-01 14:34:20	# val_loss 66.7% loss=0.4145
+12-01 14:34:20	# val_loss 72.7% loss=0.3795
+12-01 14:34:20	# val_loss 78.8% loss=0.4464
+12-01 14:34:20	# val_loss 84.8% loss=0.4041
+12-01 14:34:21	# val_loss 90.9% loss=0.2843
+12-01 14:34:21	# val_loss 97.0% loss=0.4414
+12-01 14:34:21	Epoch 56 / 200, train_loss: 0.3739, val_loss: 0.3756, ap: 0.9135
+12-01 14:37:32	# val_loss 0.0% loss=0.3390
+12-01 14:37:32	# val_loss 6.1% loss=0.3329
+12-01 14:37:32	# val_loss 12.1% loss=0.3738
+12-01 14:37:32	# val_loss 18.2% loss=0.3262
+12-01 14:37:32	# val_loss 24.2% loss=0.3763
+12-01 14:37:33	# val_loss 30.3% loss=0.3570
+12-01 14:37:33	# val_loss 36.4% loss=0.3563
+12-01 14:37:33	# val_loss 42.4% loss=0.3837
+12-01 14:37:33	# val_loss 48.5% loss=0.4701
+12-01 14:37:33	# val_loss 54.5% loss=0.3119
+12-01 14:37:34	# val_loss 60.6% loss=0.3897
+12-01 14:37:34	# val_loss 66.7% loss=0.3888
+12-01 14:37:34	# val_loss 72.7% loss=0.3377
+12-01 14:37:34	# val_loss 78.8% loss=0.3841
+12-01 14:37:34	# val_loss 84.8% loss=0.3227
+12-01 14:37:34	# val_loss 90.9% loss=0.3755
+12-01 14:37:35	# val_loss 97.0% loss=0.4144
+12-01 14:37:35	Epoch 57 / 200, train_loss: 0.3738, val_loss: 0.3799, ap: 0.9152
+12-01 14:40:46	# val_loss 0.0% loss=0.4422
+12-01 14:40:46	# val_loss 6.1% loss=0.3407
+12-01 14:40:46	# val_loss 12.1% loss=0.3672
+12-01 14:40:46	# val_loss 18.2% loss=0.3059
+12-01 14:40:46	# val_loss 24.2% loss=0.2999
+12-01 14:40:47	# val_loss 30.3% loss=0.3384
+12-01 14:40:47	# val_loss 36.4% loss=0.4205
+12-01 14:40:47	# val_loss 42.4% loss=0.3159
+12-01 14:40:47	# val_loss 48.5% loss=0.3780
+12-01 14:40:47	# val_loss 54.5% loss=0.3694
+12-01 14:40:47	# val_loss 60.6% loss=0.4262
+12-01 14:40:48	# val_loss 66.7% loss=0.3109
+12-01 14:40:48	# val_loss 72.7% loss=0.3697
+12-01 14:40:48	# val_loss 78.8% loss=0.3387
+12-01 14:40:48	# val_loss 84.8% loss=0.4134
+12-01 14:40:48	# val_loss 90.9% loss=0.3408
+12-01 14:40:48	# val_loss 97.0% loss=0.3775
+12-01 14:40:49	Epoch 58 / 200, train_loss: 0.3728, val_loss: 0.3752, ap: 0.9170
+12-01 14:43:59	# val_loss 0.0% loss=0.3843
+12-01 14:43:59	# val_loss 6.1% loss=0.3784
+12-01 14:43:59	# val_loss 12.1% loss=0.3573
+12-01 14:43:59	# val_loss 18.2% loss=0.3612
+12-01 14:43:59	# val_loss 24.2% loss=0.3614
+12-01 14:44:00	# val_loss 30.3% loss=0.4336
+12-01 14:44:00	# val_loss 36.4% loss=0.4035
+12-01 14:44:00	# val_loss 42.4% loss=0.3546
+12-01 14:44:00	# val_loss 48.5% loss=0.3688
+12-01 14:44:00	# val_loss 54.5% loss=0.3632
+12-01 14:44:00	# val_loss 60.6% loss=0.4190
+12-01 14:44:01	# val_loss 66.7% loss=0.4413
+12-01 14:44:01	# val_loss 72.7% loss=0.4281
+12-01 14:44:01	# val_loss 78.8% loss=0.3641
+12-01 14:44:01	# val_loss 84.8% loss=0.3790
+12-01 14:44:01	# val_loss 90.9% loss=0.3887
+12-01 14:44:01	# val_loss 97.0% loss=0.3870
+12-01 14:44:02	Epoch 59 / 200, train_loss: 0.3734, val_loss: 0.3791, ap: 0.9139
+12-01 14:47:11	# val_loss 0.0% loss=0.3415
+12-01 14:47:11	# val_loss 6.1% loss=0.3054
+12-01 14:47:12	# val_loss 12.1% loss=0.3557
+12-01 14:47:12	# val_loss 18.2% loss=0.4134
+12-01 14:47:12	# val_loss 24.2% loss=0.3266
+12-01 14:47:12	# val_loss 30.3% loss=0.3721
+12-01 14:47:12	# val_loss 36.4% loss=0.3902
+12-01 14:47:12	# val_loss 42.4% loss=0.3931
+12-01 14:47:13	# val_loss 48.5% loss=0.3384
+12-01 14:47:13	# val_loss 54.5% loss=0.4210
+12-01 14:47:13	# val_loss 60.6% loss=0.4047
+12-01 14:47:13	# val_loss 66.7% loss=0.4477
+12-01 14:47:13	# val_loss 72.7% loss=0.2929
+12-01 14:47:13	# val_loss 78.8% loss=0.3719
+12-01 14:47:14	# val_loss 84.8% loss=0.3546
+12-01 14:47:14	# val_loss 90.9% loss=0.4365
+12-01 14:47:14	# val_loss 97.0% loss=0.3734
+12-01 14:47:14	Epoch 60 / 200, train_loss: 0.3729, val_loss: 0.3722, ap: 0.9165
+12-01 14:50:24	# val_loss 0.0% loss=0.4171
+12-01 14:50:24	# val_loss 6.1% loss=0.4281
+12-01 14:50:24	# val_loss 12.1% loss=0.4453
+12-01 14:50:24	# val_loss 18.2% loss=0.3342
+12-01 14:50:24	# val_loss 24.2% loss=0.4101
+12-01 14:50:24	# val_loss 30.3% loss=0.3109
+12-01 14:50:25	# val_loss 36.4% loss=0.3698
+12-01 14:50:25	# val_loss 42.4% loss=0.3881
+12-01 14:50:25	# val_loss 48.5% loss=0.3898
+12-01 14:50:25	# val_loss 54.5% loss=0.4232
+12-01 14:50:25	# val_loss 60.6% loss=0.3094
+12-01 14:50:25	# val_loss 66.7% loss=0.3846
+12-01 14:50:26	# val_loss 72.7% loss=0.3502
+12-01 14:50:26	# val_loss 78.8% loss=0.3780
+12-01 14:50:26	# val_loss 84.8% loss=0.3508
+12-01 14:50:26	# val_loss 90.9% loss=0.3197
+12-01 14:50:26	# val_loss 97.0% loss=0.3407
+12-01 14:50:26	Epoch 61 / 200, train_loss: 0.3718, val_loss: 0.3755, ap: 0.9158
+12-01 14:53:36	# val_loss 0.0% loss=0.3574
+12-01 14:53:36	# val_loss 6.1% loss=0.4005
+12-01 14:53:36	# val_loss 12.1% loss=0.4441
+12-01 14:53:37	# val_loss 18.2% loss=0.3954
+12-01 14:53:37	# val_loss 24.2% loss=0.4161
+12-01 14:53:37	# val_loss 30.3% loss=0.3550
+12-01 14:53:37	# val_loss 36.4% loss=0.3376
+12-01 14:53:37	# val_loss 42.4% loss=0.4179
+12-01 14:53:38	# val_loss 48.5% loss=0.3889
+12-01 14:53:38	# val_loss 54.5% loss=0.3168
+12-01 14:53:38	# val_loss 60.6% loss=0.4301
+12-01 14:53:38	# val_loss 66.7% loss=0.4861
+12-01 14:53:38	# val_loss 72.7% loss=0.3015
+12-01 14:53:38	# val_loss 78.8% loss=0.4024
+12-01 14:53:39	# val_loss 84.8% loss=0.3390
+12-01 14:53:39	# val_loss 90.9% loss=0.3582
+12-01 14:53:39	# val_loss 97.0% loss=0.3338
+12-01 14:53:39	Epoch 62 / 200, train_loss: 0.3718, val_loss: 0.3758, ap: 0.9163
+12-01 14:56:49	# val_loss 0.0% loss=0.2903
+12-01 14:56:49	# val_loss 6.1% loss=0.3514
+12-01 14:56:49	# val_loss 12.1% loss=0.4302
+12-01 14:56:49	# val_loss 18.2% loss=0.3754
+12-01 14:56:49	# val_loss 24.2% loss=0.3829
+12-01 14:56:49	# val_loss 30.3% loss=0.4270
+12-01 14:56:50	# val_loss 36.4% loss=0.4051
+12-01 14:56:50	# val_loss 42.4% loss=0.3540
+12-01 14:56:50	# val_loss 48.5% loss=0.4080
+12-01 14:56:50	# val_loss 54.5% loss=0.3319
+12-01 14:56:50	# val_loss 60.6% loss=0.3785
+12-01 14:56:50	# val_loss 66.7% loss=0.3768
+12-01 14:56:51	# val_loss 72.7% loss=0.3302
+12-01 14:56:51	# val_loss 78.8% loss=0.4029
+12-01 14:56:51	# val_loss 84.8% loss=0.3730
+12-01 14:56:51	# val_loss 90.9% loss=0.3458
+12-01 14:56:51	# val_loss 97.0% loss=0.3281
+12-01 14:56:51	Epoch 63 / 200, train_loss: 0.3714, val_loss: 0.3784, ap: 0.9156
+12-01 15:00:05	# val_loss 0.0% loss=0.4694
+12-01 15:00:05	# val_loss 6.1% loss=0.4535
+12-01 15:00:05	# val_loss 12.1% loss=0.3584
+12-01 15:00:05	# val_loss 18.2% loss=0.4206
+12-01 15:00:05	# val_loss 24.2% loss=0.3592
+12-01 15:00:06	# val_loss 30.3% loss=0.4041
+12-01 15:00:06	# val_loss 36.4% loss=0.3771
+12-01 15:00:06	# val_loss 42.4% loss=0.4335
+12-01 15:00:06	# val_loss 48.5% loss=0.4009
+12-01 15:00:06	# val_loss 54.5% loss=0.3758
+12-01 15:00:06	# val_loss 60.6% loss=0.3051
+12-01 15:00:07	# val_loss 66.7% loss=0.3302
+12-01 15:00:07	# val_loss 72.7% loss=0.3809
+12-01 15:00:07	# val_loss 78.8% loss=0.3638
+12-01 15:00:07	# val_loss 84.8% loss=0.4538
+12-01 15:00:07	# val_loss 90.9% loss=0.3943
+12-01 15:00:08	# val_loss 97.0% loss=0.3595
+12-01 15:00:08	Epoch 64 / 200, train_loss: 0.3714, val_loss: 0.3893, ap: 0.9150
+12-01 15:03:22	# val_loss 0.0% loss=0.3790
+12-01 15:03:22	# val_loss 6.1% loss=0.3288
+12-01 15:03:22	# val_loss 12.1% loss=0.3845
+12-01 15:03:22	# val_loss 18.2% loss=0.4030
+12-01 15:03:22	# val_loss 24.2% loss=0.4335
+12-01 15:03:23	# val_loss 30.3% loss=0.3418
+12-01 15:03:23	# val_loss 36.4% loss=0.3857
+12-01 15:03:23	# val_loss 42.4% loss=0.3458
+12-01 15:03:23	# val_loss 48.5% loss=0.3338
+12-01 15:03:23	# val_loss 54.5% loss=0.3321
+12-01 15:03:23	# val_loss 60.6% loss=0.3999
+12-01 15:03:24	# val_loss 66.7% loss=0.3581
+12-01 15:03:24	# val_loss 72.7% loss=0.4182
+12-01 15:03:24	# val_loss 78.8% loss=0.4205
+12-01 15:03:24	# val_loss 84.8% loss=0.3861
+12-01 15:03:24	# val_loss 90.9% loss=0.3340
+12-01 15:03:24	# val_loss 97.0% loss=0.4358
+12-01 15:03:25	Epoch 65 / 200, train_loss: 0.3705, val_loss: 0.3758, ap: 0.9174
+12-01 15:06:36	# val_loss 0.0% loss=0.3477
+12-01 15:06:36	# val_loss 6.1% loss=0.3748
+12-01 15:06:37	# val_loss 12.1% loss=0.4406
+12-01 15:06:37	# val_loss 18.2% loss=0.3984
+12-01 15:06:37	# val_loss 24.2% loss=0.3514
+12-01 15:06:37	# val_loss 30.3% loss=0.3479
+12-01 15:06:37	# val_loss 36.4% loss=0.3883
+12-01 15:06:37	# val_loss 42.4% loss=0.3497
+12-01 15:06:38	# val_loss 48.5% loss=0.3460
+12-01 15:06:38	# val_loss 54.5% loss=0.4091
+12-01 15:06:38	# val_loss 60.6% loss=0.3449
+12-01 15:06:38	# val_loss 66.7% loss=0.4070
+12-01 15:06:38	# val_loss 72.7% loss=0.3201
+12-01 15:06:39	# val_loss 78.8% loss=0.4006
+12-01 15:06:39	# val_loss 84.8% loss=0.4062
+12-01 15:06:39	# val_loss 90.9% loss=0.2894
+12-01 15:06:39	# val_loss 97.0% loss=0.3232
+12-01 15:06:39	Epoch 66 / 200, train_loss: 0.3710, val_loss: 0.3619, ap: 0.9177
+12-01 15:09:50	# val_loss 0.0% loss=0.3764
+12-01 15:09:50	# val_loss 6.1% loss=0.3255
+12-01 15:09:50	# val_loss 12.1% loss=0.3596
+12-01 15:09:51	# val_loss 18.2% loss=0.3999
+12-01 15:09:51	# val_loss 24.2% loss=0.4009
+12-01 15:09:51	# val_loss 30.3% loss=0.3561
+12-01 15:09:51	# val_loss 36.4% loss=0.3429
+12-01 15:09:51	# val_loss 42.4% loss=0.4384
+12-01 15:09:52	# val_loss 48.5% loss=0.3458
+12-01 15:09:52	# val_loss 54.5% loss=0.2759
+12-01 15:09:52	# val_loss 60.6% loss=0.3431
+12-01 15:09:52	# val_loss 66.7% loss=0.2780
+12-01 15:09:52	# val_loss 72.7% loss=0.3550
+12-01 15:09:52	# val_loss 78.8% loss=0.3367
+12-01 15:09:53	# val_loss 84.8% loss=0.3856
+12-01 15:09:53	# val_loss 90.9% loss=0.3704
+12-01 15:09:53	# val_loss 97.0% loss=0.3141
+12-01 15:09:53	Epoch 67 / 200, train_loss: 0.3706, val_loss: 0.3665, ap: 0.9175
+12-01 15:13:03	# val_loss 0.0% loss=0.3056
+12-01 15:13:03	# val_loss 6.1% loss=0.3355
+12-01 15:13:04	# val_loss 12.1% loss=0.3882
+12-01 15:13:04	# val_loss 18.2% loss=0.3821
+12-01 15:13:04	# val_loss 24.2% loss=0.3522
+12-01 15:13:04	# val_loss 30.3% loss=0.3907
+12-01 15:13:04	# val_loss 36.4% loss=0.3787
+12-01 15:13:04	# val_loss 42.4% loss=0.3882
+12-01 15:13:05	# val_loss 48.5% loss=0.3479
+12-01 15:13:05	# val_loss 54.5% loss=0.3208
+12-01 15:13:05	# val_loss 60.6% loss=0.3772
+12-01 15:13:05	# val_loss 66.7% loss=0.4192
+12-01 15:13:05	# val_loss 72.7% loss=0.3277
+12-01 15:13:06	# val_loss 78.8% loss=0.3368
+12-01 15:13:06	# val_loss 84.8% loss=0.3848
+12-01 15:13:06	# val_loss 90.9% loss=0.4217
+12-01 15:13:06	# val_loss 97.0% loss=0.3917
+12-01 15:13:06	Epoch 68 / 200, train_loss: 0.3697, val_loss: 0.3727, ap: 0.9176
+12-01 15:16:17	# val_loss 0.0% loss=0.4478
+12-01 15:16:17	# val_loss 6.1% loss=0.3797
+12-01 15:16:17	# val_loss 12.1% loss=0.4376
+12-01 15:16:17	# val_loss 18.2% loss=0.3304
+12-01 15:16:18	# val_loss 24.2% loss=0.4293
+12-01 15:16:18	# val_loss 30.3% loss=0.4415
+12-01 15:16:18	# val_loss 36.4% loss=0.3245
+12-01 15:16:18	# val_loss 42.4% loss=0.3334
+12-01 15:16:18	# val_loss 48.5% loss=0.4194
+12-01 15:16:18	# val_loss 54.5% loss=0.3477
+12-01 15:16:19	# val_loss 60.6% loss=0.3037
+12-01 15:16:19	# val_loss 66.7% loss=0.3377
+12-01 15:16:19	# val_loss 72.7% loss=0.4017
+12-01 15:16:19	# val_loss 78.8% loss=0.4054
+12-01 15:16:19	# val_loss 84.8% loss=0.3312
+12-01 15:16:19	# val_loss 90.9% loss=0.3960
+12-01 15:16:20	# val_loss 97.0% loss=0.3900
+12-01 15:16:20	Epoch 69 / 200, train_loss: 0.3695, val_loss: 0.3770, ap: 0.9169
+12-01 15:19:31	# val_loss 0.0% loss=0.4234
+12-01 15:19:32	# val_loss 6.1% loss=0.4343
+12-01 15:19:32	# val_loss 12.1% loss=0.4432
+12-01 15:19:32	# val_loss 18.2% loss=0.4141
+12-01 15:19:32	# val_loss 24.2% loss=0.3489
+12-01 15:19:32	# val_loss 30.3% loss=0.3074
+12-01 15:19:32	# val_loss 36.4% loss=0.3744
+12-01 15:19:33	# val_loss 42.4% loss=0.3477
+12-01 15:19:33	# val_loss 48.5% loss=0.4313
+12-01 15:19:33	# val_loss 54.5% loss=0.3592
+12-01 15:19:33	# val_loss 60.6% loss=0.3572
+12-01 15:19:33	# val_loss 66.7% loss=0.3849
+12-01 15:19:33	# val_loss 72.7% loss=0.3706
+12-01 15:19:34	# val_loss 78.8% loss=0.3131
+12-01 15:19:34	# val_loss 84.8% loss=0.3357
+12-01 15:19:34	# val_loss 90.9% loss=0.4047
+12-01 15:19:34	# val_loss 97.0% loss=0.2946
+12-01 15:19:34	Epoch 70 / 200, train_loss: 0.3695, val_loss: 0.3873, ap: 0.9164
+12-01 15:22:45	# val_loss 0.0% loss=0.3852
+12-01 15:22:45	# val_loss 6.1% loss=0.3489
+12-01 15:22:46	# val_loss 12.1% loss=0.3678
+12-01 15:22:46	# val_loss 18.2% loss=0.4168
+12-01 15:22:46	# val_loss 24.2% loss=0.3351
+12-01 15:22:46	# val_loss 30.3% loss=0.4076
+12-01 15:22:46	# val_loss 36.4% loss=0.4022
+12-01 15:22:46	# val_loss 42.4% loss=0.3093
+12-01 15:22:47	# val_loss 48.5% loss=0.2929
+12-01 15:22:47	# val_loss 54.5% loss=0.3941
+12-01 15:22:47	# val_loss 60.6% loss=0.3421
+12-01 15:22:47	# val_loss 66.7% loss=0.3830
+12-01 15:22:47	# val_loss 72.7% loss=0.3779
+12-01 15:22:47	# val_loss 78.8% loss=0.4346
+12-01 15:22:48	# val_loss 84.8% loss=0.4359
+12-01 15:22:48	# val_loss 90.9% loss=0.4078
+12-01 15:22:48	# val_loss 97.0% loss=0.3213
+12-01 15:22:48	Epoch 71 / 200, train_loss: 0.3688, val_loss: 0.3703, ap: 0.9175
+12-01 15:25:59	# val_loss 0.0% loss=0.4072
+12-01 15:25:59	# val_loss 6.1% loss=0.3977
+12-01 15:26:00	# val_loss 12.1% loss=0.3170
+12-01 15:26:00	# val_loss 18.2% loss=0.3863
+12-01 15:26:00	# val_loss 24.2% loss=0.3426
+12-01 15:26:00	# val_loss 30.3% loss=0.3087
+12-01 15:26:00	# val_loss 36.4% loss=0.2989
+12-01 15:26:00	# val_loss 42.4% loss=0.3473
+12-01 15:26:01	# val_loss 48.5% loss=0.2941
+12-01 15:26:01	# val_loss 54.5% loss=0.4044
+12-01 15:26:01	# val_loss 60.6% loss=0.3175
+12-01 15:26:01	# val_loss 66.7% loss=0.3954
+12-01 15:26:01	# val_loss 72.7% loss=0.3583
+12-01 15:26:01	# val_loss 78.8% loss=0.4202
+12-01 15:26:02	# val_loss 84.8% loss=0.3346
+12-01 15:26:02	# val_loss 90.9% loss=0.3295
+12-01 15:26:02	# val_loss 97.0% loss=0.4382
+12-01 15:26:02	Epoch 72 / 200, train_loss: 0.3687, val_loss: 0.3633, ap: 0.9176
+12-01 15:29:13	# val_loss 0.0% loss=0.4306
+12-01 15:29:13	# val_loss 6.1% loss=0.3739
+12-01 15:29:13	# val_loss 12.1% loss=0.3458
+12-01 15:29:14	# val_loss 18.2% loss=0.2849
+12-01 15:29:14	# val_loss 24.2% loss=0.4129
+12-01 15:29:14	# val_loss 30.3% loss=0.3704
+12-01 15:29:14	# val_loss 36.4% loss=0.4054
+12-01 15:29:14	# val_loss 42.4% loss=0.4270
+12-01 15:29:14	# val_loss 48.5% loss=0.3937
+12-01 15:29:15	# val_loss 54.5% loss=0.3957
+12-01 15:29:15	# val_loss 60.6% loss=0.4458
+12-01 15:29:15	# val_loss 66.7% loss=0.3947
+12-01 15:29:15	# val_loss 72.7% loss=0.3774
+12-01 15:29:15	# val_loss 78.8% loss=0.3968
+12-01 15:29:15	# val_loss 84.8% loss=0.3423
+12-01 15:29:16	# val_loss 90.9% loss=0.3992
+12-01 15:29:16	# val_loss 97.0% loss=0.3393
+12-01 15:29:16	Epoch 73 / 200, train_loss: 0.3681, val_loss: 0.3685, ap: 0.9173
+12-01 15:32:30	# val_loss 0.0% loss=0.4099
+12-01 15:32:30	# val_loss 6.1% loss=0.3750
+12-01 15:32:30	# val_loss 12.1% loss=0.3520
+12-01 15:32:30	# val_loss 18.2% loss=0.4193
+12-01 15:32:30	# val_loss 24.2% loss=0.3729
+12-01 15:32:31	# val_loss 30.3% loss=0.3837
+12-01 15:32:31	# val_loss 36.4% loss=0.4513
+12-01 15:32:31	# val_loss 42.4% loss=0.4670
+12-01 15:32:31	# val_loss 48.5% loss=0.3743
+12-01 15:32:31	# val_loss 54.5% loss=0.3233
+12-01 15:32:32	# val_loss 60.6% loss=0.3619
+12-01 15:32:32	# val_loss 66.7% loss=0.4555
+12-01 15:32:32	# val_loss 72.7% loss=0.2959
+12-01 15:32:32	# val_loss 78.8% loss=0.3428
+12-01 15:32:32	# val_loss 84.8% loss=0.3279
+12-01 15:32:32	# val_loss 90.9% loss=0.3997
+12-01 15:32:33	# val_loss 97.0% loss=0.4649
+12-01 15:32:33	Epoch 74 / 200, train_loss: 0.3673, val_loss: 0.3718, ap: 0.9175
+12-01 15:35:44	# val_loss 0.0% loss=0.4270
+12-01 15:35:44	# val_loss 6.1% loss=0.3121
+12-01 15:35:44	# val_loss 12.1% loss=0.3428
+12-01 15:35:44	# val_loss 18.2% loss=0.3925
+12-01 15:35:45	# val_loss 24.2% loss=0.2992
+12-01 15:35:45	# val_loss 30.3% loss=0.3504
+12-01 15:35:45	# val_loss 36.4% loss=0.4259
+12-01 15:35:45	# val_loss 42.4% loss=0.3571
+12-01 15:35:45	# val_loss 48.5% loss=0.3326
+12-01 15:35:45	# val_loss 54.5% loss=0.3781
+12-01 15:35:46	# val_loss 60.6% loss=0.3528
+12-01 15:35:46	# val_loss 66.7% loss=0.3570
+12-01 15:35:46	# val_loss 72.7% loss=0.3601
+12-01 15:35:46	# val_loss 78.8% loss=0.3302
+12-01 15:35:46	# val_loss 84.8% loss=0.3874
+12-01 15:35:46	# val_loss 90.9% loss=0.3479
+12-01 15:35:47	# val_loss 97.0% loss=0.3992
+12-01 15:35:47	Epoch 75 / 200, train_loss: 0.3682, val_loss: 0.3570, ap: 0.9183
+12-01 15:38:57	# val_loss 0.0% loss=0.3659
+12-01 15:38:57	# val_loss 6.1% loss=0.3540
+12-01 15:38:58	# val_loss 12.1% loss=0.3300
+12-01 15:38:58	# val_loss 18.2% loss=0.4205
+12-01 15:38:58	# val_loss 24.2% loss=0.3352
+12-01 15:38:58	# val_loss 30.3% loss=0.3375
+12-01 15:38:58	# val_loss 36.4% loss=0.4003
+12-01 15:38:58	# val_loss 42.4% loss=0.3310
+12-01 15:38:59	# val_loss 48.5% loss=0.3830
+12-01 15:38:59	# val_loss 54.5% loss=0.3250
+12-01 15:38:59	# val_loss 60.6% loss=0.4153
+12-01 15:38:59	# val_loss 66.7% loss=0.3706
+12-01 15:38:59	# val_loss 72.7% loss=0.3784
+12-01 15:38:59	# val_loss 78.8% loss=0.3526
+12-01 15:39:00	# val_loss 84.8% loss=0.3767
+12-01 15:39:00	# val_loss 90.9% loss=0.4178
+12-01 15:39:00	# val_loss 97.0% loss=0.3990
+12-01 15:39:00	Epoch 76 / 200, train_loss: 0.3677, val_loss: 0.3638, ap: 0.9176
+12-01 15:42:10	# val_loss 0.0% loss=0.3537
+12-01 15:42:10	# val_loss 6.1% loss=0.3821
+12-01 15:42:10	# val_loss 12.1% loss=0.4007
+12-01 15:42:10	# val_loss 18.2% loss=0.3767
+12-01 15:42:10	# val_loss 24.2% loss=0.2993
+12-01 15:42:10	# val_loss 30.3% loss=0.4080
+12-01 15:42:11	# val_loss 36.4% loss=0.3343
+12-01 15:42:11	# val_loss 42.4% loss=0.3874
+12-01 15:42:11	# val_loss 48.5% loss=0.3769
+12-01 15:42:11	# val_loss 54.5% loss=0.3297
+12-01 15:42:11	# val_loss 60.6% loss=0.3536
+12-01 15:42:11	# val_loss 66.7% loss=0.4465
+12-01 15:42:12	# val_loss 72.7% loss=0.3221
+12-01 15:42:12	# val_loss 78.8% loss=0.4002
+12-01 15:42:12	# val_loss 84.8% loss=0.3317
+12-01 15:42:12	# val_loss 90.9% loss=0.3847
+12-01 15:42:12	# val_loss 97.0% loss=0.3345
+12-01 15:42:12	Epoch 77 / 200, train_loss: 0.3673, val_loss: 0.3661, ap: 0.9187
+12-01 15:45:24	# val_loss 0.0% loss=0.3671
+12-01 15:45:24	# val_loss 6.1% loss=0.4372
+12-01 15:45:24	# val_loss 12.1% loss=0.3820
+12-01 15:45:24	# val_loss 18.2% loss=0.3655
+12-01 15:45:25	# val_loss 24.2% loss=0.4485
+12-01 15:45:25	# val_loss 30.3% loss=0.4449
+12-01 15:45:25	# val_loss 36.4% loss=0.3755
+12-01 15:45:25	# val_loss 42.4% loss=0.4361
+12-01 15:45:25	# val_loss 48.5% loss=0.2921
+12-01 15:45:26	# val_loss 54.5% loss=0.3713
+12-01 15:45:26	# val_loss 60.6% loss=0.3512
+12-01 15:45:26	# val_loss 66.7% loss=0.4054
+12-01 15:45:26	# val_loss 72.7% loss=0.4220
+12-01 15:45:26	# val_loss 78.8% loss=0.3313
+12-01 15:45:26	# val_loss 84.8% loss=0.4002
+12-01 15:45:27	# val_loss 90.9% loss=0.3105
+12-01 15:45:27	# val_loss 97.0% loss=0.3282
+12-01 15:45:27	Epoch 78 / 200, train_loss: 0.3674, val_loss: 0.3763, ap: 0.9168
+12-01 15:48:38	# val_loss 0.0% loss=0.3243
+12-01 15:48:38	# val_loss 6.1% loss=0.2574
+12-01 15:48:38	# val_loss 12.1% loss=0.3730
+12-01 15:48:38	# val_loss 18.2% loss=0.3244
+12-01 15:48:39	# val_loss 24.2% loss=0.3462
+12-01 15:48:39	# val_loss 30.3% loss=0.3239
+12-01 15:48:39	# val_loss 36.4% loss=0.3899
+12-01 15:48:39	# val_loss 42.4% loss=0.3510
+12-01 15:48:39	# val_loss 48.5% loss=0.3220
+12-01 15:48:39	# val_loss 54.5% loss=0.3766
+12-01 15:48:40	# val_loss 60.6% loss=0.3429
+12-01 15:48:40	# val_loss 66.7% loss=0.3203
+12-01 15:48:40	# val_loss 72.7% loss=0.3372
+12-01 15:48:40	# val_loss 78.8% loss=0.4153
+12-01 15:48:40	# val_loss 84.8% loss=0.3955
+12-01 15:48:40	# val_loss 90.9% loss=0.3375
+12-01 15:48:41	# val_loss 97.0% loss=0.3749
+12-01 15:48:41	Epoch 79 / 200, train_loss: 0.3665, val_loss: 0.3618, ap: 0.9172
+12-01 15:51:52	# val_loss 0.0% loss=0.4212
+12-01 15:51:52	# val_loss 6.1% loss=0.3579
+12-01 15:51:52	# val_loss 12.1% loss=0.3542
+12-01 15:51:52	# val_loss 18.2% loss=0.3195
+12-01 15:51:52	# val_loss 24.2% loss=0.3437
+12-01 15:51:53	# val_loss 30.3% loss=0.4136
+12-01 15:51:53	# val_loss 36.4% loss=0.3849
+12-01 15:51:53	# val_loss 42.4% loss=0.3661
+12-01 15:51:53	# val_loss 48.5% loss=0.3251
+12-01 15:51:53	# val_loss 54.5% loss=0.4074
+12-01 15:51:53	# val_loss 60.6% loss=0.3308
+12-01 15:51:54	# val_loss 66.7% loss=0.3613
+12-01 15:51:54	# val_loss 72.7% loss=0.4148
+12-01 15:51:54	# val_loss 78.8% loss=0.3357
+12-01 15:51:54	# val_loss 84.8% loss=0.3675
+12-01 15:51:54	# val_loss 90.9% loss=0.4008
+12-01 15:51:54	# val_loss 97.0% loss=0.4272
+12-01 15:51:55	Epoch 80 / 200, train_loss: 0.3670, val_loss: 0.3675, ap: 0.9185
+12-01 15:55:04	# val_loss 0.0% loss=0.4120
+12-01 15:55:04	# val_loss 6.1% loss=0.4163
+12-01 15:55:04	# val_loss 12.1% loss=0.3683
+12-01 15:55:05	# val_loss 18.2% loss=0.3206
+12-01 15:55:05	# val_loss 24.2% loss=0.3366
+12-01 15:55:05	# val_loss 30.3% loss=0.4003
+12-01 15:55:05	# val_loss 36.4% loss=0.3718
+12-01 15:55:05	# val_loss 42.4% loss=0.4901
+12-01 15:55:05	# val_loss 48.5% loss=0.3332
+12-01 15:55:06	# val_loss 54.5% loss=0.3651
+12-01 15:55:06	# val_loss 60.6% loss=0.3221
+12-01 15:55:06	# val_loss 66.7% loss=0.3505
+12-01 15:55:06	# val_loss 72.7% loss=0.4176
+12-01 15:55:06	# val_loss 78.8% loss=0.3206
+12-01 15:55:06	# val_loss 84.8% loss=0.4102
+12-01 15:55:07	# val_loss 90.9% loss=0.3923
+12-01 15:55:07	# val_loss 97.0% loss=0.3839
+12-01 15:55:07	Epoch 81 / 200, train_loss: 0.3667, val_loss: 0.3848, ap: 0.9141
+12-01 15:58:18	# val_loss 0.0% loss=0.3984
+12-01 15:58:18	# val_loss 6.1% loss=0.2727
+12-01 15:58:18	# val_loss 12.1% loss=0.3357
+12-01 15:58:18	# val_loss 18.2% loss=0.4007
+12-01 15:58:18	# val_loss 24.2% loss=0.3262
+12-01 15:58:18	# val_loss 30.3% loss=0.3489
+12-01 15:58:19	# val_loss 36.4% loss=0.3568
+12-01 15:58:19	# val_loss 42.4% loss=0.3207
+12-01 15:58:19	# val_loss 48.5% loss=0.3423
+12-01 15:58:19	# val_loss 54.5% loss=0.3879
+12-01 15:58:19	# val_loss 60.6% loss=0.3722
+12-01 15:58:20	# val_loss 66.7% loss=0.3298
+12-01 15:58:20	# val_loss 72.7% loss=0.3588
+12-01 15:58:20	# val_loss 78.8% loss=0.3225
+12-01 15:58:20	# val_loss 84.8% loss=0.3496
+12-01 15:58:20	# val_loss 90.9% loss=0.4135
+12-01 15:58:20	# val_loss 97.0% loss=0.3625
+12-01 15:58:20	Epoch 82 / 200, train_loss: 0.3663, val_loss: 0.3717, ap: 0.9195
+12-01 16:01:36	# val_loss 0.0% loss=0.3772
+12-01 16:01:36	# val_loss 6.1% loss=0.3644
+12-01 16:01:36	# val_loss 12.1% loss=0.3223
+12-01 16:01:36	# val_loss 18.2% loss=0.2957
+12-01 16:01:36	# val_loss 24.2% loss=0.3238
+12-01 16:01:37	# val_loss 30.3% loss=0.3754
+12-01 16:01:37	# val_loss 36.4% loss=0.3810
+12-01 16:01:37	# val_loss 42.4% loss=0.4013
+12-01 16:01:37	# val_loss 48.5% loss=0.3342
+12-01 16:01:37	# val_loss 54.5% loss=0.2760
+12-01 16:01:37	# val_loss 60.6% loss=0.4458
+12-01 16:01:38	# val_loss 66.7% loss=0.3383
+12-01 16:01:38	# val_loss 72.7% loss=0.3837
+12-01 16:01:38	# val_loss 78.8% loss=0.4497
+12-01 16:01:38	# val_loss 84.8% loss=0.3399
+12-01 16:01:38	# val_loss 90.9% loss=0.3982
+12-01 16:01:38	# val_loss 97.0% loss=0.3827
+12-01 16:01:39	Epoch 83 / 200, train_loss: 0.3658, val_loss: 0.3631, ap: 0.9191
+12-01 16:04:50	# val_loss 0.0% loss=0.3888
+12-01 16:04:50	# val_loss 6.1% loss=0.3055
+12-01 16:04:50	# val_loss 12.1% loss=0.3430
+12-01 16:04:50	# val_loss 18.2% loss=0.4068
+12-01 16:04:51	# val_loss 24.2% loss=0.3826
+12-01 16:04:51	# val_loss 30.3% loss=0.3830
+12-01 16:04:51	# val_loss 36.4% loss=0.3631
+12-01 16:04:51	# val_loss 42.4% loss=0.4599
+12-01 16:04:51	# val_loss 48.5% loss=0.3336
+12-01 16:04:51	# val_loss 54.5% loss=0.3536
+12-01 16:04:52	# val_loss 60.6% loss=0.3791
+12-01 16:04:52	# val_loss 66.7% loss=0.3820
+12-01 16:04:52	# val_loss 72.7% loss=0.3893
+12-01 16:04:52	# val_loss 78.8% loss=0.3769
+12-01 16:04:52	# val_loss 84.8% loss=0.3853
+12-01 16:04:53	# val_loss 90.9% loss=0.3003
+12-01 16:04:53	# val_loss 97.0% loss=0.3599
+12-01 16:04:53	Epoch 84 / 200, train_loss: 0.3658, val_loss: 0.3677, ap: 0.9194
+12-01 16:08:02	# val_loss 0.0% loss=0.3426
+12-01 16:08:03	# val_loss 6.1% loss=0.4628
+12-01 16:08:03	# val_loss 12.1% loss=0.3692
+12-01 16:08:03	# val_loss 18.2% loss=0.3051
+12-01 16:08:03	# val_loss 24.2% loss=0.3761
+12-01 16:08:03	# val_loss 30.3% loss=0.3550
+12-01 16:08:04	# val_loss 36.4% loss=0.4130
+12-01 16:08:04	# val_loss 42.4% loss=0.3383
+12-01 16:08:04	# val_loss 48.5% loss=0.3946
+12-01 16:08:04	# val_loss 54.5% loss=0.3688
+12-01 16:08:04	# val_loss 60.6% loss=0.3392
+12-01 16:08:04	# val_loss 66.7% loss=0.3212
+12-01 16:08:05	# val_loss 72.7% loss=0.3627
+12-01 16:08:05	# val_loss 78.8% loss=0.4058
+12-01 16:08:05	# val_loss 84.8% loss=0.4138
+12-01 16:08:05	# val_loss 90.9% loss=0.3525
+12-01 16:08:05	# val_loss 97.0% loss=0.3624
+12-01 16:08:05	Epoch 85 / 200, train_loss: 0.3653, val_loss: 0.3708, ap: 0.9188
+12-01 16:11:15	# val_loss 0.0% loss=0.4300
+12-01 16:11:15	# val_loss 6.1% loss=0.3370
+12-01 16:11:15	# val_loss 12.1% loss=0.4132
+12-01 16:11:16	# val_loss 18.2% loss=0.3446
+12-01 16:11:16	# val_loss 24.2% loss=0.3613
+12-01 16:11:16	# val_loss 30.3% loss=0.4181
+12-01 16:11:16	# val_loss 36.4% loss=0.3934
+12-01 16:11:16	# val_loss 42.4% loss=0.3755
+12-01 16:11:16	# val_loss 48.5% loss=0.3777
+12-01 16:11:17	# val_loss 54.5% loss=0.3043
+12-01 16:11:17	# val_loss 60.6% loss=0.3739
+12-01 16:11:17	# val_loss 66.7% loss=0.3849
+12-01 16:11:17	# val_loss 72.7% loss=0.3828
+12-01 16:11:17	# val_loss 78.8% loss=0.4513
+12-01 16:11:17	# val_loss 84.8% loss=0.3355
+12-01 16:11:18	# val_loss 90.9% loss=0.4148
+12-01 16:11:18	# val_loss 97.0% loss=0.4331
+12-01 16:11:18	Epoch 86 / 200, train_loss: 0.3658, val_loss: 0.3765, ap: 0.9179
+12-01 16:14:30	# val_loss 0.0% loss=0.3422
+12-01 16:14:30	# val_loss 6.1% loss=0.3618
+12-01 16:14:30	# val_loss 12.1% loss=0.3980
+12-01 16:14:30	# val_loss 18.2% loss=0.3719
+12-01 16:14:31	# val_loss 24.2% loss=0.3323
+12-01 16:14:31	# val_loss 30.3% loss=0.4603
+12-01 16:14:31	# val_loss 36.4% loss=0.4137
+12-01 16:14:31	# val_loss 42.4% loss=0.3911
+12-01 16:14:31	# val_loss 48.5% loss=0.4617
+12-01 16:14:32	# val_loss 54.5% loss=0.3620
+12-01 16:14:32	# val_loss 60.6% loss=0.4198
+12-01 16:14:32	# val_loss 66.7% loss=0.3580
+12-01 16:14:32	# val_loss 72.7% loss=0.2942
+12-01 16:14:32	# val_loss 78.8% loss=0.3384
+12-01 16:14:32	# val_loss 84.8% loss=0.3343
+12-01 16:14:33	# val_loss 90.9% loss=0.3668
+12-01 16:14:33	# val_loss 97.0% loss=0.3497
+12-01 16:14:33	Epoch 87 / 200, train_loss: 0.3657, val_loss: 0.3727, ap: 0.9179
+12-01 16:17:46	# val_loss 0.0% loss=0.2926
+12-01 16:17:46	# val_loss 6.1% loss=0.3277
+12-01 16:17:46	# val_loss 12.1% loss=0.4090
+12-01 16:17:46	# val_loss 18.2% loss=0.3209
+12-01 16:17:46	# val_loss 24.2% loss=0.3102
+12-01 16:17:46	# val_loss 30.3% loss=0.3663
+12-01 16:17:47	# val_loss 36.4% loss=0.3356
+12-01 16:17:47	# val_loss 42.4% loss=0.4150
+12-01 16:17:47	# val_loss 48.5% loss=0.3364
+12-01 16:17:47	# val_loss 54.5% loss=0.3880
+12-01 16:17:47	# val_loss 60.6% loss=0.3323
+12-01 16:17:48	# val_loss 66.7% loss=0.3576
+12-01 16:17:48	# val_loss 72.7% loss=0.3364
+12-01 16:17:48	# val_loss 78.8% loss=0.2858
+12-01 16:17:48	# val_loss 84.8% loss=0.3274
+12-01 16:17:48	# val_loss 90.9% loss=0.2915
+12-01 16:17:48	# val_loss 97.0% loss=0.3571
+12-01 16:17:48	Epoch 88 / 200, train_loss: 0.3648, val_loss: 0.3549, ap: 0.9185
+12-01 16:20:59	# val_loss 0.0% loss=0.3144
+12-01 16:20:59	# val_loss 6.1% loss=0.4113
+12-01 16:20:59	# val_loss 12.1% loss=0.4044
+12-01 16:20:59	# val_loss 18.2% loss=0.3523
+12-01 16:20:59	# val_loss 24.2% loss=0.3416
+12-01 16:21:00	# val_loss 30.3% loss=0.3711
+12-01 16:21:00	# val_loss 36.4% loss=0.3067
+12-01 16:21:00	# val_loss 42.4% loss=0.3087
+12-01 16:21:00	# val_loss 48.5% loss=0.3582
+12-01 16:21:00	# val_loss 54.5% loss=0.3018
+12-01 16:21:00	# val_loss 60.6% loss=0.3272
+12-01 16:21:01	# val_loss 66.7% loss=0.3937
+12-01 16:21:01	# val_loss 72.7% loss=0.3636
+12-01 16:21:01	# val_loss 78.8% loss=0.3367
+12-01 16:21:01	# val_loss 84.8% loss=0.3389
+12-01 16:21:01	# val_loss 90.9% loss=0.3344
+12-01 16:21:02	# val_loss 97.0% loss=0.3874
+12-01 16:21:02	Epoch 89 / 200, train_loss: 0.3647, val_loss: 0.3603, ap: 0.9185
+12-01 16:24:11	# val_loss 0.0% loss=0.4121
+12-01 16:24:11	# val_loss 6.1% loss=0.3120
+12-01 16:24:11	# val_loss 12.1% loss=0.3799
+12-01 16:24:12	# val_loss 18.2% loss=0.3342
+12-01 16:24:12	# val_loss 24.2% loss=0.3909
+12-01 16:24:12	# val_loss 30.3% loss=0.4659
+12-01 16:24:12	# val_loss 36.4% loss=0.3509
+12-01 16:24:12	# val_loss 42.4% loss=0.4294
+12-01 16:24:12	# val_loss 48.5% loss=0.3510
+12-01 16:24:13	# val_loss 54.5% loss=0.3669
+12-01 16:24:13	# val_loss 60.6% loss=0.4949
+12-01 16:24:13	# val_loss 66.7% loss=0.3167
+12-01 16:24:13	# val_loss 72.7% loss=0.3202
+12-01 16:24:13	# val_loss 78.8% loss=0.3440
+12-01 16:24:13	# val_loss 84.8% loss=0.3667
+12-01 16:24:14	# val_loss 90.9% loss=0.3565
+12-01 16:24:14	# val_loss 97.0% loss=0.3879
+12-01 16:24:14	Epoch 90 / 200, train_loss: 0.3645, val_loss: 0.3597, ap: 0.9194
+12-01 16:27:23	# val_loss 0.0% loss=0.3341
+12-01 16:27:24	# val_loss 6.1% loss=0.3548
+12-01 16:27:24	# val_loss 12.1% loss=0.3865
+12-01 16:27:24	# val_loss 18.2% loss=0.3693
+12-01 16:27:24	# val_loss 24.2% loss=0.3893
+12-01 16:27:24	# val_loss 30.3% loss=0.4092
+12-01 16:27:24	# val_loss 36.4% loss=0.4136
+12-01 16:27:25	# val_loss 42.4% loss=0.3033
+12-01 16:27:25	# val_loss 48.5% loss=0.3280
+12-01 16:27:25	# val_loss 54.5% loss=0.3034
+12-01 16:27:25	# val_loss 60.6% loss=0.3712
+12-01 16:27:25	# val_loss 66.7% loss=0.3940
+12-01 16:27:25	# val_loss 72.7% loss=0.3616
+12-01 16:27:26	# val_loss 78.8% loss=0.3411
+12-01 16:27:26	# val_loss 84.8% loss=0.3326
+12-01 16:27:26	# val_loss 90.9% loss=0.3959
+12-01 16:27:26	# val_loss 97.0% loss=0.3923
+12-01 16:27:26	Epoch 91 / 200, train_loss: 0.3634, val_loss: 0.3586, ap: 0.9201
+12-01 16:30:39	# val_loss 0.0% loss=0.3651
+12-01 16:30:39	# val_loss 6.1% loss=0.4443
+12-01 16:30:40	# val_loss 12.1% loss=0.3294
+12-01 16:30:40	# val_loss 18.2% loss=0.4162
+12-01 16:30:40	# val_loss 24.2% loss=0.3449
+12-01 16:30:40	# val_loss 30.3% loss=0.3414
+12-01 16:30:40	# val_loss 36.4% loss=0.3181
+12-01 16:30:41	# val_loss 42.4% loss=0.3242
+12-01 16:30:41	# val_loss 48.5% loss=0.3719
+12-01 16:30:41	# val_loss 54.5% loss=0.3565
+12-01 16:30:41	# val_loss 60.6% loss=0.3705
+12-01 16:30:41	# val_loss 66.7% loss=0.3635
+12-01 16:30:41	# val_loss 72.7% loss=0.3394
+12-01 16:30:42	# val_loss 78.8% loss=0.3686
+12-01 16:30:42	# val_loss 84.8% loss=0.3586
+12-01 16:30:42	# val_loss 90.9% loss=0.3174
+12-01 16:30:42	# val_loss 97.0% loss=0.3711
+12-01 16:30:42	Epoch 92 / 200, train_loss: 0.3640, val_loss: 0.3573, ap: 0.9203
+12-01 16:33:52	# val_loss 0.0% loss=0.3450
+12-01 16:33:53	# val_loss 6.1% loss=0.2647
+12-01 16:33:53	# val_loss 12.1% loss=0.3413
+12-01 16:33:53	# val_loss 18.2% loss=0.3757
+12-01 16:33:53	# val_loss 24.2% loss=0.3744
+12-01 16:33:53	# val_loss 30.3% loss=0.3289
+12-01 16:33:54	# val_loss 36.4% loss=0.3350
+12-01 16:33:54	# val_loss 42.4% loss=0.3276
+12-01 16:33:54	# val_loss 48.5% loss=0.4335
+12-01 16:33:54	# val_loss 54.5% loss=0.4108
+12-01 16:33:54	# val_loss 60.6% loss=0.3569
+12-01 16:33:54	# val_loss 66.7% loss=0.3622
+12-01 16:33:55	# val_loss 72.7% loss=0.3120
+12-01 16:33:55	# val_loss 78.8% loss=0.4268
+12-01 16:33:55	# val_loss 84.8% loss=0.3554
+12-01 16:33:55	# val_loss 90.9% loss=0.2986
+12-01 16:33:55	# val_loss 97.0% loss=0.3951
+12-01 16:33:55	Epoch 93 / 200, train_loss: 0.3635, val_loss: 0.3699, ap: 0.9190
+12-01 16:37:06	# val_loss 0.0% loss=0.3792
+12-01 16:37:06	# val_loss 6.1% loss=0.3302
+12-01 16:37:06	# val_loss 12.1% loss=0.3685
+12-01 16:37:06	# val_loss 18.2% loss=0.3704
+12-01 16:37:06	# val_loss 24.2% loss=0.3671
+12-01 16:37:06	# val_loss 30.3% loss=0.3412
+12-01 16:37:07	# val_loss 36.4% loss=0.3181
+12-01 16:37:07	# val_loss 42.4% loss=0.3479
+12-01 16:37:07	# val_loss 48.5% loss=0.4556
+12-01 16:37:07	# val_loss 54.5% loss=0.3645
+12-01 16:37:07	# val_loss 60.6% loss=0.3344
+12-01 16:37:07	# val_loss 66.7% loss=0.3494
+12-01 16:37:08	# val_loss 72.7% loss=0.3382
+12-01 16:37:08	# val_loss 78.8% loss=0.3359
+12-01 16:37:08	# val_loss 84.8% loss=0.3868
+12-01 16:37:08	# val_loss 90.9% loss=0.3457
+12-01 16:37:08	# val_loss 97.0% loss=0.4105
+12-01 16:37:08	Epoch 94 / 200, train_loss: 0.3628, val_loss: 0.3539, ap: 0.9188
+12-01 16:40:19	# val_loss 0.0% loss=0.3344
+12-01 16:40:19	# val_loss 6.1% loss=0.2699
+12-01 16:40:19	# val_loss 12.1% loss=0.3366
+12-01 16:40:19	# val_loss 18.2% loss=0.3232
+12-01 16:40:19	# val_loss 24.2% loss=0.3913
+12-01 16:40:19	# val_loss 30.3% loss=0.3536
+12-01 16:40:20	# val_loss 36.4% loss=0.3121
+12-01 16:40:20	# val_loss 42.4% loss=0.3404
+12-01 16:40:20	# val_loss 48.5% loss=0.3350
+12-01 16:40:20	# val_loss 54.5% loss=0.3406
+12-01 16:40:20	# val_loss 60.6% loss=0.3427
+12-01 16:40:20	# val_loss 66.7% loss=0.3460
+12-01 16:40:21	# val_loss 72.7% loss=0.3564
+12-01 16:40:21	# val_loss 78.8% loss=0.3765
+12-01 16:40:21	# val_loss 84.8% loss=0.3791
+12-01 16:40:21	# val_loss 90.9% loss=0.3908
+12-01 16:40:21	# val_loss 97.0% loss=0.3754
+12-01 16:40:21	Epoch 95 / 200, train_loss: 0.3636, val_loss: 0.3630, ap: 0.9185
+12-01 16:43:31	# val_loss 0.0% loss=0.4299
+12-01 16:43:31	# val_loss 6.1% loss=0.3086
+12-01 16:43:31	# val_loss 12.1% loss=0.3443
+12-01 16:43:31	# val_loss 18.2% loss=0.4634
+12-01 16:43:32	# val_loss 24.2% loss=0.3524
+12-01 16:43:32	# val_loss 30.3% loss=0.4449
+12-01 16:43:32	# val_loss 36.4% loss=0.3499
+12-01 16:43:32	# val_loss 42.4% loss=0.3324
+12-01 16:43:32	# val_loss 48.5% loss=0.4223
+12-01 16:43:32	# val_loss 54.5% loss=0.3650
+12-01 16:43:33	# val_loss 60.6% loss=0.3078
+12-01 16:43:33	# val_loss 66.7% loss=0.3684
+12-01 16:43:33	# val_loss 72.7% loss=0.4183
+12-01 16:43:33	# val_loss 78.8% loss=0.3240
+12-01 16:43:33	# val_loss 84.8% loss=0.3513
+12-01 16:43:33	# val_loss 90.9% loss=0.3441
+12-01 16:43:34	# val_loss 97.0% loss=0.3937
+12-01 16:43:34	Epoch 96 / 200, train_loss: 0.3631, val_loss: 0.3637, ap: 0.9184
+12-01 16:46:44	# val_loss 0.0% loss=0.3537
+12-01 16:46:45	# val_loss 6.1% loss=0.3404
+12-01 16:46:45	# val_loss 12.1% loss=0.2901
+12-01 16:46:45	# val_loss 18.2% loss=0.3143
+12-01 16:46:45	# val_loss 24.2% loss=0.4241
+12-01 16:46:45	# val_loss 30.3% loss=0.3769
+12-01 16:46:45	# val_loss 36.4% loss=0.3448
+12-01 16:46:46	# val_loss 42.4% loss=0.3077
+12-01 16:46:46	# val_loss 48.5% loss=0.2921
+12-01 16:46:46	# val_loss 54.5% loss=0.3520
+12-01 16:46:46	# val_loss 60.6% loss=0.3899
+12-01 16:46:46	# val_loss 66.7% loss=0.3106
+12-01 16:46:47	# val_loss 72.7% loss=0.3704
+12-01 16:46:47	# val_loss 78.8% loss=0.3255
+12-01 16:46:47	# val_loss 84.8% loss=0.3478
+12-01 16:46:47	# val_loss 90.9% loss=0.3552
+12-01 16:46:47	# val_loss 97.0% loss=0.3456
+12-01 16:46:47	Epoch 97 / 200, train_loss: 0.3626, val_loss: 0.3630, ap: 0.9195
+12-01 16:49:59	# val_loss 0.0% loss=0.3834
+12-01 16:49:59	# val_loss 6.1% loss=0.3371
+12-01 16:49:59	# val_loss 12.1% loss=0.4182
+12-01 16:49:59	# val_loss 18.2% loss=0.3441
+12-01 16:50:00	# val_loss 24.2% loss=0.3759
+12-01 16:50:00	# val_loss 30.3% loss=0.3512
+12-01 16:50:00	# val_loss 36.4% loss=0.3927
+12-01 16:50:00	# val_loss 42.4% loss=0.3121
+12-01 16:50:00	# val_loss 48.5% loss=0.3411
+12-01 16:50:01	# val_loss 54.5% loss=0.3916
+12-01 16:50:01	# val_loss 60.6% loss=0.3142
+12-01 16:50:01	# val_loss 66.7% loss=0.3876
+12-01 16:50:01	# val_loss 72.7% loss=0.3197
+12-01 16:50:01	# val_loss 78.8% loss=0.3594
+12-01 16:50:01	# val_loss 84.8% loss=0.3146
+12-01 16:50:02	# val_loss 90.9% loss=0.3651
+12-01 16:50:02	# val_loss 97.0% loss=0.3590
+12-01 16:50:02	Epoch 98 / 200, train_loss: 0.3625, val_loss: 0.3651, ap: 0.9191
+12-01 16:53:13	# val_loss 0.0% loss=0.2834
+12-01 16:53:13	# val_loss 6.1% loss=0.3576
+12-01 16:53:14	# val_loss 12.1% loss=0.3060
+12-01 16:53:14	# val_loss 18.2% loss=0.3554
+12-01 16:53:14	# val_loss 24.2% loss=0.3255
+12-01 16:53:14	# val_loss 30.3% loss=0.4395
+12-01 16:53:14	# val_loss 36.4% loss=0.2954
+12-01 16:53:14	# val_loss 42.4% loss=0.3682
+12-01 16:53:15	# val_loss 48.5% loss=0.3109
+12-01 16:53:15	# val_loss 54.5% loss=0.3334
+12-01 16:53:15	# val_loss 60.6% loss=0.4313
+12-01 16:53:15	# val_loss 66.7% loss=0.4308
+12-01 16:53:15	# val_loss 72.7% loss=0.3284
+12-01 16:53:15	# val_loss 78.8% loss=0.3602
+12-01 16:53:16	# val_loss 84.8% loss=0.4214
+12-01 16:53:16	# val_loss 90.9% loss=0.3600
+12-01 16:53:16	# val_loss 97.0% loss=0.3833
+12-01 16:53:16	Epoch 99 / 200, train_loss: 0.3624, val_loss: 0.3597, ap: 0.9202
+12-01 16:56:28	# val_loss 0.0% loss=0.3600
+12-01 16:56:28	# val_loss 6.1% loss=0.3785
+12-01 16:56:28	# val_loss 12.1% loss=0.3581
+12-01 16:56:28	# val_loss 18.2% loss=0.2981
+12-01 16:56:29	# val_loss 24.2% loss=0.2974
+12-01 16:56:29	# val_loss 30.3% loss=0.2904
+12-01 16:56:29	# val_loss 36.4% loss=0.3237
+12-01 16:56:29	# val_loss 42.4% loss=0.2981
+12-01 16:56:29	# val_loss 48.5% loss=0.2889
+12-01 16:56:29	# val_loss 54.5% loss=0.3104
+12-01 16:56:30	# val_loss 60.6% loss=0.3556
+12-01 16:56:30	# val_loss 66.7% loss=0.2937
+12-01 16:56:30	# val_loss 72.7% loss=0.3295
+12-01 16:56:30	# val_loss 78.8% loss=0.3161
+12-01 16:56:30	# val_loss 84.8% loss=0.3990
+12-01 16:56:30	# val_loss 90.9% loss=0.3185
+12-01 16:56:31	# val_loss 97.0% loss=0.3113
+12-01 16:56:31	Epoch 100 / 200, train_loss: 0.3622, val_loss: 0.3552, ap: 0.9206
+12-01 19:04:50	# val_loss 0.0% loss=0.4002
+12-01 19:04:50	# val_loss 6.1% loss=0.3584
+12-01 19:04:50	# val_loss 12.1% loss=0.3826
+12-01 19:04:50	# val_loss 18.2% loss=0.3345
+12-01 19:04:51	# val_loss 24.2% loss=0.3310
+12-01 19:04:51	# val_loss 30.3% loss=0.3334
+12-01 19:04:51	# val_loss 36.4% loss=0.3672
+12-01 19:04:51	# val_loss 42.4% loss=0.3332
+12-01 19:04:51	# val_loss 48.5% loss=0.3108
+12-01 19:04:52	# val_loss 54.5% loss=0.3432
+12-01 19:04:52	# val_loss 60.6% loss=0.3957
+12-01 19:04:52	# val_loss 66.7% loss=0.4032
+12-01 19:04:52	# val_loss 72.7% loss=0.3407
+12-01 19:04:52	# val_loss 78.8% loss=0.3599
+12-01 19:04:52	# val_loss 84.8% loss=0.2965
+12-01 19:04:53	# val_loss 90.9% loss=0.3945
+12-01 19:04:53	# val_loss 97.0% loss=0.3814
+12-01 19:04:53	Epoch 101 / 200, train_loss: 0.3616, val_loss: 0.3689, ap: 0.9182
+12-01 19:08:04	# val_loss 0.0% loss=0.3288
+12-01 19:08:04	# val_loss 6.1% loss=0.3397
+12-01 19:08:04	# val_loss 12.1% loss=0.3250
+12-01 19:08:04	# val_loss 18.2% loss=0.2920
+12-01 19:08:04	# val_loss 24.2% loss=0.3426
+12-01 19:08:05	# val_loss 30.3% loss=0.3949
+12-01 19:08:05	# val_loss 36.4% loss=0.4066
+12-01 19:08:05	# val_loss 42.4% loss=0.3594
+12-01 19:08:05	# val_loss 48.5% loss=0.3903
+12-01 19:08:05	# val_loss 54.5% loss=0.3109
+12-01 19:08:05	# val_loss 60.6% loss=0.3384
+12-01 19:08:06	# val_loss 66.7% loss=0.3583
+12-01 19:08:06	# val_loss 72.7% loss=0.4390
+12-01 19:08:06	# val_loss 78.8% loss=0.3726
+12-01 19:08:06	# val_loss 84.8% loss=0.4050
+12-01 19:08:06	# val_loss 90.9% loss=0.3797
+12-01 19:08:06	# val_loss 97.0% loss=0.4135
+12-01 19:08:07	Epoch 102 / 200, train_loss: 0.3627, val_loss: 0.3670, ap: 0.9204
+12-01 19:11:16	# val_loss 0.0% loss=0.2952
+12-01 19:11:16	# val_loss 6.1% loss=0.3978
+12-01 19:11:16	# val_loss 12.1% loss=0.3676
+12-01 19:11:17	# val_loss 18.2% loss=0.3050
+12-01 19:11:17	# val_loss 24.2% loss=0.3428
+12-01 19:11:17	# val_loss 30.3% loss=0.3125
+12-01 19:11:17	# val_loss 36.4% loss=0.3023
+12-01 19:11:17	# val_loss 42.4% loss=0.3665
+12-01 19:11:18	# val_loss 48.5% loss=0.3507
+12-01 19:11:18	# val_loss 54.5% loss=0.2930
+12-01 19:11:18	# val_loss 60.6% loss=0.4479
+12-01 19:11:18	# val_loss 66.7% loss=0.3296
+12-01 19:11:18	# val_loss 72.7% loss=0.3540
+12-01 19:11:18	# val_loss 78.8% loss=0.3369
+12-01 19:11:19	# val_loss 84.8% loss=0.3553
+12-01 19:11:19	# val_loss 90.9% loss=0.3610
+12-01 19:11:19	# val_loss 97.0% loss=0.3274
+12-01 19:11:19	Epoch 103 / 200, train_loss: 0.3619, val_loss: 0.3593, ap: 0.9183
+12-01 19:14:29	# val_loss 0.0% loss=0.3856
+12-01 19:14:29	# val_loss 6.1% loss=0.3981
+12-01 19:14:29	# val_loss 12.1% loss=0.3203
+12-01 19:14:29	# val_loss 18.2% loss=0.3461
+12-01 19:14:29	# val_loss 24.2% loss=0.3526
+12-01 19:14:30	# val_loss 30.3% loss=0.3022
+12-01 19:14:30	# val_loss 36.4% loss=0.4206
+12-01 19:14:30	# val_loss 42.4% loss=0.3120
+12-01 19:14:30	# val_loss 48.5% loss=0.2982
+12-01 19:14:30	# val_loss 54.5% loss=0.3423
+12-01 19:14:30	# val_loss 60.6% loss=0.3729
+12-01 19:14:31	# val_loss 66.7% loss=0.4243
+12-01 19:14:31	# val_loss 72.7% loss=0.3991
+12-01 19:14:31	# val_loss 78.8% loss=0.3685
+12-01 19:14:31	# val_loss 84.8% loss=0.3719
+12-01 19:14:31	# val_loss 90.9% loss=0.3426
+12-01 19:14:32	# val_loss 97.0% loss=0.3626
+12-01 19:14:32	Epoch 104 / 200, train_loss: 0.3618, val_loss: 0.3635, ap: 0.9193
+12-01 19:17:41	# val_loss 0.0% loss=0.3491
+12-01 19:17:41	# val_loss 6.1% loss=0.3707
+12-01 19:17:41	# val_loss 12.1% loss=0.3341
+12-01 19:17:42	# val_loss 18.2% loss=0.3702
+12-01 19:17:42	# val_loss 24.2% loss=0.3496
+12-01 19:17:42	# val_loss 30.3% loss=0.3437
+12-01 19:17:42	# val_loss 36.4% loss=0.3631
+12-01 19:17:42	# val_loss 42.4% loss=0.3866
+12-01 19:17:42	# val_loss 48.5% loss=0.3655
+12-01 19:17:43	# val_loss 54.5% loss=0.3287
+12-01 19:17:43	# val_loss 60.6% loss=0.3259
+12-01 19:17:43	# val_loss 66.7% loss=0.3967
+12-01 19:17:43	# val_loss 72.7% loss=0.2983
+12-01 19:17:43	# val_loss 78.8% loss=0.3423
+12-01 19:17:43	# val_loss 84.8% loss=0.3946
+12-01 19:17:44	# val_loss 90.9% loss=0.4140
+12-01 19:17:44	# val_loss 97.0% loss=0.4142
+12-01 19:17:44	Epoch 105 / 200, train_loss: 0.3621, val_loss: 0.3606, ap: 0.9195
+12-01 19:20:53	# val_loss 0.0% loss=0.3318
+12-01 19:20:54	# val_loss 6.1% loss=0.3299
+12-01 19:20:54	# val_loss 12.1% loss=0.3273
+12-01 19:20:54	# val_loss 18.2% loss=0.3538
+12-01 19:20:54	# val_loss 24.2% loss=0.3621
+12-01 19:20:54	# val_loss 30.3% loss=0.4212
+12-01 19:20:54	# val_loss 36.4% loss=0.3930
+12-01 19:20:55	# val_loss 42.4% loss=0.4107
+12-01 19:20:55	# val_loss 48.5% loss=0.2853
+12-01 19:20:55	# val_loss 54.5% loss=0.3546
+12-01 19:20:55	# val_loss 60.6% loss=0.4581
+12-01 19:20:55	# val_loss 66.7% loss=0.3945
+12-01 19:20:55	# val_loss 72.7% loss=0.3662
+12-01 19:20:56	# val_loss 78.8% loss=0.4579
+12-01 19:20:56	# val_loss 84.8% loss=0.3580
+12-01 19:20:56	# val_loss 90.9% loss=0.3485
+12-01 19:20:56	# val_loss 97.0% loss=0.2928
+12-01 19:20:56	Epoch 106 / 200, train_loss: 0.3619, val_loss: 0.3682, ap: 0.9194
+12-01 19:24:06	# val_loss 0.0% loss=0.3281
+12-01 19:24:06	# val_loss 6.1% loss=0.3753
+12-01 19:24:06	# val_loss 12.1% loss=0.3956
+12-01 19:24:06	# val_loss 18.2% loss=0.3626
+12-01 19:24:06	# val_loss 24.2% loss=0.3487
+12-01 19:24:07	# val_loss 30.3% loss=0.3578
+12-01 19:24:07	# val_loss 36.4% loss=0.3862
+12-01 19:24:07	# val_loss 42.4% loss=0.4143
+12-01 19:24:07	# val_loss 48.5% loss=0.3340
+12-01 19:24:07	# val_loss 54.5% loss=0.3615
+12-01 19:24:07	# val_loss 60.6% loss=0.3497
+12-01 19:24:08	# val_loss 66.7% loss=0.3938
+12-01 19:24:08	# val_loss 72.7% loss=0.3208
+12-01 19:24:08	# val_loss 78.8% loss=0.3617
+12-01 19:24:08	# val_loss 84.8% loss=0.2903
+12-01 19:24:08	# val_loss 90.9% loss=0.3167
+12-01 19:24:08	# val_loss 97.0% loss=0.3021
+12-01 19:24:09	Epoch 107 / 200, train_loss: 0.3614, val_loss: 0.3610, ap: 0.9199
+12-01 19:27:18	# val_loss 0.0% loss=0.3252
+12-01 19:27:18	# val_loss 6.1% loss=0.3268
+12-01 19:27:18	# val_loss 12.1% loss=0.3990
+12-01 19:27:19	# val_loss 18.2% loss=0.3532
+12-01 19:27:19	# val_loss 24.2% loss=0.4056
+12-01 19:27:19	# val_loss 30.3% loss=0.3558
+12-01 19:27:19	# val_loss 36.4% loss=0.3601
+12-01 19:27:19	# val_loss 42.4% loss=0.3709
+12-01 19:27:19	# val_loss 48.5% loss=0.2898
+12-01 19:27:20	# val_loss 54.5% loss=0.3559
+12-01 19:27:20	# val_loss 60.6% loss=0.4303
+12-01 19:27:20	# val_loss 66.7% loss=0.4142
+12-01 19:27:20	# val_loss 72.7% loss=0.3048
+12-01 19:27:20	# val_loss 78.8% loss=0.3934
+12-01 19:27:20	# val_loss 84.8% loss=0.3220
+12-01 19:27:21	# val_loss 90.9% loss=0.3418
+12-01 19:27:21	# val_loss 97.0% loss=0.4510
+12-01 19:27:21	Epoch 108 / 200, train_loss: 0.3610, val_loss: 0.3574, ap: 0.9208
+12-01 19:30:34	# val_loss 0.0% loss=0.3286
+12-01 19:30:34	# val_loss 6.1% loss=0.3347
+12-01 19:30:34	# val_loss 12.1% loss=0.3095
+12-01 19:30:34	# val_loss 18.2% loss=0.3411
+12-01 19:30:34	# val_loss 24.2% loss=0.3067
+12-01 19:30:35	# val_loss 30.3% loss=0.3150
+12-01 19:30:35	# val_loss 36.4% loss=0.3698
+12-01 19:30:35	# val_loss 42.4% loss=0.4335
+12-01 19:30:35	# val_loss 48.5% loss=0.3332
+12-01 19:30:35	# val_loss 54.5% loss=0.3689
+12-01 19:30:36	# val_loss 60.6% loss=0.3397
+12-01 19:30:36	# val_loss 66.7% loss=0.3074
+12-01 19:30:36	# val_loss 72.7% loss=0.3188
+12-01 19:30:36	# val_loss 78.8% loss=0.3554
+12-01 19:30:36	# val_loss 84.8% loss=0.3962
+12-01 19:30:36	# val_loss 90.9% loss=0.4033
+12-01 19:30:37	# val_loss 97.0% loss=0.2969
+12-01 19:30:37	Epoch 109 / 200, train_loss: 0.3617, val_loss: 0.3589, ap: 0.9195
+12-01 19:33:48	# val_loss 0.0% loss=0.3408
+12-01 19:33:49	# val_loss 6.1% loss=0.3386
+12-01 19:33:49	# val_loss 12.1% loss=0.4129
+12-01 19:33:49	# val_loss 18.2% loss=0.2846
+12-01 19:33:49	# val_loss 24.2% loss=0.3030
+12-01 19:33:49	# val_loss 30.3% loss=0.3453
+12-01 19:33:50	# val_loss 36.4% loss=0.3763
+12-01 19:33:50	# val_loss 42.4% loss=0.3396
+12-01 19:33:50	# val_loss 48.5% loss=0.3451
+12-01 19:33:50	# val_loss 54.5% loss=0.3513
+12-01 19:33:50	# val_loss 60.6% loss=0.3574
+12-01 19:33:50	# val_loss 66.7% loss=0.3348
+12-01 19:33:51	# val_loss 72.7% loss=0.3162
+12-01 19:33:51	# val_loss 78.8% loss=0.3851
+12-01 19:33:51	# val_loss 84.8% loss=0.4085
+12-01 19:33:51	# val_loss 90.9% loss=0.3801
+12-01 19:33:51	# val_loss 97.0% loss=0.3527
+12-01 19:33:51	Epoch 110 / 200, train_loss: 0.3616, val_loss: 0.3577, ap: 0.9195
+12-01 19:37:05	# val_loss 0.0% loss=0.3204
+12-01 19:37:05	# val_loss 6.1% loss=0.3338
+12-01 19:37:05	# val_loss 12.1% loss=0.3873
+12-01 19:37:05	# val_loss 18.2% loss=0.3629
+12-01 19:37:05	# val_loss 24.2% loss=0.4107
+12-01 19:37:06	# val_loss 30.3% loss=0.4093
+12-01 19:37:06	# val_loss 36.4% loss=0.3916
+12-01 19:37:06	# val_loss 42.4% loss=0.2830
+12-01 19:37:06	# val_loss 48.5% loss=0.3253
+12-01 19:37:06	# val_loss 54.5% loss=0.4123
+12-01 19:37:06	# val_loss 60.6% loss=0.4211
+12-01 19:37:07	# val_loss 66.7% loss=0.3570
+12-01 19:37:07	# val_loss 72.7% loss=0.3590
+12-01 19:37:07	# val_loss 78.8% loss=0.3720
+12-01 19:37:07	# val_loss 84.8% loss=0.3775
+12-01 19:37:07	# val_loss 90.9% loss=0.2788
+12-01 19:37:08	# val_loss 97.0% loss=0.3134
+12-01 19:37:08	Epoch 111 / 200, train_loss: 0.3614, val_loss: 0.3534, ap: 0.9196
+12-01 19:40:20	# val_loss 0.0% loss=0.4279
+12-01 19:40:20	# val_loss 6.1% loss=0.3018
+12-01 19:40:20	# val_loss 12.1% loss=0.3773
+12-01 19:40:21	# val_loss 18.2% loss=0.3006
+12-01 19:40:21	# val_loss 24.2% loss=0.3628
+12-01 19:40:21	# val_loss 30.3% loss=0.3407
+12-01 19:40:21	# val_loss 36.4% loss=0.4171
+12-01 19:40:21	# val_loss 42.4% loss=0.3237
+12-01 19:40:21	# val_loss 48.5% loss=0.3934
+12-01 19:40:22	# val_loss 54.5% loss=0.3103
+12-01 19:40:22	# val_loss 60.6% loss=0.3543
+12-01 19:40:22	# val_loss 66.7% loss=0.3455
+12-01 19:40:22	# val_loss 72.7% loss=0.2958
+12-01 19:40:22	# val_loss 78.8% loss=0.3848
+12-01 19:40:23	# val_loss 84.8% loss=0.3441
+12-01 19:40:23	# val_loss 90.9% loss=0.3181
+12-01 19:40:23	# val_loss 97.0% loss=0.4037
+12-01 19:40:23	Epoch 112 / 200, train_loss: 0.3618, val_loss: 0.3611, ap: 0.9203
+12-01 19:43:38	# val_loss 0.0% loss=0.3453
+12-01 19:43:38	# val_loss 6.1% loss=0.4120
+12-01 19:43:38	# val_loss 12.1% loss=0.4105
+12-01 19:43:38	# val_loss 18.2% loss=0.3708
+12-01 19:43:38	# val_loss 24.2% loss=0.3339
+12-01 19:43:39	# val_loss 30.3% loss=0.3998
+12-01 19:43:39	# val_loss 36.4% loss=0.3901
+12-01 19:43:39	# val_loss 42.4% loss=0.2940
+12-01 19:43:39	# val_loss 48.5% loss=0.3487
+12-01 19:43:39	# val_loss 54.5% loss=0.3611
+12-01 19:43:39	# val_loss 60.6% loss=0.3826
+12-01 19:43:40	# val_loss 66.7% loss=0.3947
+12-01 19:43:40	# val_loss 72.7% loss=0.3345
+12-01 19:43:40	# val_loss 78.8% loss=0.3896
+12-01 19:43:40	# val_loss 84.8% loss=0.3153
+12-01 19:43:40	# val_loss 90.9% loss=0.3089
+12-01 19:43:40	# val_loss 97.0% loss=0.3778
+12-01 19:43:41	Epoch 113 / 200, train_loss: 0.3616, val_loss: 0.3530, ap: 0.9202
+12-01 19:47:00	# val_loss 0.0% loss=0.3804
+12-01 19:47:01	# val_loss 6.1% loss=0.3364
+12-01 19:47:01	# val_loss 12.1% loss=0.3416
+12-01 19:47:01	# val_loss 18.2% loss=0.3369
+12-01 19:47:01	# val_loss 24.2% loss=0.3643
+12-01 19:47:01	# val_loss 30.3% loss=0.3128
+12-01 19:47:02	# val_loss 36.4% loss=0.3270
+12-01 19:47:02	# val_loss 42.4% loss=0.3210
+12-01 19:47:02	# val_loss 48.5% loss=0.3370
+12-01 19:47:02	# val_loss 54.5% loss=0.3559
+12-01 19:47:02	# val_loss 60.6% loss=0.2802
+12-01 19:47:02	# val_loss 66.7% loss=0.3120
+12-01 19:47:03	# val_loss 72.7% loss=0.3813
+12-01 19:47:03	# val_loss 78.8% loss=0.4031
+12-01 19:47:03	# val_loss 84.8% loss=0.3818
+12-01 19:47:03	# val_loss 90.9% loss=0.3548
+12-01 19:47:03	# val_loss 97.0% loss=0.3034
+12-01 19:47:03	Epoch 114 / 200, train_loss: 0.3610, val_loss: 0.3523, ap: 0.9212
+12-01 19:50:28	# val_loss 0.0% loss=0.4187
+12-01 19:50:28	# val_loss 6.1% loss=0.3623
+12-01 19:50:28	# val_loss 12.1% loss=0.2936
+12-01 19:50:28	# val_loss 18.2% loss=0.3692
+12-01 19:50:29	# val_loss 24.2% loss=0.3548
+12-01 19:50:29	# val_loss 30.3% loss=0.3012
+12-01 19:50:29	# val_loss 36.4% loss=0.4558
+12-01 19:50:29	# val_loss 42.4% loss=0.3497
+12-01 19:50:29	# val_loss 48.5% loss=0.3769
+12-01 19:50:30	# val_loss 54.5% loss=0.3554
+12-01 19:50:30	# val_loss 60.6% loss=0.3091
+12-01 19:50:30	# val_loss 66.7% loss=0.4131
+12-01 19:50:30	# val_loss 72.7% loss=0.3562
+12-01 19:50:30	# val_loss 78.8% loss=0.4183
+12-01 19:50:30	# val_loss 84.8% loss=0.2765
+12-01 19:50:31	# val_loss 90.9% loss=0.4089
+12-01 19:50:31	# val_loss 97.0% loss=0.2606
+12-01 19:50:31	Epoch 115 / 200, train_loss: 0.3602, val_loss: 0.3628, ap: 0.9200
+12-01 19:53:59	# val_loss 0.0% loss=0.3332
+12-01 19:53:59	# val_loss 6.1% loss=0.3337
+12-01 19:54:00	# val_loss 12.1% loss=0.3405
+12-01 19:54:00	# val_loss 18.2% loss=0.3759
+12-01 19:54:00	# val_loss 24.2% loss=0.3398
+12-01 19:54:00	# val_loss 30.3% loss=0.3359
+12-01 19:54:00	# val_loss 36.4% loss=0.3057
+12-01 19:54:01	# val_loss 42.4% loss=0.3989
+12-01 19:54:01	# val_loss 48.5% loss=0.4508
+12-01 19:54:01	# val_loss 54.5% loss=0.3430
+12-01 19:54:01	# val_loss 60.6% loss=0.3590
+12-01 19:54:01	# val_loss 66.7% loss=0.4251
+12-01 19:54:01	# val_loss 72.7% loss=0.4029
+12-01 19:54:02	# val_loss 78.8% loss=0.3481
+12-01 19:54:02	# val_loss 84.8% loss=0.3375
+12-01 19:54:02	# val_loss 90.9% loss=0.3586
+12-01 19:54:02	# val_loss 97.0% loss=0.3551
+12-01 19:54:02	Epoch 116 / 200, train_loss: 0.3617, val_loss: 0.3534, ap: 0.9204
+12-01 19:57:28	# val_loss 0.0% loss=0.2942
+12-01 19:57:28	# val_loss 6.1% loss=0.3229
+12-01 19:57:29	# val_loss 12.1% loss=0.3271
+12-01 19:57:29	# val_loss 18.2% loss=0.2931
+12-01 19:57:29	# val_loss 24.2% loss=0.3035
+12-01 19:57:29	# val_loss 30.3% loss=0.3486
+12-01 19:57:29	# val_loss 36.4% loss=0.3287
+12-01 19:57:29	# val_loss 42.4% loss=0.3313
+12-01 19:57:30	# val_loss 48.5% loss=0.2833
+12-01 19:57:30	# val_loss 54.5% loss=0.3263
+12-01 19:57:30	# val_loss 60.6% loss=0.4449
+12-01 19:57:30	# val_loss 66.7% loss=0.3078
+12-01 19:57:30	# val_loss 72.7% loss=0.3351
+12-01 19:57:31	# val_loss 78.8% loss=0.4078
+12-01 19:57:31	# val_loss 84.8% loss=0.3547
+12-01 19:57:31	# val_loss 90.9% loss=0.3109
+12-01 19:57:31	# val_loss 97.0% loss=0.3958
+12-01 19:57:31	Epoch 117 / 200, train_loss: 0.3606, val_loss: 0.3509, ap: 0.9209
+12-01 20:00:57	# val_loss 0.0% loss=0.3455
+12-01 20:00:58	# val_loss 6.1% loss=0.3096
+12-01 20:00:58	# val_loss 12.1% loss=0.3481
+12-01 20:00:58	# val_loss 18.2% loss=0.2642
+12-01 20:00:58	# val_loss 24.2% loss=0.3128
+12-01 20:00:58	# val_loss 30.3% loss=0.4060
+12-01 20:00:58	# val_loss 36.4% loss=0.3930
+12-01 20:00:59	# val_loss 42.4% loss=0.2799
+12-01 20:00:59	# val_loss 48.5% loss=0.3196
+12-01 20:00:59	# val_loss 54.5% loss=0.3811
+12-01 20:00:59	# val_loss 60.6% loss=0.4077
+12-01 20:00:59	# val_loss 66.7% loss=0.2968
+12-01 20:01:00	# val_loss 72.7% loss=0.3187
+12-01 20:01:00	# val_loss 78.8% loss=0.3558
+12-01 20:01:00	# val_loss 84.8% loss=0.4041
+12-01 20:01:00	# val_loss 90.9% loss=0.4123
+12-01 20:01:00	# val_loss 97.0% loss=0.3382
+12-01 20:01:00	Epoch 118 / 200, train_loss: 0.3606, val_loss: 0.3554, ap: 0.9206
+12-01 20:04:26	# val_loss 0.0% loss=0.3616
+12-01 20:04:26	# val_loss 6.1% loss=0.3698
+12-01 20:04:26	# val_loss 12.1% loss=0.3217
+12-01 20:04:26	# val_loss 18.2% loss=0.3585
+12-01 20:04:27	# val_loss 24.2% loss=0.4255
+12-01 20:04:27	# val_loss 30.3% loss=0.3463
+12-01 20:04:27	# val_loss 36.4% loss=0.3756
+12-01 20:04:27	# val_loss 42.4% loss=0.3892
+12-01 20:04:27	# val_loss 48.5% loss=0.3027
+12-01 20:04:27	# val_loss 54.5% loss=0.3498
+12-01 20:04:28	# val_loss 60.6% loss=0.3210
+12-01 20:04:28	# val_loss 66.7% loss=0.3278
+12-01 20:04:28	# val_loss 72.7% loss=0.3184
+12-01 20:04:28	# val_loss 78.8% loss=0.3534
+12-01 20:04:28	# val_loss 84.8% loss=0.4167
+12-01 20:04:28	# val_loss 90.9% loss=0.3028
+12-01 20:04:29	# val_loss 97.0% loss=0.3180
+12-01 20:04:29	Epoch 119 / 200, train_loss: 0.3606, val_loss: 0.3536, ap: 0.9209
+12-01 20:07:52	# val_loss 0.0% loss=0.3548
+12-01 20:07:52	# val_loss 6.1% loss=0.4006
+12-01 20:07:52	# val_loss 12.1% loss=0.3802
+12-01 20:07:52	# val_loss 18.2% loss=0.3762
+12-01 20:07:53	# val_loss 24.2% loss=0.4143
+12-01 20:07:53	# val_loss 30.3% loss=0.3131
+12-01 20:07:53	# val_loss 36.4% loss=0.4224
+12-01 20:07:53	# val_loss 42.4% loss=0.3505
+12-01 20:07:53	# val_loss 48.5% loss=0.4090
+12-01 20:07:54	# val_loss 54.5% loss=0.3631
+12-01 20:07:54	# val_loss 60.6% loss=0.3264
+12-01 20:07:54	# val_loss 66.7% loss=0.3431
+12-01 20:07:54	# val_loss 72.7% loss=0.4285
+12-01 20:07:54	# val_loss 78.8% loss=0.3854
+12-01 20:07:55	# val_loss 84.8% loss=0.3206
+12-01 20:07:55	# val_loss 90.9% loss=0.3621
+12-01 20:07:55	# val_loss 97.0% loss=0.3063
+12-01 20:07:55	Epoch 120 / 200, train_loss: 0.3599, val_loss: 0.3658, ap: 0.9195
+12-01 20:11:19	# val_loss 0.0% loss=0.3553
+12-01 20:11:19	# val_loss 6.1% loss=0.3220
+12-01 20:11:19	# val_loss 12.1% loss=0.4242
+12-01 20:11:19	# val_loss 18.2% loss=0.3418
+12-01 20:11:19	# val_loss 24.2% loss=0.3475
+12-01 20:11:20	# val_loss 30.3% loss=0.3005
+12-01 20:11:20	# val_loss 36.4% loss=0.4507
+12-01 20:11:20	# val_loss 42.4% loss=0.3514
+12-01 20:11:20	# val_loss 48.5% loss=0.3946
+12-01 20:11:20	# val_loss 54.5% loss=0.3343
+12-01 20:11:20	# val_loss 60.6% loss=0.3556
+12-01 20:11:21	# val_loss 66.7% loss=0.4479
+12-01 20:11:21	# val_loss 72.7% loss=0.3755
+12-01 20:11:21	# val_loss 78.8% loss=0.3744
+12-01 20:11:21	# val_loss 84.8% loss=0.3256
+12-01 20:11:21	# val_loss 90.9% loss=0.4300
+12-01 20:11:22	# val_loss 97.0% loss=0.4377
+12-01 20:11:22	Epoch 121 / 200, train_loss: 0.3604, val_loss: 0.3648, ap: 0.9196
+12-01 20:14:44	# val_loss 0.0% loss=0.3195
+12-01 20:14:45	# val_loss 6.1% loss=0.4028
+12-01 20:14:45	# val_loss 12.1% loss=0.3780
+12-01 20:14:45	# val_loss 18.2% loss=0.3743
+12-01 20:14:45	# val_loss 24.2% loss=0.3614
+12-01 20:14:45	# val_loss 30.3% loss=0.3542
+12-01 20:14:45	# val_loss 36.4% loss=0.3946
+12-01 20:14:46	# val_loss 42.4% loss=0.3225
+12-01 20:14:46	# val_loss 48.5% loss=0.3367
+12-01 20:14:46	# val_loss 54.5% loss=0.3412
+12-01 20:14:46	# val_loss 60.6% loss=0.3256
+12-01 20:14:46	# val_loss 66.7% loss=0.3260
+12-01 20:14:46	# val_loss 72.7% loss=0.3410
+12-01 20:14:47	# val_loss 78.8% loss=0.3026
+12-01 20:14:47	# val_loss 84.8% loss=0.3599
+12-01 20:14:47	# val_loss 90.9% loss=0.3529
+12-01 20:14:47	# val_loss 97.0% loss=0.3865
+12-01 20:14:47	Epoch 122 / 200, train_loss: 0.3600, val_loss: 0.3603, ap: 0.9192
+12-01 20:18:08	# val_loss 0.0% loss=0.3324
+12-01 20:18:09	# val_loss 6.1% loss=0.3590
+12-01 20:18:09	# val_loss 12.1% loss=0.3360
+12-01 20:18:09	# val_loss 18.2% loss=0.4093
+12-01 20:18:09	# val_loss 24.2% loss=0.3810
+12-01 20:18:09	# val_loss 30.3% loss=0.3299
+12-01 20:18:10	# val_loss 36.4% loss=0.3258
+12-01 20:18:10	# val_loss 42.4% loss=0.3352
+12-01 20:18:10	# val_loss 48.5% loss=0.3926
+12-01 20:18:10	# val_loss 54.5% loss=0.3384
+12-01 20:18:10	# val_loss 60.6% loss=0.3304
+12-01 20:18:10	# val_loss 66.7% loss=0.3741
+12-01 20:18:11	# val_loss 72.7% loss=0.3238
+12-01 20:18:11	# val_loss 78.8% loss=0.2922
+12-01 20:18:11	# val_loss 84.8% loss=0.3521
+12-01 20:18:11	# val_loss 90.9% loss=0.4325
+12-01 20:18:11	# val_loss 97.0% loss=0.3500
+12-01 20:18:11	Epoch 123 / 200, train_loss: 0.3599, val_loss: 0.3575, ap: 0.9204
+12-01 20:21:35	# val_loss 0.0% loss=0.3906
+12-01 20:21:35	# val_loss 6.1% loss=0.3578
+12-01 20:21:35	# val_loss 12.1% loss=0.3738
+12-01 20:21:35	# val_loss 18.2% loss=0.3583
+12-01 20:21:35	# val_loss 24.2% loss=0.2777
+12-01 20:21:35	# val_loss 30.3% loss=0.3497
+12-01 20:21:36	# val_loss 36.4% loss=0.3160
+12-01 20:21:36	# val_loss 42.4% loss=0.3477
+12-01 20:21:36	# val_loss 48.5% loss=0.3778
+12-01 20:21:36	# val_loss 54.5% loss=0.3970
+12-01 20:21:36	# val_loss 60.6% loss=0.4209
+12-01 20:21:37	# val_loss 66.7% loss=0.3447
+12-01 20:21:37	# val_loss 72.7% loss=0.3395
+12-01 20:21:37	# val_loss 78.8% loss=0.3988
+12-01 20:21:37	# val_loss 84.8% loss=0.3051
+12-01 20:21:37	# val_loss 90.9% loss=0.4267
+12-01 20:21:37	# val_loss 97.0% loss=0.4274
+12-01 20:21:37	Epoch 124 / 200, train_loss: 0.3600, val_loss: 0.3502, ap: 0.9221
+12-01 20:24:58	# val_loss 0.0% loss=0.3587
+12-01 20:24:58	# val_loss 6.1% loss=0.4069
+12-01 20:24:58	# val_loss 12.1% loss=0.3725
+12-01 20:24:59	# val_loss 18.2% loss=0.3067
+12-01 20:24:59	# val_loss 24.2% loss=0.3434
+12-01 20:24:59	# val_loss 30.3% loss=0.3765
+12-01 20:24:59	# val_loss 36.4% loss=0.4548
+12-01 20:24:59	# val_loss 42.4% loss=0.3446
+12-01 20:25:00	# val_loss 48.5% loss=0.3137
+12-01 20:25:00	# val_loss 54.5% loss=0.3630
+12-01 20:25:00	# val_loss 60.6% loss=0.4389
+12-01 20:25:00	# val_loss 66.7% loss=0.4506
+12-01 20:25:00	# val_loss 72.7% loss=0.4055
+12-01 20:25:00	# val_loss 78.8% loss=0.3093
+12-01 20:25:01	# val_loss 84.8% loss=0.3730
+12-01 20:25:01	# val_loss 90.9% loss=0.3505
+12-01 20:25:01	# val_loss 97.0% loss=0.3709
+12-01 20:25:01	Epoch 125 / 200, train_loss: 0.3600, val_loss: 0.3684, ap: 0.9184
+12-01 20:28:23	# val_loss 0.0% loss=0.3549
+12-01 20:28:23	# val_loss 6.1% loss=0.2981
+12-01 20:28:24	# val_loss 12.1% loss=0.3857
+12-01 20:28:24	# val_loss 18.2% loss=0.3957
+12-01 20:28:24	# val_loss 24.2% loss=0.3629
+12-01 20:28:24	# val_loss 30.3% loss=0.3050
+12-01 20:28:24	# val_loss 36.4% loss=0.3459
+12-01 20:28:24	# val_loss 42.4% loss=0.3202
+12-01 20:28:25	# val_loss 48.5% loss=0.3556
+12-01 20:28:25	# val_loss 54.5% loss=0.3136
+12-01 20:28:25	# val_loss 60.6% loss=0.3614
+12-01 20:28:25	# val_loss 66.7% loss=0.2820
+12-01 20:28:25	# val_loss 72.7% loss=0.3190
+12-01 20:28:25	# val_loss 78.8% loss=0.3336
+12-01 20:28:26	# val_loss 84.8% loss=0.3730
+12-01 20:28:26	# val_loss 90.9% loss=0.3600
+12-01 20:28:26	# val_loss 97.0% loss=0.4917
+12-01 20:28:26	Epoch 126 / 200, train_loss: 0.3598, val_loss: 0.3500, ap: 0.9218
+12-01 20:31:51	# val_loss 0.0% loss=0.4107
+12-01 20:31:51	# val_loss 6.1% loss=0.3185
+12-01 20:31:52	# val_loss 12.1% loss=0.4042
+12-01 20:31:52	# val_loss 18.2% loss=0.4028
+12-01 20:31:52	# val_loss 24.2% loss=0.3380
+12-01 20:31:52	# val_loss 30.3% loss=0.3471
+12-01 20:31:52	# val_loss 36.4% loss=0.3223
+12-01 20:31:52	# val_loss 42.4% loss=0.3167
+12-01 20:31:53	# val_loss 48.5% loss=0.3649
+12-01 20:31:53	# val_loss 54.5% loss=0.3712
+12-01 20:31:53	# val_loss 60.6% loss=0.3819
+12-01 20:31:53	# val_loss 66.7% loss=0.3865
+12-01 20:31:53	# val_loss 72.7% loss=0.4149
+12-01 20:31:54	# val_loss 78.8% loss=0.4430
+12-01 20:31:54	# val_loss 84.8% loss=0.2981
+12-01 20:31:54	# val_loss 90.9% loss=0.2968
+12-01 20:31:54	# val_loss 97.0% loss=0.3339
+12-01 20:31:54	Epoch 127 / 200, train_loss: 0.3600, val_loss: 0.3592, ap: 0.9192
+12-01 20:35:14	# val_loss 0.0% loss=0.3474
+12-01 20:35:14	# val_loss 6.1% loss=0.3232
+12-01 20:35:14	# val_loss 12.1% loss=0.3098
+12-01 20:35:14	# val_loss 18.2% loss=0.3272
+12-01 20:35:15	# val_loss 24.2% loss=0.4155
+12-01 20:35:15	# val_loss 30.3% loss=0.4409
+12-01 20:35:15	# val_loss 36.4% loss=0.3029
+12-01 20:35:15	# val_loss 42.4% loss=0.3515
+12-01 20:35:15	# val_loss 48.5% loss=0.3099
+12-01 20:35:15	# val_loss 54.5% loss=0.3620
+12-01 20:35:16	# val_loss 60.6% loss=0.3891
+12-01 20:35:16	# val_loss 66.7% loss=0.4073
+12-01 20:35:16	# val_loss 72.7% loss=0.3427
+12-01 20:35:16	# val_loss 78.8% loss=0.4236
+12-01 20:35:16	# val_loss 84.8% loss=0.3128
+12-01 20:35:16	# val_loss 90.9% loss=0.4447
+12-01 20:35:17	# val_loss 97.0% loss=0.3581
+12-01 20:35:17	Epoch 128 / 200, train_loss: 0.3604, val_loss: 0.3596, ap: 0.9198
+12-01 20:38:36	# val_loss 0.0% loss=0.3452
+12-01 20:38:36	# val_loss 6.1% loss=0.3560
+12-01 20:38:36	# val_loss 12.1% loss=0.3832
+12-01 20:38:36	# val_loss 18.2% loss=0.3767
+12-01 20:38:36	# val_loss 24.2% loss=0.3588
+12-01 20:38:36	# val_loss 30.3% loss=0.3172
+12-01 20:38:37	# val_loss 36.4% loss=0.3960
+12-01 20:38:37	# val_loss 42.4% loss=0.3618
+12-01 20:38:37	# val_loss 48.5% loss=0.2938
+12-01 20:38:37	# val_loss 54.5% loss=0.3220
+12-01 20:38:37	# val_loss 60.6% loss=0.3432
+12-01 20:38:38	# val_loss 66.7% loss=0.3134
+12-01 20:38:38	# val_loss 72.7% loss=0.3554
+12-01 20:38:38	# val_loss 78.8% loss=0.2667
+12-01 20:38:38	# val_loss 84.8% loss=0.3458
+12-01 20:38:38	# val_loss 90.9% loss=0.3162
+12-01 20:38:38	# val_loss 97.0% loss=0.3216
+12-01 20:38:39	Epoch 129 / 200, train_loss: 0.3603, val_loss: 0.3575, ap: 0.9217
+12-01 20:42:03	# val_loss 0.0% loss=0.4211
+12-01 20:42:04	# val_loss 6.1% loss=0.3496
+12-01 20:42:04	# val_loss 12.1% loss=0.3760
+12-01 20:42:04	# val_loss 18.2% loss=0.3559
+12-01 20:42:04	# val_loss 24.2% loss=0.3127
+12-01 20:42:04	# val_loss 30.3% loss=0.4331
+12-01 20:42:05	# val_loss 36.4% loss=0.3395
+12-01 20:42:05	# val_loss 42.4% loss=0.3641
+12-01 20:42:05	# val_loss 48.5% loss=0.3228
+12-01 20:42:05	# val_loss 54.5% loss=0.3839
+12-01 20:42:05	# val_loss 60.6% loss=0.3444
+12-01 20:42:05	# val_loss 66.7% loss=0.3142
+12-01 20:42:06	# val_loss 72.7% loss=0.3525
+12-01 20:42:06	# val_loss 78.8% loss=0.3698
+12-01 20:42:06	# val_loss 84.8% loss=0.3958
+12-01 20:42:06	# val_loss 90.9% loss=0.4287
+12-01 20:42:06	# val_loss 97.0% loss=0.3755
+12-01 20:42:06	Epoch 130 / 200, train_loss: 0.3588, val_loss: 0.3540, ap: 0.9198
+12-01 20:45:28	# val_loss 0.0% loss=0.4378
+12-01 20:45:28	# val_loss 6.1% loss=0.4059
+12-01 20:45:28	# val_loss 12.1% loss=0.3346
+12-01 20:45:29	# val_loss 18.2% loss=0.3281
+12-01 20:45:29	# val_loss 24.2% loss=0.4236
+12-01 20:45:29	# val_loss 30.3% loss=0.3460
+12-01 20:45:29	# val_loss 36.4% loss=0.3834
+12-01 20:45:29	# val_loss 42.4% loss=0.3497
+12-01 20:45:29	# val_loss 48.5% loss=0.3168
+12-01 20:45:30	# val_loss 54.5% loss=0.3160
+12-01 20:45:30	# val_loss 60.6% loss=0.4073
+12-01 20:45:30	# val_loss 66.7% loss=0.3908
+12-01 20:45:30	# val_loss 72.7% loss=0.3818
+12-01 20:45:30	# val_loss 78.8% loss=0.3475
+12-01 20:45:31	# val_loss 84.8% loss=0.3071
+12-01 20:45:31	# val_loss 90.9% loss=0.4042
+12-01 20:45:31	# val_loss 97.0% loss=0.3300
+12-01 20:45:31	Epoch 131 / 200, train_loss: 0.3596, val_loss: 0.3559, ap: 0.9204
+12-01 20:48:53	# val_loss 0.0% loss=0.4993
+12-01 20:48:53	# val_loss 6.1% loss=0.3510
+12-01 20:48:53	# val_loss 12.1% loss=0.3617
+12-01 20:48:53	# val_loss 18.2% loss=0.3948
+12-01 20:48:53	# val_loss 24.2% loss=0.3156
+12-01 20:48:54	# val_loss 30.3% loss=0.3786
+12-01 20:48:54	# val_loss 36.4% loss=0.3058
+12-01 20:48:54	# val_loss 42.4% loss=0.2897
+12-01 20:48:54	# val_loss 48.5% loss=0.3946
+12-01 20:48:54	# val_loss 54.5% loss=0.4046
+12-01 20:48:54	# val_loss 60.6% loss=0.3240
+12-01 20:48:55	# val_loss 66.7% loss=0.3090
+12-01 20:48:55	# val_loss 72.7% loss=0.3565
+12-01 20:48:55	# val_loss 78.8% loss=0.4103
+12-01 20:48:55	# val_loss 84.8% loss=0.3793
+12-01 20:48:55	# val_loss 90.9% loss=0.3828
+12-01 20:48:56	# val_loss 97.0% loss=0.2726
+12-01 20:48:56	Epoch 132 / 200, train_loss: 0.3597, val_loss: 0.3561, ap: 0.9202
+12-01 20:52:17	# val_loss 0.0% loss=0.3330
+12-01 20:52:18	# val_loss 6.1% loss=0.3845
+12-01 20:52:18	# val_loss 12.1% loss=0.2737
+12-01 20:52:18	# val_loss 18.2% loss=0.2640
+12-01 20:52:18	# val_loss 24.2% loss=0.3276
+12-01 20:52:18	# val_loss 30.3% loss=0.3749
+12-01 20:52:19	# val_loss 36.4% loss=0.3655
+12-01 20:52:19	# val_loss 42.4% loss=0.3390
+12-01 20:52:19	# val_loss 48.5% loss=0.3294
+12-01 20:52:19	# val_loss 54.5% loss=0.3622
+12-01 20:52:19	# val_loss 60.6% loss=0.3123
+12-01 20:52:20	# val_loss 66.7% loss=0.4306
+12-01 20:52:20	# val_loss 72.7% loss=0.3739
+12-01 20:52:20	# val_loss 78.8% loss=0.3653
+12-01 20:52:20	# val_loss 84.8% loss=0.3290
+12-01 20:52:20	# val_loss 90.9% loss=0.3627
+12-01 20:52:20	# val_loss 97.0% loss=0.3347
+12-01 20:52:20	Epoch 133 / 200, train_loss: 0.3592, val_loss: 0.3489, ap: 0.9220
+12-01 20:55:41	# val_loss 0.0% loss=0.2827
+12-01 20:55:42	# val_loss 6.1% loss=0.3492
+12-01 20:55:42	# val_loss 12.1% loss=0.3361
+12-01 20:55:42	# val_loss 18.2% loss=0.3757
+12-01 20:55:42	# val_loss 24.2% loss=0.4131
+12-01 20:55:42	# val_loss 30.3% loss=0.2521
+12-01 20:55:43	# val_loss 36.4% loss=0.3896
+12-01 20:55:43	# val_loss 42.4% loss=0.3737
+12-01 20:55:43	# val_loss 48.5% loss=0.2811
+12-01 20:55:43	# val_loss 54.5% loss=0.3936
+12-01 20:55:43	# val_loss 60.6% loss=0.3816
+12-01 20:55:43	# val_loss 66.7% loss=0.3804
+12-01 20:55:44	# val_loss 72.7% loss=0.3443
+12-01 20:55:44	# val_loss 78.8% loss=0.3427
+12-01 20:55:44	# val_loss 84.8% loss=0.2783
+12-01 20:55:44	# val_loss 90.9% loss=0.4251
+12-01 20:55:44	# val_loss 97.0% loss=0.3420
+12-01 20:55:44	Epoch 134 / 200, train_loss: 0.3595, val_loss: 0.3549, ap: 0.9211
+12-01 20:59:08	# val_loss 0.0% loss=0.3849
+12-01 20:59:08	# val_loss 6.1% loss=0.2893
+12-01 20:59:08	# val_loss 12.1% loss=0.3416
+12-01 20:59:08	# val_loss 18.2% loss=0.3980
+12-01 20:59:08	# val_loss 24.2% loss=0.3492
+12-01 20:59:08	# val_loss 30.3% loss=0.2820
+12-01 20:59:09	# val_loss 36.4% loss=0.4066
+12-01 20:59:09	# val_loss 42.4% loss=0.3732
+12-01 20:59:09	# val_loss 48.5% loss=0.4383
+12-01 20:59:09	# val_loss 54.5% loss=0.3231
+12-01 20:59:09	# val_loss 60.6% loss=0.3348
+12-01 20:59:10	# val_loss 66.7% loss=0.3227
+12-01 20:59:10	# val_loss 72.7% loss=0.3914
+12-01 20:59:10	# val_loss 78.8% loss=0.2943
+12-01 20:59:10	# val_loss 84.8% loss=0.3410
+12-01 20:59:10	# val_loss 90.9% loss=0.3552
+12-01 20:59:10	# val_loss 97.0% loss=0.3907
+12-01 20:59:10	Epoch 135 / 200, train_loss: 0.3598, val_loss: 0.3584, ap: 0.9197
+12-01 21:02:35	# val_loss 0.0% loss=0.3079
+12-01 21:02:36	# val_loss 6.1% loss=0.3295
+12-01 21:02:36	# val_loss 12.1% loss=0.3153
+12-01 21:02:36	# val_loss 18.2% loss=0.3226
+12-01 21:02:36	# val_loss 24.2% loss=0.3613
+12-01 21:02:36	# val_loss 30.3% loss=0.3465
+12-01 21:02:37	# val_loss 36.4% loss=0.3395
+12-01 21:02:37	# val_loss 42.4% loss=0.3155
+12-01 21:02:37	# val_loss 48.5% loss=0.3615
+12-01 21:02:37	# val_loss 54.5% loss=0.3083
+12-01 21:02:37	# val_loss 60.6% loss=0.3649
+12-01 21:02:37	# val_loss 66.7% loss=0.3153
+12-01 21:02:38	# val_loss 72.7% loss=0.4010
+12-01 21:02:38	# val_loss 78.8% loss=0.3596
+12-01 21:02:38	# val_loss 84.8% loss=0.3605
+12-01 21:02:38	# val_loss 90.9% loss=0.3474
+12-01 21:02:38	# val_loss 97.0% loss=0.3337
+12-01 21:02:38	Epoch 136 / 200, train_loss: 0.3593, val_loss: 0.3524, ap: 0.9214
+12-01 21:05:56	# val_loss 0.0% loss=0.3680
+12-01 21:05:57	# val_loss 6.1% loss=0.3254
+12-01 21:05:57	# val_loss 12.1% loss=0.3554
+12-01 21:05:57	# val_loss 18.2% loss=0.2876
+12-01 21:05:57	# val_loss 24.2% loss=0.3869
+12-01 21:05:57	# val_loss 30.3% loss=0.3514
+12-01 21:05:57	# val_loss 36.4% loss=0.3093
+12-01 21:05:58	# val_loss 42.4% loss=0.4100
+12-01 21:05:58	# val_loss 48.5% loss=0.3318
+12-01 21:05:58	# val_loss 54.5% loss=0.3017
+12-01 21:05:58	# val_loss 60.6% loss=0.4127
+12-01 21:05:58	# val_loss 66.7% loss=0.3164
+12-01 21:05:58	# val_loss 72.7% loss=0.2866
+12-01 21:05:59	# val_loss 78.8% loss=0.2932
+12-01 21:05:59	# val_loss 84.8% loss=0.4112
+12-01 21:05:59	# val_loss 90.9% loss=0.3672
+12-01 21:05:59	# val_loss 97.0% loss=0.3257
+12-01 21:05:59	Epoch 137 / 200, train_loss: 0.3600, val_loss: 0.3572, ap: 0.9218
+12-01 21:09:22	# val_loss 0.0% loss=0.3422
+12-01 21:09:22	# val_loss 6.1% loss=0.3309
+12-01 21:09:22	# val_loss 12.1% loss=0.3263
+12-01 21:09:22	# val_loss 18.2% loss=0.3650
+12-01 21:09:22	# val_loss 24.2% loss=0.3377
+12-01 21:09:23	# val_loss 30.3% loss=0.3754
+12-01 21:09:23	# val_loss 36.4% loss=0.4180
+12-01 21:09:23	# val_loss 42.4% loss=0.2950
+12-01 21:09:23	# val_loss 48.5% loss=0.3781
+12-01 21:09:23	# val_loss 54.5% loss=0.3186
+12-01 21:09:24	# val_loss 60.6% loss=0.4173
+12-01 21:09:24	# val_loss 66.7% loss=0.3194
+12-01 21:09:24	# val_loss 72.7% loss=0.4220
+12-01 21:09:24	# val_loss 78.8% loss=0.3590
+12-01 21:09:24	# val_loss 84.8% loss=0.3611
+12-01 21:09:24	# val_loss 90.9% loss=0.3429
+12-01 21:09:25	# val_loss 97.0% loss=0.3398
+12-01 21:09:25	Epoch 138 / 200, train_loss: 0.3599, val_loss: 0.3597, ap: 0.9196
+12-01 21:12:49	# val_loss 0.0% loss=0.3674
+12-01 21:12:50	# val_loss 6.1% loss=0.3641
+12-01 21:12:50	# val_loss 12.1% loss=0.4237
+12-01 21:12:50	# val_loss 18.2% loss=0.4189
+12-01 21:12:50	# val_loss 24.2% loss=0.4025
+12-01 21:12:50	# val_loss 30.3% loss=0.4576
+12-01 21:12:51	# val_loss 36.4% loss=0.3766
+12-01 21:12:51	# val_loss 42.4% loss=0.3585
+12-01 21:12:51	# val_loss 48.5% loss=0.3529
+12-01 21:12:51	# val_loss 54.5% loss=0.3160
+12-01 21:12:51	# val_loss 60.6% loss=0.4475
+12-01 21:12:51	# val_loss 66.7% loss=0.3508
+12-01 21:12:52	# val_loss 72.7% loss=0.3144
+12-01 21:12:52	# val_loss 78.8% loss=0.3519
+12-01 21:12:52	# val_loss 84.8% loss=0.3065
+12-01 21:12:52	# val_loss 90.9% loss=0.3305
+12-01 21:12:52	# val_loss 97.0% loss=0.3557
+12-01 21:12:52	Epoch 139 / 200, train_loss: 0.3590, val_loss: 0.3578, ap: 0.9210
+12-01 21:16:17	# val_loss 0.0% loss=0.3460
+12-01 21:16:17	# val_loss 6.1% loss=0.3814
+12-01 21:16:17	# val_loss 12.1% loss=0.4599
+12-01 21:16:18	# val_loss 18.2% loss=0.3482
+12-01 21:16:18	# val_loss 24.2% loss=0.3666
+12-01 21:16:18	# val_loss 30.3% loss=0.3905
+12-01 21:16:18	# val_loss 36.4% loss=0.3807
+12-01 21:16:18	# val_loss 42.4% loss=0.3178
+12-01 21:16:18	# val_loss 48.5% loss=0.3015
+12-01 21:16:19	# val_loss 54.5% loss=0.3972
+12-01 21:16:19	# val_loss 60.6% loss=0.3388
+12-01 21:16:19	# val_loss 66.7% loss=0.3755
+12-01 21:16:19	# val_loss 72.7% loss=0.3315
+12-01 21:16:19	# val_loss 78.8% loss=0.4127
+12-01 21:16:19	# val_loss 84.8% loss=0.3725
+12-01 21:16:20	# val_loss 90.9% loss=0.3121
+12-01 21:16:20	# val_loss 97.0% loss=0.3202
+12-01 21:16:20	Epoch 140 / 200, train_loss: 0.3585, val_loss: 0.3575, ap: 0.9199
+12-01 21:19:44	# val_loss 0.0% loss=0.3507
+12-01 21:19:44	# val_loss 6.1% loss=0.3997
+12-01 21:19:44	# val_loss 12.1% loss=0.3325
+12-01 21:19:44	# val_loss 18.2% loss=0.3964
+12-01 21:19:45	# val_loss 24.2% loss=0.2484
+12-01 21:19:45	# val_loss 30.3% loss=0.3206
+12-01 21:19:45	# val_loss 36.4% loss=0.3611
+12-01 21:19:45	# val_loss 42.4% loss=0.3071
+12-01 21:19:45	# val_loss 48.5% loss=0.3522
+12-01 21:19:46	# val_loss 54.5% loss=0.3671
+12-01 21:19:46	# val_loss 60.6% loss=0.3366
+12-01 21:19:46	# val_loss 66.7% loss=0.3546
+12-01 21:19:46	# val_loss 72.7% loss=0.3986
+12-01 21:19:46	# val_loss 78.8% loss=0.3695
+12-01 21:19:47	# val_loss 84.8% loss=0.3154
+12-01 21:19:47	# val_loss 90.9% loss=0.3383
+12-01 21:19:47	# val_loss 97.0% loss=0.3146
+12-01 21:19:47	Epoch 141 / 200, train_loss: 0.3593, val_loss: 0.3553, ap: 0.9203
+12-01 21:23:11	# val_loss 0.0% loss=0.3473
+12-01 21:23:11	# val_loss 6.1% loss=0.4194
+12-01 21:23:11	# val_loss 12.1% loss=0.3326
+12-01 21:23:11	# val_loss 18.2% loss=0.3850
+12-01 21:23:11	# val_loss 24.2% loss=0.3116
+12-01 21:23:12	# val_loss 30.3% loss=0.3222
+12-01 21:23:12	# val_loss 36.4% loss=0.3162
+12-01 21:23:12	# val_loss 42.4% loss=0.2870
+12-01 21:23:12	# val_loss 48.5% loss=0.3130
+12-01 21:23:12	# val_loss 54.5% loss=0.3799
+12-01 21:23:13	# val_loss 60.6% loss=0.3923
+12-01 21:23:13	# val_loss 66.7% loss=0.3854
+12-01 21:23:13	# val_loss 72.7% loss=0.3253
+12-01 21:23:13	# val_loss 78.8% loss=0.3168
+12-01 21:23:13	# val_loss 84.8% loss=0.3928
+12-01 21:23:13	# val_loss 90.9% loss=0.3082
+12-01 21:23:14	# val_loss 97.0% loss=0.3225
+12-01 21:23:14	Epoch 142 / 200, train_loss: 0.3592, val_loss: 0.3593, ap: 0.9195
+12-01 21:26:38	# val_loss 0.0% loss=0.3717
+12-01 21:26:39	# val_loss 6.1% loss=0.3508
+12-01 21:26:39	# val_loss 12.1% loss=0.4068
+12-01 21:26:39	# val_loss 18.2% loss=0.3786
+12-01 21:26:39	# val_loss 24.2% loss=0.3856
+12-01 21:26:39	# val_loss 30.3% loss=0.3806
+12-01 21:26:39	# val_loss 36.4% loss=0.3298
+12-01 21:26:40	# val_loss 42.4% loss=0.2917
+12-01 21:26:40	# val_loss 48.5% loss=0.2991
+12-01 21:26:40	# val_loss 54.5% loss=0.3556
+12-01 21:26:40	# val_loss 60.6% loss=0.4213
+12-01 21:26:40	# val_loss 66.7% loss=0.3659
+12-01 21:26:41	# val_loss 72.7% loss=0.3897
+12-01 21:26:41	# val_loss 78.8% loss=0.3651
+12-01 21:26:41	# val_loss 84.8% loss=0.3966
+12-01 21:26:41	# val_loss 90.9% loss=0.3528
+12-01 21:26:41	# val_loss 97.0% loss=0.2906
+12-01 21:26:41	Epoch 143 / 200, train_loss: 0.3584, val_loss: 0.3567, ap: 0.9220
+12-01 21:30:06	# val_loss 0.0% loss=0.3236
+12-01 21:30:06	# val_loss 6.1% loss=0.3549
+12-01 21:30:06	# val_loss 12.1% loss=0.3637
+12-01 21:30:07	# val_loss 18.2% loss=0.4126
+12-01 21:30:07	# val_loss 24.2% loss=0.3658
+12-01 21:30:07	# val_loss 30.3% loss=0.3841
+12-01 21:30:07	# val_loss 36.4% loss=0.3389
+12-01 21:30:07	# val_loss 42.4% loss=0.2806
+12-01 21:30:08	# val_loss 48.5% loss=0.3670
+12-01 21:30:08	# val_loss 54.5% loss=0.4529
+12-01 21:30:08	# val_loss 60.6% loss=0.3646
+12-01 21:30:08	# val_loss 66.7% loss=0.4162
+12-01 21:30:08	# val_loss 72.7% loss=0.3349
+12-01 21:30:08	# val_loss 78.8% loss=0.3579
+12-01 21:30:09	# val_loss 84.8% loss=0.3740
+12-01 21:30:09	# val_loss 90.9% loss=0.3014
+12-01 21:30:09	# val_loss 97.0% loss=0.3246
+12-01 21:30:09	Epoch 144 / 200, train_loss: 0.3589, val_loss: 0.3618, ap: 0.9207
+12-01 21:33:28	# val_loss 0.0% loss=0.3431
+12-01 21:33:28	# val_loss 6.1% loss=0.3638
+12-01 21:33:28	# val_loss 12.1% loss=0.3738
+12-01 21:33:28	# val_loss 18.2% loss=0.4159
+12-01 21:33:29	# val_loss 24.2% loss=0.3644
+12-01 21:33:29	# val_loss 30.3% loss=0.3199
+12-01 21:33:29	# val_loss 36.4% loss=0.4328
+12-01 21:33:29	# val_loss 42.4% loss=0.3864
+12-01 21:33:29	# val_loss 48.5% loss=0.3592
+12-01 21:33:30	# val_loss 54.5% loss=0.3553
+12-01 21:33:30	# val_loss 60.6% loss=0.3473
+12-01 21:33:30	# val_loss 66.7% loss=0.3594
+12-01 21:33:30	# val_loss 72.7% loss=0.3221
+12-01 21:33:30	# val_loss 78.8% loss=0.3989
+12-01 21:33:30	# val_loss 84.8% loss=0.3195
+12-01 21:33:31	# val_loss 90.9% loss=0.3334
+12-01 21:33:31	# val_loss 97.0% loss=0.3073
+12-01 21:33:31	Epoch 145 / 200, train_loss: 0.3585, val_loss: 0.3595, ap: 0.9198
+12-01 21:36:50	# val_loss 0.0% loss=0.3519
+12-01 21:36:51	# val_loss 6.1% loss=0.3727
+12-01 21:36:51	# val_loss 12.1% loss=0.3531
+12-01 21:36:51	# val_loss 18.2% loss=0.3541
+12-01 21:36:51	# val_loss 24.2% loss=0.3762
+12-01 21:36:51	# val_loss 30.3% loss=0.4445
+12-01 21:36:52	# val_loss 36.4% loss=0.4009
+12-01 21:36:52	# val_loss 42.4% loss=0.3911
+12-01 21:36:52	# val_loss 48.5% loss=0.4505
+12-01 21:36:52	# val_loss 54.5% loss=0.3650
+12-01 21:36:52	# val_loss 60.6% loss=0.3201
+12-01 21:36:52	# val_loss 66.7% loss=0.3132
+12-01 21:36:53	# val_loss 72.7% loss=0.3247
+12-01 21:36:53	# val_loss 78.8% loss=0.3515
+12-01 21:36:53	# val_loss 84.8% loss=0.3545
+12-01 21:36:53	# val_loss 90.9% loss=0.3472
+12-01 21:36:53	# val_loss 97.0% loss=0.3428
+12-01 21:36:53	Epoch 146 / 200, train_loss: 0.3592, val_loss: 0.3555, ap: 0.9209
+12-01 21:40:18	# val_loss 0.0% loss=0.4106
+12-01 21:40:18	# val_loss 6.1% loss=0.4551
+12-01 21:40:19	# val_loss 12.1% loss=0.3507
+12-01 21:40:19	# val_loss 18.2% loss=0.4065
+12-01 21:40:19	# val_loss 24.2% loss=0.3530
+12-01 21:40:19	# val_loss 30.3% loss=0.3920
+12-01 21:40:19	# val_loss 36.4% loss=0.3187
+12-01 21:40:20	# val_loss 42.4% loss=0.3464
+12-01 21:40:20	# val_loss 48.5% loss=0.4096
+12-01 21:40:20	# val_loss 54.5% loss=0.4014
+12-01 21:40:20	# val_loss 60.6% loss=0.3408
+12-01 21:40:20	# val_loss 66.7% loss=0.3754
+12-01 21:40:20	# val_loss 72.7% loss=0.3526
+12-01 21:40:21	# val_loss 78.8% loss=0.3030
+12-01 21:40:21	# val_loss 84.8% loss=0.3301
+12-01 21:40:21	# val_loss 90.9% loss=0.3459
+12-01 21:40:21	# val_loss 97.0% loss=0.4253
+12-01 21:40:21	Epoch 147 / 200, train_loss: 0.3593, val_loss: 0.3559, ap: 0.9218
+12-01 21:43:50	# val_loss 0.0% loss=0.3212
+12-01 21:43:50	# val_loss 6.1% loss=0.4303
+12-01 21:43:50	# val_loss 12.1% loss=0.3606
+12-01 21:43:50	# val_loss 18.2% loss=0.3883
+12-01 21:43:51	# val_loss 24.2% loss=0.3526
+12-01 21:43:51	# val_loss 30.3% loss=0.3692
+12-01 21:43:51	# val_loss 36.4% loss=0.4020
+12-01 21:43:51	# val_loss 42.4% loss=0.3679
+12-01 21:43:51	# val_loss 48.5% loss=0.3433
+12-01 21:43:52	# val_loss 54.5% loss=0.3808
+12-01 21:43:52	# val_loss 60.6% loss=0.3893
+12-01 21:43:52	# val_loss 66.7% loss=0.3646
+12-01 21:43:52	# val_loss 72.7% loss=0.3863
+12-01 21:43:52	# val_loss 78.8% loss=0.3530
+12-01 21:43:53	# val_loss 84.8% loss=0.3452
+12-01 21:43:53	# val_loss 90.9% loss=0.4394
+12-01 21:43:53	# val_loss 97.0% loss=0.3780
+12-01 21:43:53	Epoch 148 / 200, train_loss: 0.3591, val_loss: 0.3502, ap: 0.9222
+12-01 21:56:28	# val_loss 0.0% loss=0.3565
+12-01 21:56:28	# val_loss 6.1% loss=0.3933
+12-01 21:56:29	# val_loss 12.1% loss=0.3571
+12-01 21:56:29	# val_loss 18.2% loss=0.3073
+12-01 21:56:29	# val_loss 24.2% loss=0.4167
+12-01 21:56:29	# val_loss 30.3% loss=0.3796
+12-01 21:56:29	# val_loss 36.4% loss=0.3668
+12-01 21:56:29	# val_loss 42.4% loss=0.3293
+12-01 21:56:30	# val_loss 48.5% loss=0.3137
+12-01 21:56:30	# val_loss 54.5% loss=0.3593
+12-01 21:56:30	# val_loss 60.6% loss=0.3833
+12-01 21:56:30	# val_loss 66.7% loss=0.3410
+12-01 21:56:30	# val_loss 72.7% loss=0.3842
+12-01 21:56:30	# val_loss 78.8% loss=0.4289
+12-01 21:56:31	# val_loss 84.8% loss=0.3134
+12-01 21:56:31	# val_loss 90.9% loss=0.3738
+12-01 21:56:31	# val_loss 97.0% loss=0.3855
+12-01 21:56:31	Epoch 149 / 200, train_loss: 0.3589, val_loss: 0.3576, ap: 0.9212
+12-01 22:00:02	# val_loss 0.0% loss=0.3773
+12-01 22:00:02	# val_loss 6.1% loss=0.3685
+12-01 22:00:02	# val_loss 12.1% loss=0.3857
+12-01 22:00:02	# val_loss 18.2% loss=0.3570
+12-01 22:00:03	# val_loss 24.2% loss=0.3375
+12-01 22:00:03	# val_loss 30.3% loss=0.3254
+12-01 22:00:03	# val_loss 36.4% loss=0.3680
+12-01 22:00:03	# val_loss 42.4% loss=0.3486
+12-01 22:00:03	# val_loss 48.5% loss=0.3026
+12-01 22:00:03	# val_loss 54.5% loss=0.4569
+12-01 22:00:04	# val_loss 60.6% loss=0.3944
+12-01 22:00:04	# val_loss 66.7% loss=0.3694
+12-01 22:00:04	# val_loss 72.7% loss=0.3205
+12-01 22:00:04	# val_loss 78.8% loss=0.3693
+12-01 22:00:04	# val_loss 84.8% loss=0.4246
+12-01 22:00:05	# val_loss 90.9% loss=0.4234
+12-01 22:00:05	# val_loss 97.0% loss=0.3416
+12-01 22:00:05	Epoch 150 / 200, train_loss: 0.3587, val_loss: 0.3521, ap: 0.9202
+12-01 22:03:38	# val_loss 0.0% loss=0.3498
+12-01 22:03:39	# val_loss 6.1% loss=0.4535
+12-01 22:03:39	# val_loss 12.1% loss=0.3412
+12-01 22:03:39	# val_loss 18.2% loss=0.3490
+12-01 22:03:39	# val_loss 24.2% loss=0.3093
+12-01 22:03:39	# val_loss 30.3% loss=0.3460
+12-01 22:03:40	# val_loss 36.4% loss=0.3592
+12-01 22:03:40	# val_loss 42.4% loss=0.3205
+12-01 22:03:40	# val_loss 48.5% loss=0.4983
+12-01 22:03:40	# val_loss 54.5% loss=0.3631
+12-01 22:03:40	# val_loss 60.6% loss=0.3428
+12-01 22:03:40	# val_loss 66.7% loss=0.4229
+12-01 22:03:41	# val_loss 72.7% loss=0.3757
+12-01 22:03:41	# val_loss 78.8% loss=0.4079
+12-01 22:03:41	# val_loss 84.8% loss=0.3319
+12-01 22:03:41	# val_loss 90.9% loss=0.2962
+12-01 22:03:41	# val_loss 97.0% loss=0.3515
+12-01 22:03:41	Epoch 151 / 200, train_loss: 0.3588, val_loss: 0.3611, ap: 0.9209
+12-01 22:07:14	# val_loss 0.0% loss=0.3828
+12-01 22:07:14	# val_loss 6.1% loss=0.3835
+12-01 22:07:14	# val_loss 12.1% loss=0.4856
+12-01 22:07:14	# val_loss 18.2% loss=0.3596
+12-01 22:07:14	# val_loss 24.2% loss=0.3789
+12-01 22:07:15	# val_loss 30.3% loss=0.3331
+12-01 22:07:15	# val_loss 36.4% loss=0.3349
+12-01 22:07:15	# val_loss 42.4% loss=0.4360
+12-01 22:07:15	# val_loss 48.5% loss=0.3588
+12-01 22:07:15	# val_loss 54.5% loss=0.3136
+12-01 22:07:15	# val_loss 60.6% loss=0.3377
+12-01 22:07:16	# val_loss 66.7% loss=0.4325
+12-01 22:07:16	# val_loss 72.7% loss=0.4386
+12-01 22:07:16	# val_loss 78.8% loss=0.3612
+12-01 22:07:16	# val_loss 84.8% loss=0.3059
+12-01 22:07:16	# val_loss 90.9% loss=0.3447
+12-01 22:07:17	# val_loss 97.0% loss=0.3500
+12-01 22:07:17	Epoch 152 / 200, train_loss: 0.3588, val_loss: 0.3660, ap: 0.9206
+12-01 22:10:48	# val_loss 0.0% loss=0.3911
+12-01 22:10:48	# val_loss 6.1% loss=0.3908
+12-01 22:10:48	# val_loss 12.1% loss=0.3319
+12-01 22:10:49	# val_loss 18.2% loss=0.3107
+12-01 22:10:49	# val_loss 24.2% loss=0.3255
+12-01 22:10:49	# val_loss 30.3% loss=0.3191
+12-01 22:10:49	# val_loss 36.4% loss=0.3354
+12-01 22:10:49	# val_loss 42.4% loss=0.3174
+12-01 22:10:49	# val_loss 48.5% loss=0.3270
+12-01 22:10:50	# val_loss 54.5% loss=0.3482
+12-01 22:10:50	# val_loss 60.6% loss=0.3083
+12-01 22:10:50	# val_loss 66.7% loss=0.3027
+12-01 22:10:50	# val_loss 72.7% loss=0.3017
+12-01 22:10:50	# val_loss 78.8% loss=0.3517
+12-01 22:10:51	# val_loss 84.8% loss=0.3242
+12-01 22:10:51	# val_loss 90.9% loss=0.3780
+12-01 22:10:51	# val_loss 97.0% loss=0.3611
+12-01 22:10:51	Epoch 153 / 200, train_loss: 0.3587, val_loss: 0.3535, ap: 0.9213
+12-01 22:10:51	Saved early stopping model in early_stopping/mol_1669911590057
+12-01 22:10:52	created loss graph in results/gcn_1669911590056/training_loss.png
+12-01 22:10:52	device: cuda (6 GPUs)
+12-01 22:10:57	Creating Dataset...
+12-01 22:11:56	Test Set with 81025 examples from ../dataset/KEGG/kegg_test1to5.fa
+12-01 22:13:16	Test_loss: 0.542, Test_ap: 0.592, Test_rpec: 0.559
+12-01 22:13:16	Test_Comp_map: 0.257, Test_Comp_rpec: 0.340, Test_cmap_3: 0.240, Test_Comp_prec_1: 0.180
+12-01 22:13:16	Test_Seq_map: 0.370, Test_seq_rprec: 0.607, Test_smap_3: 0.362, Test_seq_prec_1: 0.308
+12-01 22:13:18	created pos neg distrib in results/1669950796509_posneg_hist.png
+12-01 22:13:18	Training done
+12-02 09:20:51	device: cuda (6 GPUs)
+12-02 09:20:57	Creating Base Protein LM Model...
+12-02 09:20:57	Creating Molecule GNN Model...
+12-02 09:20:57	loading pretrained_model weights from early_stopping/prot_1669911590057
+12-02 09:20:57	loading pretrained_mol_model weights from early_stopping/mol_1669911590057
+12-02 09:20:57	Creating Dataset...
+12-02 09:21:52	Test Set with 75754 examples from ../dataset/KEGG/test_allneg1to5_KEGG.fa
+12-02 09:22:44	Test_loss: 0.543, Test_ap: 0.596, Test_rpec: 0.563
+12-02 09:22:44	Test_Comp_map: 0.482, Test_Comp_rpec: 0.350, Test_cmap_3: 0.441, Test_Comp_prec_1: 0.329
+12-02 09:22:44	Test_Seq_map: 0.583, Test_seq_rprec: 0.607, Test_smap_3: 0.565, Test_seq_prec_1: 0.476
+12-02 09:22:45	created pos neg distrib in results/1669990964213_posneg_hist.png
+12-02 09:22:45	Testing done

@@ -1,0 +1,727 @@
+12-02 20:11:40	device: cuda (6 GPUs)
+12-02 20:13:21	device: cuda (6 GPUs)
+12-02 20:14:09	Creating Base Protein LM Model...
+12-02 20:14:21	Creating Molecule GNN Model...
+12-02 20:14:49	Creating Base Protein LM Model...
+12-02 20:14:56	Creating Molecule GNN Model...
+12-02 20:15:39	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-02 20:15:39	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-02 20:15:39	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-02 20:15:39	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-02 20:15:47	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-02 20:15:47	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-02 20:15:47	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-02 20:15:47	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-02 20:15:52	loading pretrained_pred_model weights from early_stopping/pred_1644327570805
+12-02 20:16:04	Creating Dataset...
+12-02 20:19:36	device: cuda (6 GPUs)
+12-02 20:19:54	Creating Base Protein LM Model...
+12-02 20:19:55	Creating Molecule GNN Model...
+12-02 20:19:55	Creating Base Protein LM Model...
+12-02 20:19:55	Creating Molecule GNN Model...
+12-02 20:19:55	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-02 20:19:55	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-02 20:19:55	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-02 20:19:55	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-02 20:19:55	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-02 20:19:55	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-02 20:19:55	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-02 20:19:55	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-02 20:19:55	loading pretrained_pred_model weights from early_stopping/pred_1644327570805
+12-02 20:19:55	Creating Dataset...
+12-02 20:22:46	Test Set with 24891 examples from ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-02 20:25:01	device: cuda (6 GPUs)
+12-02 20:25:20	Creating Base Protein LM Model...
+12-02 20:25:20	Creating Molecule GNN Model...
+12-02 20:25:21	Creating Base Protein LM Model...
+12-02 20:25:21	Creating Molecule GNN Model...
+12-02 20:25:21	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-02 20:25:21	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-02 20:25:21	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-02 20:25:21	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-02 20:25:21	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-02 20:25:21	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-02 20:25:21	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-02 20:25:21	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-02 20:25:21	loading pretrained_pred_model weights from early_stopping/pred_1644327570805
+12-02 20:25:21	Creating Dataset...
+12-02 20:25:41	Test Set with 24891 examples from ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-02 20:26:42	device: cuda (6 GPUs)
+12-02 20:27:02	Creating Base Protein LM Model...
+12-02 20:27:02	Creating Molecule GNN Model...
+12-02 20:27:03	Creating Base Protein LM Model...
+12-02 20:27:03	Creating Molecule GNN Model...
+12-02 20:27:03	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-02 20:27:03	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-02 20:27:03	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-02 20:27:03	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-02 20:27:03	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-02 20:27:03	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-02 20:27:03	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-02 20:27:03	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-02 20:27:03	loading pretrained_pred_model weights from early_stopping/pred_1644327570805
+12-02 20:27:03	Creating Dataset...
+12-02 20:27:23	Test Set with 24891 examples from ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-02 20:29:35	Test_loss: 0.507, Test_ap: 0.969, Test_rpec: 0.902
+12-02 20:30:01	Test_Comp_map: 0.953, Test_Comp_rpec: 0.918, Test_cmap_3: 0.956, Test_Comp_prec_1: 0.939
+12-02 20:30:14	Test_Seq_map: 0.809, Test_seq_rprec: 0.968, Test_smap_3: 0.808, Test_seq_prec_1: 0.793
+12-02 20:30:31	created pos neg distrib in results/1670031015174_posneg_hist.png
+12-02 20:30:33	Testing done
+12-05 11:37:01	Values of Hyperparameters:
+12-05 11:37:01	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 11:37:01	debug_flag : False
+12-05 11:37:01	data_dir : data/KEGG/
+12-05 11:37:01	train_contr_data : ../dataset/KEGG/kegg_contrast_ec3.txt
+12-05 11:37:01	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 11:37:01	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 11:37:01	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 11:37:01	mode : positive
+12-05 11:37:01	atom_feature : full
+12-05 11:37:01	bond_feature : full
+12-05 11:37:01	self_loop : True
+12-05 11:37:01	num_virtual_nodes : 0
+12-05 11:37:01	batch_size_train_contr : 64
+12-05 11:37:01	batch_size_train : 64
+12-05 11:37:01	batch_size_val : 128
+12-05 11:37:01	cpu_workers : 4
+12-05 11:37:01	logfile : logs/kegg_train_comb_log.txt
+12-05 11:37:01	sanity_check : False
+12-05 11:37:01	contr_training : True
+12-05 11:37:01	contr_temp : 0.05
+12-05 11:37:01	contr_views : [1, 2]
+12-05 11:37:01	comp_pairs : True
+12-05 11:37:01	seq_pairs : False
+12-05 11:37:01	full_model : False
+12-05 11:37:01	prot_model : cnn
+12-05 11:37:01	prot_min_len : -1
+12-05 11:37:01	prot_max_len : -1
+12-05 11:37:01	prot_truncate : -1
+12-05 11:37:01	mle_sigma : 0.08
+12-05 11:37:01	early_stopping_patience : 20
+12-05 11:37:01	prot_num_layers : 3
+12-05 11:37:01	prot_hidden_dim : 512
+12-05 11:37:01	prot_embedding_dim : 100
+12-05 11:37:01	cnn_prot_length : 1000
+12-05 11:37:01	cnn_out_channels : 32
+12-05 11:37:01	cnn_kernel_size : 8
+12-05 11:37:01	num_classes : 2
+12-05 11:37:01	neg_to_pos : 6.0
+12-05 11:37:01	gnn_type : gcn
+12-05 11:37:01	num_gnn_layers : 3
+12-05 11:37:01	gnn_hidden_dim : 512
+12-05 11:37:01	gnn_out_feat : 196
+12-05 11:37:01	global_pooling : max
+12-05 11:37:01	num_mlp_layers : 3
+12-05 11:37:01	gnn_channels : [64, 128, 256]
+12-05 11:37:01	attn_heads : [12, 12, 12]
+12-05 11:37:01	mlp_out_feat : 1000
+12-05 11:37:01	glu : True
+12-05 11:37:01	gat_num_heads : 4
+12-05 11:37:01	gin_agg : max
+12-05 11:37:01	gnn_dropout : 0.2
+12-05 11:37:01	fc_dropout : 0.25
+12-05 11:37:01	contr_final_dropout : 0.25
+12-05 11:37:01	activation : relu
+12-05 11:37:01	attn_type : False
+12-05 11:37:01	attn_func : tanh
+12-05 11:37:01	l2 : 0.01
+12-05 11:37:01	contr_lr : 0.0005
+12-05 11:37:01	pred_lr : 2e-05
+12-05 11:37:01	num_epoch_contr : 700
+12-05 11:37:01	num_epoch : 200
+12-05 11:37:01	cand_size : 50
+12-05 11:37:01	cand_iterations : 3
+12-05 11:40:01	device: cuda (6 GPUs)
+12-05 11:40:02	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 11:42:54	device: cuda (6 GPUs)
+12-05 11:42:59	Creating Base Protein LM Model...
+12-05 11:43:05	Creating Molecule GNN Model...
+12-05 11:43:09	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-05 11:43:09	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-05 11:43:09	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-05 11:43:09	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-05 11:43:19	Creating Molecule GNN Model...
+12-05 11:43:23	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-05 11:43:23	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-05 11:43:23	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-05 11:43:23	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-05 11:43:28	available GPU memory = [22918, 24253, 24253, 24253, 24253, 24253]
+12-05 11:43:31	available GPU memory = [22918, 24253, 24253, 24253, 24253, 24253]
+12-05 11:43:33	available GPU memory = [22918, 24253, 24253, 24253, 24253, 24253]
+12-05 11:50:45	Training Set with 598409 examples
+12-05 11:50:45	Validation Set with 21062 examples
+12-05 11:51:10	Creating Final Prediction Model...
+12-05 11:51:55	Starting Final Training...
+12-05 12:08:13	Epoch 1 / 200, train_loss: 0.2021, val_loss: 0.1104, ap: 0.9915
+12-05 12:08:22	saving CONTR_FINAL_2 weights to data/KEGG/pretrained_pred_model_1670258606191_best.pt
+12-05 12:39:49	device: cuda (6 GPUs)
+12-05 12:40:37	Creating Base Protein LM Model...
+12-05 12:40:43	Creating Molecule GNN Model...
+12-05 12:41:33	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1647396923667_best.pt
+12-05 12:41:33	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1647396923667_best.pt
+12-05 12:41:33	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1647396923667_best.pt
+12-05 12:49:40	device: cuda (6 GPUs)
+12-05 12:49:59	Creating Base Protein LM Model...
+12-05 12:50:00	Creating Molecule GNN Model...
+12-05 12:50:08	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1647396923667_best.pt
+12-05 12:50:08	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1647396923667_best.pt
+12-05 12:50:08	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1647396923667_best.pt
+12-05 12:50:08	loading pretrained_pred_model weights from data/KEGG/pretrained_pred_model_1647396923667_best.pt
+12-05 12:50:08	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1647396923667_best.pt
+12-05 12:50:21	Creating Dataset...
+12-05 12:50:44	Test Set with 24891 examples from ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 12:52:22	Test_loss: 0.322, Test_ap: 0.952, Test_rpec: 0.875
+12-05 12:52:37	Test_Comp_map: 0.922, Test_Comp_rpec: 0.867, Test_cmap_3: 0.926, Test_Comp_prec_1: 0.899
+12-05 12:52:43	Test_Seq_map: 0.800, Test_seq_rprec: 0.948, Test_smap_3: 0.798, Test_seq_prec_1: 0.776
+12-05 19:59:46	Values of Hyperparameters:
+12-05 19:59:46	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 19:59:46	debug_flag : False
+12-05 19:59:46	data_dir : data/KEGG/
+12-05 19:59:46	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 19:59:46	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 19:59:46	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 19:59:46	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 19:59:46	mode : positive
+12-05 19:59:46	atom_feature : full
+12-05 19:59:46	bond_feature : full
+12-05 19:59:46	self_loop : True
+12-05 19:59:46	num_virtual_nodes : 0
+12-05 19:59:46	batch_size_train_contr : 64
+12-05 19:59:46	batch_size_train : 64
+12-05 19:59:46	batch_size_val : 128
+12-05 19:59:46	cpu_workers : 4
+12-05 19:59:46	logfile : logs/kegg_train_comb_log.txt
+12-05 19:59:46	sanity_check : False
+12-05 19:59:46	contr_training : True
+12-05 19:59:46	contr_temp : 0.05
+12-05 19:59:46	contr_views : [1, 2]
+12-05 19:59:46	comp_pairs : True
+12-05 19:59:46	seq_pairs : False
+12-05 19:59:46	full_model : False
+12-05 19:59:46	prot_model : cnn
+12-05 19:59:46	prot_min_len : -1
+12-05 19:59:46	prot_max_len : -1
+12-05 19:59:46	prot_truncate : -1
+12-05 19:59:46	mle_sigma : 0.08
+12-05 19:59:46	early_stopping_patience : 20
+12-05 19:59:46	prot_num_layers : 3
+12-05 19:59:46	prot_hidden_dim : 512
+12-05 19:59:46	prot_embedding_dim : 100
+12-05 19:59:46	cnn_prot_length : 1000
+12-05 19:59:46	cnn_out_channels : 32
+12-05 19:59:46	cnn_kernel_size : 8
+12-05 19:59:46	num_classes : 2
+12-05 19:59:46	neg_to_pos : 6.0
+12-05 19:59:46	gnn_type : gcn
+12-05 19:59:46	num_gnn_layers : 3
+12-05 19:59:46	gnn_hidden_dim : 512
+12-05 19:59:46	gnn_out_feat : 196
+12-05 19:59:46	global_pooling : max
+12-05 19:59:46	num_mlp_layers : 3
+12-05 19:59:46	gnn_channels : [64, 128, 256]
+12-05 19:59:46	attn_heads : [12, 12, 12]
+12-05 19:59:46	mlp_out_feat : 1000
+12-05 19:59:46	glu : True
+12-05 19:59:46	gat_num_heads : 4
+12-05 19:59:46	gin_agg : max
+12-05 19:59:46	gnn_dropout : 0.2
+12-05 19:59:46	fc_dropout : 0.25
+12-05 19:59:46	contr_final_dropout : 0.25
+12-05 19:59:46	activation : relu
+12-05 19:59:46	attn_type : False
+12-05 19:59:46	attn_func : tanh
+12-05 19:59:46	l2 : 0.01
+12-05 19:59:46	contr_lr : 0.0005
+12-05 19:59:46	pred_lr : 2e-05
+12-05 19:59:46	num_epoch_contr : 1
+12-05 19:59:46	num_epoch : 200
+12-05 19:59:46	cand_size : 50
+12-05 19:59:46	cand_iterations : 3
+12-05 20:00:53	device: cuda (6 GPUs)
+12-05 20:00:54	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 20:10:53	Training Set with 16184 examples
+12-05 20:16:43	Values of Hyperparameters:
+12-05 20:16:43	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 20:16:43	debug_flag : False
+12-05 20:16:43	data_dir : data/KEGG/
+12-05 20:16:43	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 20:16:43	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 20:16:43	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 20:16:43	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 20:16:43	mode : positive
+12-05 20:16:43	atom_feature : full
+12-05 20:16:43	bond_feature : full
+12-05 20:16:43	self_loop : True
+12-05 20:16:43	num_virtual_nodes : 0
+12-05 20:16:43	batch_size_train_contr : 64
+12-05 20:16:43	batch_size_train : 64
+12-05 20:16:43	batch_size_val : 128
+12-05 20:16:43	cpu_workers : 4
+12-05 20:16:43	logfile : logs/kegg_train_comb_log.txt
+12-05 20:16:43	sanity_check : False
+12-05 20:16:43	contr_training : True
+12-05 20:16:43	random_contr_views : False
+12-05 20:16:43	contr_temp : 0.05
+12-05 20:16:43	contr_views : [1, 2]
+12-05 20:16:43	comp_pairs : True
+12-05 20:16:43	seq_pairs : False
+12-05 20:16:43	full_model : False
+12-05 20:16:43	prot_model : cnn
+12-05 20:16:43	prot_min_len : -1
+12-05 20:16:43	prot_max_len : -1
+12-05 20:16:43	prot_truncate : -1
+12-05 20:16:43	mle_sigma : 0.08
+12-05 20:16:43	early_stopping_patience : 20
+12-05 20:16:43	prot_num_layers : 3
+12-05 20:16:43	prot_hidden_dim : 512
+12-05 20:16:43	prot_embedding_dim : 100
+12-05 20:16:43	cnn_prot_length : 1000
+12-05 20:16:43	cnn_out_channels : 32
+12-05 20:16:43	cnn_kernel_size : 8
+12-05 20:16:43	num_classes : 2
+12-05 20:16:43	neg_to_pos : 6.0
+12-05 20:16:43	gnn_type : gcn
+12-05 20:16:43	num_gnn_layers : 3
+12-05 20:16:43	gnn_hidden_dim : 512
+12-05 20:16:43	gnn_out_feat : 196
+12-05 20:16:43	global_pooling : max
+12-05 20:16:43	num_mlp_layers : 3
+12-05 20:16:43	gnn_channels : [64, 128, 256]
+12-05 20:16:43	attn_heads : [12, 12, 12]
+12-05 20:16:43	mlp_out_feat : 1000
+12-05 20:16:43	glu : True
+12-05 20:16:43	gat_num_heads : 4
+12-05 20:16:43	gin_agg : max
+12-05 20:16:43	gnn_dropout : 0.2
+12-05 20:16:43	fc_dropout : 0.25
+12-05 20:16:43	contr_final_dropout : 0.25
+12-05 20:16:43	activation : relu
+12-05 20:16:43	attn_type : False
+12-05 20:16:43	attn_func : tanh
+12-05 20:16:43	l2 : 0.01
+12-05 20:16:43	contr_lr : 0.0005
+12-05 20:16:43	pred_lr : 2e-05
+12-05 20:16:43	num_epoch_contr : 1
+12-05 20:16:43	num_epoch : 200
+12-05 20:16:43	cand_size : 50
+12-05 20:16:43	cand_iterations : 3
+12-05 20:17:43	Values of Hyperparameters:
+12-05 20:17:43	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 20:17:43	debug_flag : False
+12-05 20:17:43	data_dir : data/KEGG/
+12-05 20:17:43	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 20:17:43	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 20:17:43	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 20:17:43	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 20:17:43	mode : positive
+12-05 20:17:43	atom_feature : full
+12-05 20:17:43	bond_feature : full
+12-05 20:17:43	self_loop : True
+12-05 20:17:43	num_virtual_nodes : 0
+12-05 20:17:43	batch_size_train_contr : 64
+12-05 20:17:43	batch_size_train : 64
+12-05 20:17:43	batch_size_val : 128
+12-05 20:17:43	cpu_workers : 4
+12-05 20:17:43	logfile : logs/kegg_train_comb_log.txt
+12-05 20:17:43	sanity_check : False
+12-05 20:17:43	contr_training : True
+12-05 20:17:43	random_contr_views : False
+12-05 20:17:43	contr_temp : 0.05
+12-05 20:17:43	contr_views : [1, 2]
+12-05 20:17:43	comp_pairs : True
+12-05 20:17:43	seq_pairs : False
+12-05 20:17:43	full_model : False
+12-05 20:17:43	prot_model : cnn
+12-05 20:17:43	prot_min_len : -1
+12-05 20:17:43	prot_max_len : -1
+12-05 20:17:43	prot_truncate : -1
+12-05 20:17:43	mle_sigma : 0.08
+12-05 20:17:43	early_stopping_patience : 20
+12-05 20:17:43	prot_num_layers : 3
+12-05 20:17:43	prot_hidden_dim : 512
+12-05 20:17:43	prot_embedding_dim : 100
+12-05 20:17:43	cnn_prot_length : 1000
+12-05 20:17:43	cnn_out_channels : 32
+12-05 20:17:43	cnn_kernel_size : 8
+12-05 20:17:43	num_classes : 2
+12-05 20:17:43	neg_to_pos : 6.0
+12-05 20:17:43	gnn_type : gcn
+12-05 20:17:43	num_gnn_layers : 3
+12-05 20:17:43	gnn_hidden_dim : 512
+12-05 20:17:43	gnn_out_feat : 196
+12-05 20:17:43	global_pooling : max
+12-05 20:17:43	num_mlp_layers : 3
+12-05 20:17:43	gnn_channels : [64, 128, 256]
+12-05 20:17:43	attn_heads : [12, 12, 12]
+12-05 20:17:43	mlp_out_feat : 1000
+12-05 20:17:43	glu : True
+12-05 20:17:43	gat_num_heads : 4
+12-05 20:17:43	gin_agg : max
+12-05 20:17:43	gnn_dropout : 0.2
+12-05 20:17:43	fc_dropout : 0.25
+12-05 20:17:43	contr_final_dropout : 0.25
+12-05 20:17:43	activation : relu
+12-05 20:17:43	attn_type : False
+12-05 20:17:43	attn_func : tanh
+12-05 20:17:43	l2 : 0.01
+12-05 20:17:43	contr_lr : 0.0005
+12-05 20:17:43	pred_lr : 2e-05
+12-05 20:17:43	num_epoch_contr : 1
+12-05 20:17:43	num_epoch : 200
+12-05 20:17:43	cand_size : 50
+12-05 20:17:43	cand_iterations : 3
+12-05 20:18:09	device: cuda (6 GPUs)
+12-05 20:18:09	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 20:28:06	Training Set with 16184 examples
+12-05 20:28:48	device: cuda (6 GPUs)
+12-05 20:37:38	Values of Hyperparameters:
+12-05 20:37:38	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 20:37:38	debug_flag : False
+12-05 20:37:38	data_dir : data/KEGG/
+12-05 20:37:38	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 20:37:38	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 20:37:38	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 20:37:38	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 20:37:38	mode : positive
+12-05 20:37:38	atom_feature : full
+12-05 20:37:38	bond_feature : full
+12-05 20:37:38	self_loop : True
+12-05 20:37:38	num_virtual_nodes : 0
+12-05 20:37:38	batch_size_train_contr : 64
+12-05 20:37:38	batch_size_train : 64
+12-05 20:37:38	batch_size_val : 128
+12-05 20:37:38	cpu_workers : 4
+12-05 20:37:38	logfile : logs/kegg_train_comb_log.txt
+12-05 20:37:38	sanity_check : False
+12-05 20:37:38	contr_training : True
+12-05 20:37:38	random_contr_views : False
+12-05 20:37:38	contr_temp : 0.05
+12-05 20:37:38	contr_views : [1, 2]
+12-05 20:37:38	comp_pairs : True
+12-05 20:37:38	seq_pairs : False
+12-05 20:37:38	full_model : False
+12-05 20:37:38	prot_model : cnn
+12-05 20:37:38	prot_min_len : -1
+12-05 20:37:38	prot_max_len : -1
+12-05 20:37:38	prot_truncate : -1
+12-05 20:37:38	mle_sigma : 0.08
+12-05 20:37:38	early_stopping_patience : 20
+12-05 20:37:38	prot_num_layers : 3
+12-05 20:37:38	prot_hidden_dim : 512
+12-05 20:37:38	prot_embedding_dim : 100
+12-05 20:37:38	cnn_prot_length : 1000
+12-05 20:37:38	cnn_out_channels : 32
+12-05 20:37:38	cnn_kernel_size : 8
+12-05 20:37:38	num_classes : 2
+12-05 20:37:38	neg_to_pos : 6.0
+12-05 20:37:38	gnn_type : gcn
+12-05 20:37:38	num_gnn_layers : 3
+12-05 20:37:38	gnn_hidden_dim : 512
+12-05 20:37:38	gnn_out_feat : 196
+12-05 20:37:38	global_pooling : max
+12-05 20:37:38	num_mlp_layers : 3
+12-05 20:37:38	gnn_channels : [64, 128, 256]
+12-05 20:37:38	attn_heads : [12, 12, 12]
+12-05 20:37:38	mlp_out_feat : 1000
+12-05 20:37:38	glu : True
+12-05 20:37:38	gat_num_heads : 4
+12-05 20:37:38	gin_agg : max
+12-05 20:37:38	gnn_dropout : 0.2
+12-05 20:37:38	fc_dropout : 0.25
+12-05 20:37:38	contr_final_dropout : 0.25
+12-05 20:37:38	activation : relu
+12-05 20:37:38	attn_type : False
+12-05 20:37:38	attn_func : tanh
+12-05 20:37:38	l2 : 0.01
+12-05 20:37:38	contr_lr : 0.0005
+12-05 20:37:38	pred_lr : 2e-05
+12-05 20:37:38	num_epoch_contr : 1
+12-05 20:37:38	num_epoch : 200
+12-05 20:37:38	cand_size : 50
+12-05 20:37:38	cand_iterations : 3
+12-05 20:38:04	device: cuda (6 GPUs)
+12-05 20:38:04	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 20:48:01	Training Set with 16184 examples
+12-05 20:48:16	device: cuda (6 GPUs)
+12-05 20:48:59	Creating Base Protein LM Model...
+12-05 20:49:27	Creating Molecule GNN Model...
+12-05 20:49:55	available GPU memory = [22924, 24253, 24253, 24253, 24253, 24253]
+12-05 20:49:58	Starting Contrastive Training...
+12-05 20:51:41	Epoch 1 / 1, train_loss: 8.2842
+12-05 20:51:48	created loss graph in results/gcn_1670291375156/training_loss_contr.png
+12-05 20:51:51	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 20:51:55	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 20:59:07	Training Set with 598409 examples
+12-05 20:59:07	Validation Set with 21062 examples
+12-05 20:59:50	Creating Final Prediction Model...
+12-05 21:00:19	Starting Final Training...
+12-05 21:05:54	Values of Hyperparameters:
+12-05 21:05:54	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 21:05:54	debug_flag : False
+12-05 21:05:54	data_dir : data/KEGG/
+12-05 21:05:54	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 21:05:54	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 21:05:54	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 21:05:54	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 21:05:54	mode : positive
+12-05 21:05:54	atom_feature : full
+12-05 21:05:54	bond_feature : full
+12-05 21:05:54	self_loop : True
+12-05 21:05:54	num_virtual_nodes : 0
+12-05 21:05:54	batch_size_train_contr : 64
+12-05 21:05:54	batch_size_train : 64
+12-05 21:05:54	batch_size_val : 128
+12-05 21:05:54	cpu_workers : 4
+12-05 21:05:54	logfile : logs/kegg_train_comb_log.txt
+12-05 21:05:54	sanity_check : False
+12-05 21:05:54	contr_training : True
+12-05 21:05:54	random_contr_views : False
+12-05 21:05:54	contr_temp : 0.05
+12-05 21:05:54	contr_views : [1, 2]
+12-05 21:05:54	comp_pairs : True
+12-05 21:05:54	seq_pairs : False
+12-05 21:05:54	full_model : False
+12-05 21:05:54	prot_model : cnn
+12-05 21:05:54	prot_min_len : -1
+12-05 21:05:54	prot_max_len : -1
+12-05 21:05:54	prot_truncate : -1
+12-05 21:05:54	mle_sigma : 0.08
+12-05 21:05:54	early_stopping_patience : 20
+12-05 21:05:54	prot_num_layers : 3
+12-05 21:05:54	prot_hidden_dim : 512
+12-05 21:05:54	prot_embedding_dim : 100
+12-05 21:05:54	cnn_prot_length : 1000
+12-05 21:05:54	cnn_out_channels : 32
+12-05 21:05:54	cnn_kernel_size : 8
+12-05 21:05:54	num_classes : 2
+12-05 21:05:54	neg_to_pos : 6.0
+12-05 21:05:54	gnn_type : gcn
+12-05 21:05:54	num_gnn_layers : 3
+12-05 21:05:54	gnn_hidden_dim : 512
+12-05 21:05:54	gnn_out_feat : 196
+12-05 21:05:54	global_pooling : max
+12-05 21:05:54	num_mlp_layers : 3
+12-05 21:05:54	gnn_channels : [64, 128, 256]
+12-05 21:05:54	attn_heads : [12, 12, 12]
+12-05 21:05:54	mlp_out_feat : 1000
+12-05 21:05:54	glu : True
+12-05 21:05:54	gat_num_heads : 4
+12-05 21:05:54	gin_agg : max
+12-05 21:05:54	gnn_dropout : 0.2
+12-05 21:05:54	fc_dropout : 0.25
+12-05 21:05:54	contr_final_dropout : 0.25
+12-05 21:05:54	activation : relu
+12-05 21:05:54	attn_type : False
+12-05 21:05:54	attn_func : tanh
+12-05 21:05:54	l2 : 0.01
+12-05 21:05:54	contr_lr : 0.0005
+12-05 21:05:54	pred_lr : 2e-05
+12-05 21:05:54	num_epoch_contr : 1
+12-05 21:05:54	num_epoch : 200
+12-05 21:05:54	cand_size : 50
+12-05 21:05:54	cand_iterations : 3
+12-05 21:06:20	device: cuda (6 GPUs)
+12-05 21:06:20	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 21:16:11	Training Set with 16184 examples
+12-05 21:16:25	device: cuda (6 GPUs)
+12-05 21:16:25	Creating Base Protein LM Model...
+12-05 21:16:25	Creating Molecule GNN Model...
+12-05 21:16:26	available GPU memory = [22924, 24253, 24253, 24253, 24253, 24253]
+12-05 21:16:26	Starting Contrastive Training...
+12-05 21:16:42	Epoch 1 / 1, train_loss: 8.2841
+12-05 21:16:42	created loss graph in results/gcn_1670292986031/training_loss_contr.png
+12-05 21:16:42	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 21:16:43	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 21:23:44	Training Set with 598409 examples
+12-05 21:23:44	Validation Set with 21062 examples
+12-05 21:23:59	Creating Final Prediction Model...
+12-05 21:23:59	Starting Final Training...
+12-05 21:25:12	Values of Hyperparameters:
+12-05 21:25:12	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-05 21:25:12	debug_flag : False
+12-05 21:25:12	data_dir : data/KEGG/
+12-05 21:25:12	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-05 21:25:12	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-05 21:25:12	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-05 21:25:12	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-05 21:25:12	mode : positive
+12-05 21:25:12	atom_feature : full
+12-05 21:25:12	bond_feature : full
+12-05 21:25:12	self_loop : True
+12-05 21:25:12	num_virtual_nodes : 0
+12-05 21:25:12	batch_size_train_contr : 64
+12-05 21:25:12	batch_size_train : 64
+12-05 21:25:12	batch_size_val : 128
+12-05 21:25:12	cpu_workers : 4
+12-05 21:25:12	logfile : logs/kegg_train_comb_log.txt
+12-05 21:25:12	sanity_check : False
+12-05 21:25:12	contr_training : True
+12-05 21:25:12	random_contr_views : False
+12-05 21:25:12	contr_temp : 0.05
+12-05 21:25:12	contr_views : [1, 2]
+12-05 21:25:12	comp_pairs : True
+12-05 21:25:12	seq_pairs : False
+12-05 21:25:12	full_model : False
+12-05 21:25:12	prot_model : cnn
+12-05 21:25:12	prot_min_len : -1
+12-05 21:25:12	prot_max_len : -1
+12-05 21:25:12	prot_truncate : -1
+12-05 21:25:12	mle_sigma : 0.08
+12-05 21:25:12	early_stopping_patience : 20
+12-05 21:25:12	prot_num_layers : 3
+12-05 21:25:12	prot_hidden_dim : 512
+12-05 21:25:12	prot_embedding_dim : 100
+12-05 21:25:12	cnn_prot_length : 1000
+12-05 21:25:12	cnn_out_channels : 32
+12-05 21:25:12	cnn_kernel_size : 8
+12-05 21:25:12	num_classes : 2
+12-05 21:25:12	neg_to_pos : 6.0
+12-05 21:25:12	gnn_type : gcn
+12-05 21:25:12	num_gnn_layers : 3
+12-05 21:25:12	gnn_hidden_dim : 512
+12-05 21:25:12	gnn_out_feat : 196
+12-05 21:25:12	global_pooling : max
+12-05 21:25:12	num_mlp_layers : 3
+12-05 21:25:12	gnn_channels : [64, 128, 256]
+12-05 21:25:12	attn_heads : [12, 12, 12]
+12-05 21:25:12	mlp_out_feat : 1000
+12-05 21:25:12	glu : True
+12-05 21:25:12	gat_num_heads : 4
+12-05 21:25:12	gin_agg : max
+12-05 21:25:12	gnn_dropout : 0.2
+12-05 21:25:12	fc_dropout : 0.25
+12-05 21:25:12	contr_final_dropout : 0.25
+12-05 21:25:12	activation : relu
+12-05 21:25:12	attn_type : False
+12-05 21:25:12	attn_func : tanh
+12-05 21:25:12	l2 : 0.01
+12-05 21:25:12	contr_lr : 0.0005
+12-05 21:25:12	pred_lr : 2e-05
+12-05 21:25:12	num_epoch_contr : 1
+12-05 21:25:12	num_epoch : 200
+12-05 21:25:12	cand_size : 50
+12-05 21:25:12	cand_iterations : 3
+12-05 21:25:38	device: cuda (6 GPUs)
+12-05 21:25:38	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-05 21:35:38	Training Set with 16184 examples
+12-05 21:35:53	device: cuda (6 GPUs)
+12-05 21:35:53	Creating Base Protein LM Model...
+12-05 21:35:53	Creating Molecule GNN Model...
+12-05 21:35:54	available GPU memory = [22924, 24253, 24253, 24253, 24253, 24253]
+12-05 21:35:54	Starting Contrastive Training...
+12-05 21:36:11	Epoch 1 / 1, train_loss: 8.2838
+12-05 21:36:11	created loss graph in results/gcn_1670294153790/training_loss_contr.png
+12-05 21:36:11	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 21:36:12	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-05 21:43:18	Training Set with 598409 examples
+12-05 21:43:18	Validation Set with 21062 examples
+12-05 21:43:34	Creating Final Prediction Model...
+12-05 21:43:34	Starting Final Training...
+12-06 10:57:26	Values of Hyperparameters:
+12-06 10:57:26	element_list : ['H', 'C', 'O', 'N', 'P', 'S', 'Cl', 'F', 'Br', 'I']
+12-06 10:57:26	debug_flag : False
+12-06 10:57:26	data_dir : data/KEGG/
+12-06 10:57:26	train_contr_data : ../dataset/KEGG/kegg_train_contr_fasta.fa
+12-06 10:57:26	train_data : ../dataset/KEGG/kegg_train1to5.fa
+12-06 10:57:26	valid_data : ../dataset/KEGG/kegg_dev.fa
+12-06 10:57:26	test_data : ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-06 10:57:26	mode : positive
+12-06 10:57:26	atom_feature : full
+12-06 10:57:26	bond_feature : full
+12-06 10:57:26	self_loop : True
+12-06 10:57:26	num_virtual_nodes : 0
+12-06 10:57:26	batch_size_train_contr : 64
+12-06 10:57:26	batch_size_train : 64
+12-06 10:57:26	batch_size_val : 128
+12-06 10:57:26	cpu_workers : 4
+12-06 10:57:26	logfile : logs/kegg_train_comb_log.txt
+12-06 10:57:26	sanity_check : False
+12-06 10:57:26	contr_training : True
+12-06 10:57:26	random_contr_views : False
+12-06 10:57:26	contr_temp : 0.05
+12-06 10:57:26	contr_views : [1, 2]
+12-06 10:57:26	comp_pairs : True
+12-06 10:57:26	seq_pairs : False
+12-06 10:57:26	full_model : False
+12-06 10:57:26	prot_model : cnn
+12-06 10:57:26	prot_min_len : -1
+12-06 10:57:26	prot_max_len : -1
+12-06 10:57:26	prot_truncate : -1
+12-06 10:57:26	mle_sigma : 0.08
+12-06 10:57:26	early_stopping_patience : 20
+12-06 10:57:26	prot_num_layers : 3
+12-06 10:57:26	prot_hidden_dim : 512
+12-06 10:57:26	prot_embedding_dim : 100
+12-06 10:57:26	cnn_prot_length : 1000
+12-06 10:57:26	cnn_out_channels : 32
+12-06 10:57:26	cnn_kernel_size : 8
+12-06 10:57:26	num_classes : 2
+12-06 10:57:26	neg_to_pos : 6.0
+12-06 10:57:26	gnn_type : gcn
+12-06 10:57:26	num_gnn_layers : 3
+12-06 10:57:26	gnn_hidden_dim : 512
+12-06 10:57:26	gnn_out_feat : 196
+12-06 10:57:26	global_pooling : max
+12-06 10:57:26	num_mlp_layers : 3
+12-06 10:57:26	gnn_channels : [64, 128, 256]
+12-06 10:57:26	attn_heads : [12, 12, 12]
+12-06 10:57:26	mlp_out_feat : 1000
+12-06 10:57:26	glu : True
+12-06 10:57:26	gat_num_heads : 4
+12-06 10:57:26	gin_agg : max
+12-06 10:57:26	gnn_dropout : 0.2
+12-06 10:57:26	fc_dropout : 0.25
+12-06 10:57:26	contr_final_dropout : 0.25
+12-06 10:57:26	activation : relu
+12-06 10:57:26	attn_type : False
+12-06 10:57:26	attn_func : tanh
+12-06 10:57:26	l2 : 0.01
+12-06 10:57:26	contr_lr : 0.0005
+12-06 10:57:26	pred_lr : 2e-05
+12-06 10:57:26	num_epoch_contr : 1
+12-06 10:57:26	num_epoch : 200
+12-06 10:57:26	cand_size : 50
+12-06 10:57:26	cand_iterations : 3
+12-06 10:57:52	device: cuda (6 GPUs)
+12-06 10:57:52	available GPU memory = [22950, 24253, 24253, 24253, 24253, 24253]
+12-06 11:07:43	Training Set with 16184 examples
+12-06 11:07:56	device: cuda (6 GPUs)
+12-06 11:07:56	Creating Base Protein LM Model...
+12-06 11:07:56	Creating Molecule GNN Model...
+12-06 11:07:57	available GPU memory = [22924, 24253, 24253, 24253, 24253, 24253]
+12-06 11:07:57	Starting Contrastive Training...
+12-06 11:08:13	Epoch 1 / 1, train_loss: 8.2845
+12-06 11:08:13	created loss graph in results/gcn_1670342876884/training_loss_contr.png
+12-06 11:08:13	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-06 11:08:14	available GPU memory = [22326, 24253, 24253, 24253, 24253, 24253]
+12-06 11:15:16	Training Set with 598409 examples
+12-06 11:15:16	Validation Set with 21062 examples
+12-06 11:15:31	Creating Final Prediction Model...
+12-06 11:15:31	Starting Final Training...
+12-06 11:25:40	Epoch 1 / 200, train_loss: 0.6550, val_loss: 0.6475, ap: 0.6496
+12-06 11:25:48	saving PROT_CNN weights to data/KEGG/pretrained_enz_model_1670342876884_best.pt
+12-06 11:25:48	saving PROT_CNN2 weights to data/KEGG/pretrained_prot_v3_model_1670342876884_best.pt
+12-06 11:25:48	saving PROT_FINAL_V3 weights to data/KEGG/pretrained_pf_v3_model_1670342876884_best.pt
+12-06 11:25:48	saving MEI_V2 weights to data/KEGG/pretrained_mei_v2_model_1670342876884_best.pt
+12-06 11:25:48	saving CONTR_FINAL weights to data/KEGG/pretrained_pred_model_1670342876884_best.pt
+12-06 11:36:57	device: cuda (6 GPUs)
+12-06 11:37:09	Creating Base Protein LM Model...
+12-06 11:37:09	Creating Molecule GNN Model...
+12-06 11:37:09	Creating Base Protein LM Model...
+12-06 11:37:10	Creating Molecule GNN Model...
+12-06 11:37:10	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644100942668.pt
+12-06 11:37:10	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644100942668.pt
+12-06 11:37:10	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644100942668.pt
+12-06 11:37:10	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644100942668.pt
+12-06 11:37:10	loading pretrained_enz_model weights from data/KEGG/pretrained_enz_model_1644239221786.pt
+12-06 11:37:10	loading pretrained_prot_v3_model weights from data/KEGG/pretrained_prot_v3_model_1644239221786.pt
+12-06 11:37:10	loading pretrained_mei_v2_model weights from data/KEGG/pretrained_mei_v2_model_1644239221786.pt
+12-06 11:37:10	loading pretrained_pf_v3_model weights from data/KEGG/pretrained_pf_v3_model_1644239221786.pt
+12-06 11:37:10	loading pretrained_pred_model weights from early_stopping/pred_1644327570805
+12-06 11:37:10	Creating Dataset...
+12-06 11:37:27	Test Set with 24891 examples from ../dataset/KEGG/test_allneg1to1_KEGG.fa
+12-06 11:37:56	Test_loss: 0.507, Test_ap: 0.969, Test_rpec: 0.902
+12-06 11:37:56	Test_Comp_map: 0.953, Test_Comp_rpec: 0.918, Test_cmap_3: 0.956, Test_Comp_prec_1: 0.939
+12-06 11:37:56	Test_Seq_map: 0.809, Test_seq_rprec: 0.968, Test_smap_3: 0.808, Test_seq_prec_1: 0.793
+12-06 11:37:57	created pos neg distrib in results/1670344676424_posneg_hist.png
+12-06 11:37:57	Testing done
