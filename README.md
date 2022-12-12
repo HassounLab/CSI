@@ -40,4 +40,4 @@ BASELINE model.
 To train the model for phase 1A or phase 1B, set the required contrastive dataset in the train_contr_data
 variable in the defauly.yaml file and the reqired training, dev and test data for the final predictor in the
 train_data, valid_data and test_data variables. Comment out any pretrained* variables and run the command
-"python tain.py".
+"python train.py".
